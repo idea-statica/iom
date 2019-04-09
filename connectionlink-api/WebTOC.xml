@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="2f43d858-82cd-49b9-b835-0f6795bd1458" Title="IdeaRS.ConnectionLink" Url="html/14365d7f-a2d6-359c-b8c4-87daa255e31d.htm">
+    <HelpTOCNode Id="8c84b214-9363-4419-95de-72ced7922f33" Title="ConnectionLink Class" Url="html/692beaec-4b2d-726e-922f-b59db5a144ec.htm">
+      <HelpTOCNode Title="ConnectionLink Constructor " Url="html/614af4e8-1ed8-c936-97bf-cdd1575d1279.htm" />
+      <HelpTOCNode Id="07ca7d8e-d7f7-48ee-9791-e34ef43ba09e" Title="ConnectionLink Properties" Url="html/f600cf49-b8e6-7c8b-6e7a-963e41933472.htm">
+        <HelpTOCNode Title="ExtrenalLinkLogger Property " Url="html/99c075e7-c9ac-ecc7-14ea-082d54acd17f.htm" />
+        <HelpTOCNode Title="TempConCheckResultsString Property " Url="html/4d974338-c7a4-c6b2-03b0-1285e1c22c78.htm" />
+        <HelpTOCNode Title="TempFileFullName Property " Url="html/9478052f-cb96-f07e-ebc6-27dc9a646b44.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2d8a2227-e694-4fe1-ba43-1f5187247eba" Title="ConnectionLink Methods" Url="html/c107821c-31c5-ad21-98f7-2cdc983e31ab.htm">
+        <HelpTOCNode Title="CalculateIdeaConnection Method " Url="html/242958ed-2600-62b7-6408-a86106dd7f6b.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/7e7f8b88-4351-3bb5-36cc-bc87df250144.htm" />
+        <HelpTOCNode Title="GenerateSourceConnectionData Method " Url="html/2d82a2b9-86a4-4da7-ac22-c032a1e13a49.htm" />
+        <HelpTOCNode Title="GetConInputProjectTestFilename Method " Url="html/b1d92994-b18b-ee32-24b0-64266c0f1c74.htm" />
+        <HelpTOCNode Title="GetConnectionData Method " Url="html/c89474f8-ad0b-ad5d-1e4d-6933c5a0e842.htm" />
+        <HelpTOCNode Title="GetConnectionDataXML Method " Url="html/ba7139fe-75ec-ef39-76e5-729f6cdbbefb.htm" />
+        <HelpTOCNode Title="GetConnectionProjectInfo Method " Url="html/ae8bcb1e-42c4-471a-38a6-cee4f0064dcb.htm" />
+        <HelpTOCNode Title="GetFEAResultsArchive Method " Url="html/f05d3d9f-8486-d846-b854-35640c8e71f0.htm" />
+        <HelpTOCNode Title="GetCheckResultsFilename Method " Url="html/5a9b5bd5-63e8-6429-d5c3-404debbd89c1.htm" />
+        <HelpTOCNode Title="GetIdeaConnection Method " Url="html/60d8a904-1f0c-4e44-bfc8-e8be56433828.htm" />
+        <HelpTOCNode Title="GetIdeaConnectionProject Method " Url="html/7de8ebe2-7c6b-e77f-8d22-36b25a39c022.htm" />
+        <HelpTOCNode Title="GetProtocolArchive Method " Url="html/7bee8893-fd57-39c8-244d-5693af66dd6c.htm" />
+        <HelpTOCNode Title="GetProtocolArchiveForProject Method " Url="html/0e63de31-9b8d-c5a6-e3f4-e9c86c0f7036.htm" />
+        <HelpTOCNode Title="GetResultsData Method " Url="html/b2fb6b9c-dc03-c639-09cd-d89fdf2f7c3f.htm" />
+        <HelpTOCNode Title="IsConnectionProject Method " Url="html/e1002dc8-45f3-cd54-fcaf-a0bb62aee40a.htm" />
+        <HelpTOCNode Title="IsProjectCalculated Method " Url="html/7a98dc95-6109-9eef-1c16-95b85cd9a5eb.htm" />
+        <HelpTOCNode Id="6a042f9b-b5f4-42b5-9995-ef97b2e83dbe" Title="OpenIdeaConnection Method " Url="html/437715c4-6ccc-58b9-8644-abb7539a9f73.htm">
+          <HelpTOCNode Title="OpenIdeaConnection Method (Byte[], Byte[], Byte[], Byte[], Byte[])" Url="html/f17ca68b-24c8-1341-4c51-122308927e43.htm" />
+          <HelpTOCNode Title="OpenIdeaConnection Method (Stream, Stream, Stream, Stream, Stream, Boolean)" Url="html/987ddf9a-34aa-7b95-b566-fe8777211a1a.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="OpenIdeaConnectionIDEA Method " Url="html/e58933a5-c1ab-777a-7fff-3591f1548b34.htm" />
+        <HelpTOCNode Title="OpenIdeaConnectionInternal Method " Url="html/9f190776-f12f-db8a-c3ee-1c521441a676.htm" />
+        <HelpTOCNode Title="OpenIdeaConnectionService Method " Url="html/5a7ccd37-f24d-0803-1379-06f5d256bd56.htm" />
+        <HelpTOCNode Title="OpenIdeaConnectionWithName Method " Url="html/1f7df77a-f370-3ed4-0cb2-ce9007697588.htm" />
+        <HelpTOCNode Title="RunHiddenAnalysis Method " Url="html/48fc697d-f2ca-d3d8-ff1b-90c5537b268c.htm" />
+        <HelpTOCNode Id="8abf4983-582e-4780-8f9b-5dac273ce7db" Title="TestConnection Method " Url="html/11f722c4-90b9-8c95-abfe-0db026b98930.htm">
+          <HelpTOCNode Title="TestConnection Method (Action(IIOMSettings, IDEAProgress), String, List(Int32), List(Int32), List(Int32), String)" Url="html/f5784399-95cb-0b9e-963d-420010895a66.htm" />
+          <HelpTOCNode Title="TestConnection Method (Action(IIOMSettings, IDEAProgress), String, List(String), List(String), List(String), String)" Url="html/65bbf2e8-1994-46a2-7954-7aaa1e562ec9.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="TestValidCSSInIDEADatabase Method " Url="html/3a0f1ffe-2c95-51eb-fb1a-e966706a42ca.htm" />
+        <HelpTOCNode Title="WriteConCheckResults Method " Url="html/c520f645-9f7e-701b-49be-bec6dbbe714e.htm" />
+        <HelpTOCNode Title="WriteFEAResultsArchive Method " Url="html/c7a3574a-13f8-e0b0-f2fc-ffd2b448dc58.htm" />
+        <HelpTOCNode Title="WriteProjectData Method " Url="html/562bc1b4-98ac-289e-8103-a95d08103d60.htm" />
+        <HelpTOCNode Title="WriteProtocolArchive Method " Url="html/838463bd-3bdb-efc2-fc70-fbd195489864.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="36451d51-13c2-4ad1-9ff4-926fc63cd9cb" Title="ConnectionLink Fields" Url="html/863998a7-cbd2-ce68-d924-de7ec06cb131.htm">
+        <HelpTOCNode Title="LinkLogger Field" Url="html/cd52d3a5-9cf7-b7e1-2871-2b0cb7a54a5b.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="92350ac5-2cd3-46ff-8303-60db3854b066" Title="Log4NetHelper Class" Url="html/49f91d26-65a6-bf15-5720-bdd858701b96.htm">
+      <HelpTOCNode Title="Log4NetHelper Constructor " Url="html/94b1a193-de6e-080e-49c8-f7c077a70433.htm" />
+      <HelpTOCNode Id="449ff604-9e44-4a57-9327-71f519721aad" Title="Log4NetHelper Methods" Url="html/dbba955b-94d3-c84c-e1db-d7f6252535da.htm">
+        <HelpTOCNode Title="Initialize Method " Url="html/a311e6ad-cbc7-f682-4b29-88325fb06377.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a42253ed-bc04-48d0-a271-cdac6f59a6fe" Title="WizardSelection Class" Url="html/83621ac3-051e-70fd-61bc-3bc2a2dacc49.htm">
+      <HelpTOCNode Title="WizardSelection Constructor " Url="html/9262cfe7-2c38-68ac-0230-4953f67185d6.htm" />
+      <HelpTOCNode Id="c699db83-566a-4e8a-b9c5-04c69abe241c" Title="WizardSelection Properties" Url="html/3c3be7e9-1499-8c46-e3ca-254e0f5c27c8.htm">
+        <HelpTOCNode Title="CombiInput Property " Url="html/18586f2f-4a01-7d4e-b524-3c7f03efe571.htm" />
+        <HelpTOCNode Title="LoadCase Property " Url="html/16054daa-6208-369e-5b19-d4ac34ae3025.htm" />
+        <HelpTOCNode Title="LoadGroup Property " Url="html/a4f0dd5e-ae8d-f89d-fa39-22b33b701649.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="WizardSelection Methods" Url="html/47bc452a-4130-cf74-ad19-76ac531715dc.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="8be9fae7-f081-44f1-a589-8c15a8e430cc" Title="IdeaRS.ConnectionService.Service" Url="html/c2c1d0c9-d521-ff8d-6431-c684871d799c.htm">
+    <HelpTOCNode Id="d81e8290-721e-4b31-8615-ef79c9ad4fe6" Title="ConnectionSrv Class" Url="html/6518621d-9db8-6397-3e4c-fb0aa4416962.htm">
+      <HelpTOCNode Title="ConnectionSrv Constructor " Url="html/29be4d8b-ca92-d77d-9f5f-f47ca38736bd.htm" />
+      <HelpTOCNode Id="ef925897-4b85-45a7-ad8d-25453fc94dc7" Title="ConnectionSrv Properties" Url="html/04d6951a-de6a-3dc4-60f4-f35778a00074.htm">
+        <HelpTOCNode Title="CalculationTimeLimit Property " Url="html/de55e71f-fe00-e184-f6fe-b0dd45224a05.htm" />
+        <HelpTOCNode Title="ConDataContract Property " Url="html/ee57afc7-125e-91b8-e910-653a3e67c7bf.htm" />
+        <HelpTOCNode Title="ConnProviderService Property " Url="html/db8bbb49-fb4f-6370-6bb9-a3e7e0fc4c88.htm" />
+        <HelpTOCNode Title="IdeaProject Property " Url="html/2def1414-7611-5b70-3228-5f4400eca566.htm" />
+        <HelpTOCNode Title="ProgressCallback Property " Url="html/a723b5bc-ee96-736a-b48d-76cad3a8feb9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6aae9645-3b49-4a76-a021-5cf4159d0da1" Title="ConnectionSrv Methods" Url="html/f8fccdd5-2759-3d54-09ef-7f2a3e06ee44.htm">
+        <HelpTOCNode Title="CalculateProject Method " Url="html/6cadb41c-27c8-18e8-2b26-a95a21b72b12.htm" />
+        <HelpTOCNode Title="CloseServices Method " Url="html/852e0a07-0db5-ff6b-edde-a58efbf4e408.htm" />
+        <HelpTOCNode Title="GetConnectionModel Method " Url="html/21a72911-ee00-aa4d-dbc2-432d529a3371.htm" />
+        <HelpTOCNode Title="GetConnectionModelDesktop Method " Url="html/cdbd3e03-8bd1-5fb2-65a8-cd64b336b908.htm" />
+        <HelpTOCNode Title="GetConnectionResultsData Method " Url="html/bd8d3418-bf68-e229-7018-a0120f300e4d.htm" />
+        <HelpTOCNode Title="GetDetailedConResultsData Method " Url="html/11924f5b-adb7-4c01-10f3-0e6f4069dc66.htm" />
+        <HelpTOCNode Title="GetDetailedConResultsJSON Method " Url="html/9356b8a6-1d03-1ed2-37db-3ef39d8226e4.htm" />
+        <HelpTOCNode Title="GetNonconformities Method " Url="html/3296b319-f8e1-6f1c-b943-37167c3003fc.htm" />
+        <HelpTOCNode Title="GetResultFile Method " Url="html/b46e7227-25cf-a301-5bf0-d7f1e75e74fb.htm" />
+        <HelpTOCNode Title="GetWeldStress Method " Url="html/e1109423-c532-7066-eeea-8802af13b41d.htm" />
+        <HelpTOCNode Title="GetWeldUid Method " Url="html/9c19998f-da25-ddf4-5d0b-38d85d8cf356.htm" />
+        <HelpTOCNode Id="53d56e5c-54ef-4770-865f-01c091d8233f" Title="ImportFromIOM Method " Url="html/062397cc-7d7d-b984-cfc4-680c4198ebc4.htm">
+          <HelpTOCNode Title="ImportFromIOM Method (Byte[])" Url="html/7e685b47-74ce-f8f1-c07b-1027461a2715.htm" />
+          <HelpTOCNode Title="ImportFromIOM Method (OpenModel, OpenModelResult)" Url="html/ed4df3fd-b40b-cbb5-dc5d-2e52bea3e1bb.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="OpenConnectionService Method " Url="html/6ed11932-6fa5-499f-362d-bf28cb3026e6.htm" />
+        <HelpTOCNode Title="OpenIdeaConProjectFile Method " Url="html/cedf98e8-f9fa-8f48-359f-e997d7c3792c.htm" />
+        <HelpTOCNode Title="OpenIdeaConProjectFileAndResultFile Method " Url="html/6ea8e8d5-6736-a3bd-6a77-8e381b0a682b.htm" />
+        <HelpTOCNode Title="ReadFully Method " Url="html/f208fd41-4446-470e-7dd7-d2b7c7a7569d.htm" />
+        <HelpTOCNode Title="SaveIdeaConToProjectFile Method " Url="html/5076054c-710a-87eb-f995-8eee9b8063fa.htm" />
+        <HelpTOCNode Title="SaveResultToFile Method " Url="html/2b2920c6-4e26-f051-352b-21a2d9c92598.htm" />
+        <HelpTOCNode Title="SetAndOpenIdeaConProjectFile Method " Url="html/6e81b3aa-4cbe-50e2-49b9-e6cac71abb19.htm" />
+        <HelpTOCNode Title="SetAndOpenIdeaConProjectFileAndResultFile Method " Url="html/429437ed-0c7a-6e37-bda0-6858028e5163.htm" />
+        <HelpTOCNode Title="StreamToByteArray Method " Url="html/db9a8b58-3e6b-63bd-8e6a-078cd340d4a4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f378ce0c-3178-447f-8b14-f412dce28445" Title="ConnectionSrv Fields" Url="html/4131f108-73dc-0293-215e-cf62fe8b8125.htm">
+        <HelpTOCNode Title="AppTempDir Field" Url="html/ea19ec84-a976-db5b-1add-e488e25e806a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a3b6aa3d-32c3-48d7-be21-bcfe1ea35fc1" Title="IProgressCallback Interface" Url="html/4f89fac9-8a32-ee9b-811a-c9bcf853355a.htm">
+      <HelpTOCNode Id="ae0c6ab9-f8c0-4b87-86de-8f337ebcc4fe" Title="IProgressCallback Methods" Url="html/e4377ff4-a1d0-9b37-53db-33ea4c0e8fa7.htm">
+        <HelpTOCNode Title="ExceptionMessage Method " Url="html/5555c8c1-9616-5067-9de7-bfcc7e3ed591.htm" />
+        <HelpTOCNode Id="1faeb00a-e321-4981-8530-ade3086cde5c" Title="ProgressMessage Method " Url="html/7cb3399a-82cf-bca0-6aa2-15414d5a0a3c.htm">
+          <HelpTOCNode Title="ProgressMessage Method (Double, String)" Url="html/a83d4da4-6ff1-d2e4-b99e-4f6286e9a96a.htm" />
+          <HelpTOCNode Title="ProgressMessage Method (Double, String, String)" Url="html/3383906e-8f11-cf2b-d7d1-45dc07b8411f.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

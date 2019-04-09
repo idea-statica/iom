@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AppTempDir field" Url="html/ea19ec84-a976-db5b-1add-e488e25e806a.htm" />
+  <HelpKINode Title="CalculateIdeaConnection method" Url="html/242958ed-2600-62b7-6408-a86106dd7f6b.htm" />
+  <HelpKINode Title="CalculateProject method" Url="html/6cadb41c-27c8-18e8-2b26-a95a21b72b12.htm" />
+  <HelpKINode Title="CalculationTimeLimit property" Url="html/de55e71f-fe00-e184-f6fe-b0dd45224a05.htm" />
+  <HelpKINode Title="CloseServices method" Url="html/852e0a07-0db5-ff6b-edde-a58efbf4e408.htm" />
+  <HelpKINode Title="CombiInput property" Url="html/18586f2f-4a01-7d4e-b524-3c7f03efe571.htm" />
+  <HelpKINode Title="ConDataContract property" Url="html/ee57afc7-125e-91b8-e910-653a3e67c7bf.htm" />
+  <HelpKINode Title="ConnectionLink class">
+    <HelpKINode Title="ConnectionLink Class" Url="html/692beaec-4b2d-726e-922f-b59db5a144ec.htm" />
+    <HelpKINode Title="constructor" Url="html/614af4e8-1ed8-c936-97bf-cdd1575d1279.htm" />
+    <HelpKINode Title="fields" Url="html/863998a7-cbd2-ce68-d924-de7ec06cb131.htm" />
+    <HelpKINode Title="methods" Url="html/c107821c-31c5-ad21-98f7-2cdc983e31ab.htm" />
+    <HelpKINode Title="properties" Url="html/f600cf49-b8e6-7c8b-6e7a-963e41933472.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConnectionLink.CalculateIdeaConnection method" Url="html/242958ed-2600-62b7-6408-a86106dd7f6b.htm" />
+  <HelpKINode Title="ConnectionLink.ConnectionLink constructor" Url="html/614af4e8-1ed8-c936-97bf-cdd1575d1279.htm" />
+  <HelpKINode Title="ConnectionLink.Dispose method" Url="html/7e7f8b88-4351-3bb5-36cc-bc87df250144.htm" />
+  <HelpKINode Title="ConnectionLink.ExtrenalLinkLogger property" Url="html/99c075e7-c9ac-ecc7-14ea-082d54acd17f.htm" />
+  <HelpKINode Title="ConnectionLink.GenerateSourceConnectionData method" Url="html/2d82a2b9-86a4-4da7-ac22-c032a1e13a49.htm" />
+  <HelpKINode Title="ConnectionLink.GetCheckResultsFilename method" Url="html/5a9b5bd5-63e8-6429-d5c3-404debbd89c1.htm" />
+  <HelpKINode Title="ConnectionLink.GetConInputProjectTestFilename method" Url="html/b1d92994-b18b-ee32-24b0-64266c0f1c74.htm" />
+  <HelpKINode Title="ConnectionLink.GetConnectionData method" Url="html/c89474f8-ad0b-ad5d-1e4d-6933c5a0e842.htm" />
+  <HelpKINode Title="ConnectionLink.GetConnectionDataXML method" Url="html/ba7139fe-75ec-ef39-76e5-729f6cdbbefb.htm" />
+  <HelpKINode Title="ConnectionLink.GetConnectionProjectInfo method" Url="html/ae8bcb1e-42c4-471a-38a6-cee4f0064dcb.htm" />
+  <HelpKINode Title="ConnectionLink.GetFEAResultsArchive method" Url="html/f05d3d9f-8486-d846-b854-35640c8e71f0.htm" />
+  <HelpKINode Title="ConnectionLink.GetIdeaConnection method" Url="html/60d8a904-1f0c-4e44-bfc8-e8be56433828.htm" />
+  <HelpKINode Title="ConnectionLink.GetIdeaConnectionProject method" Url="html/7de8ebe2-7c6b-e77f-8d22-36b25a39c022.htm" />
+  <HelpKINode Title="ConnectionLink.GetProtocolArchive method" Url="html/7bee8893-fd57-39c8-244d-5693af66dd6c.htm" />
+  <HelpKINode Title="ConnectionLink.GetProtocolArchiveForProject method" Url="html/0e63de31-9b8d-c5a6-e3f4-e9c86c0f7036.htm" />
+  <HelpKINode Title="ConnectionLink.GetResultsData method" Url="html/b2fb6b9c-dc03-c639-09cd-d89fdf2f7c3f.htm" />
+  <HelpKINode Title="ConnectionLink.IsConnectionProject method" Url="html/e1002dc8-45f3-cd54-fcaf-a0bb62aee40a.htm" />
+  <HelpKINode Title="ConnectionLink.IsProjectCalculated method" Url="html/7a98dc95-6109-9eef-1c16-95b85cd9a5eb.htm" />
+  <HelpKINode Title="ConnectionLink.LinkLogger field" Url="html/cd52d3a5-9cf7-b7e1-2871-2b0cb7a54a5b.htm" />
+  <HelpKINode Title="ConnectionLink.OpenIdeaConnection method" Url="html/437715c4-6ccc-58b9-8644-abb7539a9f73.htm" />
+  <HelpKINode Title="ConnectionLink.OpenIdeaConnectionIDEA method" Url="html/e58933a5-c1ab-777a-7fff-3591f1548b34.htm" />
+  <HelpKINode Title="ConnectionLink.OpenIdeaConnectionInternal method" Url="html/9f190776-f12f-db8a-c3ee-1c521441a676.htm" />
+  <HelpKINode Title="ConnectionLink.OpenIdeaConnectionService method" Url="html/5a7ccd37-f24d-0803-1379-06f5d256bd56.htm" />
+  <HelpKINode Title="ConnectionLink.OpenIdeaConnectionWithName method" Url="html/1f7df77a-f370-3ed4-0cb2-ce9007697588.htm" />
+  <HelpKINode Title="ConnectionLink.RunHiddenAnalysis method" Url="html/48fc697d-f2ca-d3d8-ff1b-90c5537b268c.htm" />
+  <HelpKINode Title="ConnectionLink.TempConCheckResultsString property" Url="html/4d974338-c7a4-c6b2-03b0-1285e1c22c78.htm" />
+  <HelpKINode Title="ConnectionLink.TempFileFullName property" Url="html/9478052f-cb96-f07e-ebc6-27dc9a646b44.htm" />
+  <HelpKINode Title="ConnectionLink.TestConnection method" Url="html/11f722c4-90b9-8c95-abfe-0db026b98930.htm" />
+  <HelpKINode Title="ConnectionLink.TestValidCSSInIDEADatabase method" Url="html/3a0f1ffe-2c95-51eb-fb1a-e966706a42ca.htm" />
+  <HelpKINode Title="ConnectionLink.WriteConCheckResults method" Url="html/c520f645-9f7e-701b-49be-bec6dbbe714e.htm" />
+  <HelpKINode Title="ConnectionLink.WriteFEAResultsArchive method" Url="html/c7a3574a-13f8-e0b0-f2fc-ffd2b448dc58.htm" />
+  <HelpKINode Title="ConnectionLink.WriteProjectData method" Url="html/562bc1b4-98ac-289e-8103-a95d08103d60.htm" />
+  <HelpKINode Title="ConnectionLink.WriteProtocolArchive method" Url="html/838463bd-3bdb-efc2-fc70-fbd195489864.htm" />
+  <HelpKINode Title="ConnectionSrv class">
+    <HelpKINode Title="ConnectionSrv Class" Url="html/6518621d-9db8-6397-3e4c-fb0aa4416962.htm" />
+    <HelpKINode Title="constructor" Url="html/29be4d8b-ca92-d77d-9f5f-f47ca38736bd.htm" />
+    <HelpKINode Title="fields" Url="html/4131f108-73dc-0293-215e-cf62fe8b8125.htm" />
+    <HelpKINode Title="methods" Url="html/f8fccdd5-2759-3d54-09ef-7f2a3e06ee44.htm" />
+    <HelpKINode Title="properties" Url="html/04d6951a-de6a-3dc4-60f4-f35778a00074.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConnectionSrv.AppTempDir field" Url="html/ea19ec84-a976-db5b-1add-e488e25e806a.htm" />
+  <HelpKINode Title="ConnectionSrv.CalculateProject method" Url="html/6cadb41c-27c8-18e8-2b26-a95a21b72b12.htm" />
+  <HelpKINode Title="ConnectionSrv.CalculationTimeLimit property" Url="html/de55e71f-fe00-e184-f6fe-b0dd45224a05.htm" />
+  <HelpKINode Title="ConnectionSrv.CloseServices method" Url="html/852e0a07-0db5-ff6b-edde-a58efbf4e408.htm" />
+  <HelpKINode Title="ConnectionSrv.ConDataContract property" Url="html/ee57afc7-125e-91b8-e910-653a3e67c7bf.htm" />
+  <HelpKINode Title="ConnectionSrv.ConnectionSrv constructor" Url="html/29be4d8b-ca92-d77d-9f5f-f47ca38736bd.htm" />
+  <HelpKINode Title="ConnectionSrv.ConnProviderService property" Url="html/db8bbb49-fb4f-6370-6bb9-a3e7e0fc4c88.htm" />
+  <HelpKINode Title="ConnectionSrv.GetConnectionModel method" Url="html/21a72911-ee00-aa4d-dbc2-432d529a3371.htm" />
+  <HelpKINode Title="ConnectionSrv.GetConnectionModelDesktop method" Url="html/cdbd3e03-8bd1-5fb2-65a8-cd64b336b908.htm" />
+  <HelpKINode Title="ConnectionSrv.GetConnectionResultsData method" Url="html/bd8d3418-bf68-e229-7018-a0120f300e4d.htm" />
+  <HelpKINode Title="ConnectionSrv.GetDetailedConResultsData method" Url="html/11924f5b-adb7-4c01-10f3-0e6f4069dc66.htm" />
+  <HelpKINode Title="ConnectionSrv.GetDetailedConResultsJSON method" Url="html/9356b8a6-1d03-1ed2-37db-3ef39d8226e4.htm" />
+  <HelpKINode Title="ConnectionSrv.GetNonconformities method" Url="html/3296b319-f8e1-6f1c-b943-37167c3003fc.htm" />
+  <HelpKINode Title="ConnectionSrv.GetResultFile method" Url="html/b46e7227-25cf-a301-5bf0-d7f1e75e74fb.htm" />
+  <HelpKINode Title="ConnectionSrv.GetWeldStress method" Url="html/e1109423-c532-7066-eeea-8802af13b41d.htm" />
+  <HelpKINode Title="ConnectionSrv.GetWeldUid method" Url="html/9c19998f-da25-ddf4-5d0b-38d85d8cf356.htm" />
+  <HelpKINode Title="ConnectionSrv.IdeaProject property" Url="html/2def1414-7611-5b70-3228-5f4400eca566.htm" />
+  <HelpKINode Title="ConnectionSrv.ImportFromIOM method" Url="html/062397cc-7d7d-b984-cfc4-680c4198ebc4.htm" />
+  <HelpKINode Title="ConnectionSrv.OpenConnectionService method" Url="html/6ed11932-6fa5-499f-362d-bf28cb3026e6.htm" />
+  <HelpKINode Title="ConnectionSrv.OpenIdeaConProjectFile method" Url="html/cedf98e8-f9fa-8f48-359f-e997d7c3792c.htm" />
+  <HelpKINode Title="ConnectionSrv.OpenIdeaConProjectFileAndResultFile method" Url="html/6ea8e8d5-6736-a3bd-6a77-8e381b0a682b.htm" />
+  <HelpKINode Title="ConnectionSrv.ProgressCallback property" Url="html/a723b5bc-ee96-736a-b48d-76cad3a8feb9.htm" />
+  <HelpKINode Title="ConnectionSrv.ReadFully method" Url="html/f208fd41-4446-470e-7dd7-d2b7c7a7569d.htm" />
+  <HelpKINode Title="ConnectionSrv.SaveIdeaConToProjectFile method" Url="html/5076054c-710a-87eb-f995-8eee9b8063fa.htm" />
+  <HelpKINode Title="ConnectionSrv.SaveResultToFile method" Url="html/2b2920c6-4e26-f051-352b-21a2d9c92598.htm" />
+  <HelpKINode Title="ConnectionSrv.SetAndOpenIdeaConProjectFile method" Url="html/6e81b3aa-4cbe-50e2-49b9-e6cac71abb19.htm" />
+  <HelpKINode Title="ConnectionSrv.SetAndOpenIdeaConProjectFileAndResultFile method" Url="html/429437ed-0c7a-6e37-bda0-6858028e5163.htm" />
+  <HelpKINode Title="ConnectionSrv.StreamToByteArray method" Url="html/db9a8b58-3e6b-63bd-8e6a-078cd340d4a4.htm" />
+  <HelpKINode Title="ConnProviderService property" Url="html/db8bbb49-fb4f-6370-6bb9-a3e7e0fc4c88.htm" />
+  <HelpKINode Title="Dispose method" Url="html/7e7f8b88-4351-3bb5-36cc-bc87df250144.htm" />
+  <HelpKINode Title="ExceptionMessage method" Url="html/5555c8c1-9616-5067-9de7-bfcc7e3ed591.htm" />
+  <HelpKINode Title="ExtrenalLinkLogger property" Url="html/99c075e7-c9ac-ecc7-14ea-082d54acd17f.htm" />
+  <HelpKINode Title="GenerateSourceConnectionData method" Url="html/2d82a2b9-86a4-4da7-ac22-c032a1e13a49.htm" />
+  <HelpKINode Title="GetCheckResultsFilename method" Url="html/5a9b5bd5-63e8-6429-d5c3-404debbd89c1.htm" />
+  <HelpKINode Title="GetConInputProjectTestFilename method" Url="html/b1d92994-b18b-ee32-24b0-64266c0f1c74.htm" />
+  <HelpKINode Title="GetConnectionData method" Url="html/c89474f8-ad0b-ad5d-1e4d-6933c5a0e842.htm" />
+  <HelpKINode Title="GetConnectionDataXML method" Url="html/ba7139fe-75ec-ef39-76e5-729f6cdbbefb.htm" />
+  <HelpKINode Title="GetConnectionModel method" Url="html/21a72911-ee00-aa4d-dbc2-432d529a3371.htm" />
+  <HelpKINode Title="GetConnectionModelDesktop method" Url="html/cdbd3e03-8bd1-5fb2-65a8-cd64b336b908.htm" />
+  <HelpKINode Title="GetConnectionProjectInfo method" Url="html/ae8bcb1e-42c4-471a-38a6-cee4f0064dcb.htm" />
+  <HelpKINode Title="GetConnectionResultsData method" Url="html/bd8d3418-bf68-e229-7018-a0120f300e4d.htm" />
+  <HelpKINode Title="GetDetailedConResultsData method" Url="html/11924f5b-adb7-4c01-10f3-0e6f4069dc66.htm" />
+  <HelpKINode Title="GetDetailedConResultsJSON method" Url="html/9356b8a6-1d03-1ed2-37db-3ef39d8226e4.htm" />
+  <HelpKINode Title="GetFEAResultsArchive method" Url="html/f05d3d9f-8486-d846-b854-35640c8e71f0.htm" />
+  <HelpKINode Title="GetIdeaConnection method" Url="html/60d8a904-1f0c-4e44-bfc8-e8be56433828.htm" />
+  <HelpKINode Title="GetIdeaConnectionProject method" Url="html/7de8ebe2-7c6b-e77f-8d22-36b25a39c022.htm" />
+  <HelpKINode Title="GetNonconformities method" Url="html/3296b319-f8e1-6f1c-b943-37167c3003fc.htm" />
+  <HelpKINode Title="GetProtocolArchive method" Url="html/7bee8893-fd57-39c8-244d-5693af66dd6c.htm" />
+  <HelpKINode Title="GetProtocolArchiveForProject method" Url="html/0e63de31-9b8d-c5a6-e3f4-e9c86c0f7036.htm" />
+  <HelpKINode Title="GetResultFile method" Url="html/b46e7227-25cf-a301-5bf0-d7f1e75e74fb.htm" />
+  <HelpKINode Title="GetResultsData method" Url="html/b2fb6b9c-dc03-c639-09cd-d89fdf2f7c3f.htm" />
+  <HelpKINode Title="GetWeldStress method" Url="html/e1109423-c532-7066-eeea-8802af13b41d.htm" />
+  <HelpKINode Title="GetWeldUid method" Url="html/9c19998f-da25-ddf4-5d0b-38d85d8cf356.htm" />
+  <HelpKINode Title="IdeaProject property" Url="html/2def1414-7611-5b70-3228-5f4400eca566.htm" />
+  <HelpKINode Title="IdeaRS.ConnectionLink namespace" Url="html/14365d7f-a2d6-359c-b8c4-87daa255e31d.htm" />
+  <HelpKINode Title="IdeaRS.ConnectionLink.ConnectionLink class" Url="html/692beaec-4b2d-726e-922f-b59db5a144ec.htm" />
+  <HelpKINode Title="IdeaRS.ConnectionLink.Log4NetHelper class" Url="html/49f91d26-65a6-bf15-5720-bdd858701b96.htm" />
+  <HelpKINode Title="IdeaRS.ConnectionLink.WizardSelection class" Url="html/83621ac3-051e-70fd-61bc-3bc2a2dacc49.htm" />
+  <HelpKINode Title="IdeaRS.ConnectionService.Service namespace" Url="html/c2c1d0c9-d521-ff8d-6431-c684871d799c.htm" />
+  <HelpKINode Title="IdeaRS.ConnectionService.Service.ConnectionSrv class" Url="html/6518621d-9db8-6397-3e4c-fb0aa4416962.htm" />
+  <HelpKINode Title="IdeaRS.ConnectionService.Service.IProgressCallback interface" Url="html/4f89fac9-8a32-ee9b-811a-c9bcf853355a.htm" />
+  <HelpKINode Title="ImportFromIOM method" Url="html/062397cc-7d7d-b984-cfc4-680c4198ebc4.htm" />
+  <HelpKINode Title="Initialize method" Url="html/a311e6ad-cbc7-f682-4b29-88325fb06377.htm" />
+  <HelpKINode Title="IProgressCallback interface">
+    <HelpKINode Title="IProgressCallback Interface" Url="html/4f89fac9-8a32-ee9b-811a-c9bcf853355a.htm" />
+    <HelpKINode Title="methods" Url="html/e4377ff4-a1d0-9b37-53db-33ea4c0e8fa7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IProgressCallback.ExceptionMessage method" Url="html/5555c8c1-9616-5067-9de7-bfcc7e3ed591.htm" />
+  <HelpKINode Title="IProgressCallback.ProgressMessage method" Url="html/7cb3399a-82cf-bca0-6aa2-15414d5a0a3c.htm" />
+  <HelpKINode Title="IsConnectionProject method" Url="html/e1002dc8-45f3-cd54-fcaf-a0bb62aee40a.htm" />
+  <HelpKINode Title="IsProjectCalculated method" Url="html/7a98dc95-6109-9eef-1c16-95b85cd9a5eb.htm" />
+  <HelpKINode Title="LinkLogger field" Url="html/cd52d3a5-9cf7-b7e1-2871-2b0cb7a54a5b.htm" />
+  <HelpKINode Title="LoadCase property" Url="html/16054daa-6208-369e-5b19-d4ac34ae3025.htm" />
+  <HelpKINode Title="LoadGroup property" Url="html/a4f0dd5e-ae8d-f89d-fa39-22b33b701649.htm" />
+  <HelpKINode Title="Log4NetHelper class">
+    <HelpKINode Title="Log4NetHelper Class" Url="html/49f91d26-65a6-bf15-5720-bdd858701b96.htm" />
+    <HelpKINode Title="constructor" Url="html/94b1a193-de6e-080e-49c8-f7c077a70433.htm" />
+    <HelpKINode Title="methods" Url="html/dbba955b-94d3-c84c-e1db-d7f6252535da.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Log4NetHelper.Initialize method" Url="html/a311e6ad-cbc7-f682-4b29-88325fb06377.htm" />
+  <HelpKINode Title="Log4NetHelper.Log4NetHelper constructor" Url="html/94b1a193-de6e-080e-49c8-f7c077a70433.htm" />
+  <HelpKINode Title="OpenConnectionService method" Url="html/6ed11932-6fa5-499f-362d-bf28cb3026e6.htm" />
+  <HelpKINode Title="OpenIdeaConnection method" Url="html/437715c4-6ccc-58b9-8644-abb7539a9f73.htm" />
+  <HelpKINode Title="OpenIdeaConnectionIDEA method" Url="html/e58933a5-c1ab-777a-7fff-3591f1548b34.htm" />
+  <HelpKINode Title="OpenIdeaConnectionInternal method" Url="html/9f190776-f12f-db8a-c3ee-1c521441a676.htm" />
+  <HelpKINode Title="OpenIdeaConnectionService method" Url="html/5a7ccd37-f24d-0803-1379-06f5d256bd56.htm" />
+  <HelpKINode Title="OpenIdeaConnectionWithName method" Url="html/1f7df77a-f370-3ed4-0cb2-ce9007697588.htm" />
+  <HelpKINode Title="OpenIdeaConProjectFile method" Url="html/cedf98e8-f9fa-8f48-359f-e997d7c3792c.htm" />
+  <HelpKINode Title="OpenIdeaConProjectFileAndResultFile method" Url="html/6ea8e8d5-6736-a3bd-6a77-8e381b0a682b.htm" />
+  <HelpKINode Title="ProgressCallback property" Url="html/a723b5bc-ee96-736a-b48d-76cad3a8feb9.htm" />
+  <HelpKINode Title="ProgressMessage method" Url="html/7cb3399a-82cf-bca0-6aa2-15414d5a0a3c.htm" />
+  <HelpKINode Title="ReadFully method" Url="html/f208fd41-4446-470e-7dd7-d2b7c7a7569d.htm" />
+  <HelpKINode Title="RunHiddenAnalysis method" Url="html/48fc697d-f2ca-d3d8-ff1b-90c5537b268c.htm" />
+  <HelpKINode Title="SaveIdeaConToProjectFile method" Url="html/5076054c-710a-87eb-f995-8eee9b8063fa.htm" />
+  <HelpKINode Title="SaveResultToFile method" Url="html/2b2920c6-4e26-f051-352b-21a2d9c92598.htm" />
+  <HelpKINode Title="SetAndOpenIdeaConProjectFile method" Url="html/6e81b3aa-4cbe-50e2-49b9-e6cac71abb19.htm" />
+  <HelpKINode Title="SetAndOpenIdeaConProjectFileAndResultFile method" Url="html/429437ed-0c7a-6e37-bda0-6858028e5163.htm" />
+  <HelpKINode Title="StreamToByteArray method" Url="html/db9a8b58-3e6b-63bd-8e6a-078cd340d4a4.htm" />
+  <HelpKINode Title="TempConCheckResultsString property" Url="html/4d974338-c7a4-c6b2-03b0-1285e1c22c78.htm" />
+  <HelpKINode Title="TempFileFullName property" Url="html/9478052f-cb96-f07e-ebc6-27dc9a646b44.htm" />
+  <HelpKINode Title="TestConnection method" Url="html/11f722c4-90b9-8c95-abfe-0db026b98930.htm" />
+  <HelpKINode Title="TestValidCSSInIDEADatabase method" Url="html/3a0f1ffe-2c95-51eb-fb1a-e966706a42ca.htm" />
+  <HelpKINode Title="WizardSelection class">
+    <HelpKINode Title="WizardSelection Class" Url="html/83621ac3-051e-70fd-61bc-3bc2a2dacc49.htm" />
+    <HelpKINode Title="constructor" Url="html/9262cfe7-2c38-68ac-0230-4953f67185d6.htm" />
+    <HelpKINode Title="methods" Url="html/47bc452a-4130-cf74-ad19-76ac531715dc.htm" />
+    <HelpKINode Title="properties" Url="html/3c3be7e9-1499-8c46-e3ca-254e0f5c27c8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WizardSelection.CombiInput property" Url="html/18586f2f-4a01-7d4e-b524-3c7f03efe571.htm" />
+  <HelpKINode Title="WizardSelection.LoadCase property" Url="html/16054daa-6208-369e-5b19-d4ac34ae3025.htm" />
+  <HelpKINode Title="WizardSelection.LoadGroup property" Url="html/a4f0dd5e-ae8d-f89d-fa39-22b33b701649.htm" />
+  <HelpKINode Title="WizardSelection.WizardSelection constructor" Url="html/9262cfe7-2c38-68ac-0230-4953f67185d6.htm" />
+  <HelpKINode Title="WriteConCheckResults method" Url="html/c520f645-9f7e-701b-49be-bec6dbbe714e.htm" />
+  <HelpKINode Title="WriteFEAResultsArchive method" Url="html/c7a3574a-13f8-e0b0-f2fc-ffd2b448dc58.htm" />
+  <HelpKINode Title="WriteProjectData method" Url="html/562bc1b4-98ac-289e-8103-a95d08103d60.htm" />
+  <HelpKINode Title="WriteProtocolArchive method" Url="html/838463bd-3bdb-efc2-fc70-fbd195489864.htm" />
+</HelpKI>
