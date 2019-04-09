@@ -1,0 +1,23 @@
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="envdte" #>
+<#@ assembly name="envdte80" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="EnvDTE" #>
+<#@ output extension=".cs" #>
+<#@ import namespace="System.Runtime.Remoting.Messaging" #>
+<#@ include file="ProjectHelpers.tt" #>
+<#@ include file="ProcessTemplate.tt" #>
+<#@ include file="GenerateCSSFile.tt" #>
+<#@ include file="GenerateLoadingFile.tt" #>
+<#@ include file="TemplateFileManager.cs.ttinclude" #>
+<#
+var serviceProvider = (IServiceProvider)this.Host;
+// Get the automation root object
+var dte = (EnvDTE.DTE)serviceProvider.GetService(typeof(EnvDTE.DTE));
+//GenerateCSSFile(dte);
+GenerateLoadingFile();
+
+#>

@@ -1,0 +1,125 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="EnvDTE" #>
+<#@ import namespace="Microsoft.VisualStudio.TextTemplating" #>
+<#@ output extension=".txt" #>
+<#+
+private void GenerateCSSFile(EnvDTE.DTE dte)
+{
+	Project foundProj = FindProjectInSolution(dte, "CI.Geometry2D");
+	if(foundProj != null)
+	{
+		WriteLine("using System;");
+		WriteLine("using CI.Geometry3D;");
+		WriteLine("using CI.StructModel.Loading;");
+		WriteLine("namespace IdeaRS.SimpleStructModel");
+		WriteLine("{");
+		List<CodeClass> classesInProject = GetAllClasses(foundProj.ProjectItems);
+
+		Dictionary<string, Tuple<CodeClass, List<CodeProperty>>> clsPropDictionary = new Dictionary<string, Tuple<CodeClass, List<CodeProperty>>>();
+
+		// get all shapes
+		foreach(var cls in classesInProject)
+		{
+			if(cls.Name.Equals("Region2D"))
+			{
+					continue;
+			}
+			bool ignoreClass = false;
+			if(cls.Attributes.Count > 0)
+			{
+				Debug.WriteLine("class name :" + cls.FullName.ToString() + " / " +  cls.Name.ToString());
+				foreach(CodeAttribute att in cls.Attributes)
+				{
+					if(att.FullName == "IdeaRS.IdeaXML.IdeaXMLIgnoreClassAttribute")
+					{
+						ignoreClass = true;
+						break;
+					}
+				}
+			}
+			if(!ignoreClass && cls.IsDerivedFrom["CI.Geometry2D.Region2D"])
+			{
+				Tuple<CodeClass, List<CodeProperty>> clsRecord;
+				if(!clsPropDictionary.TryGetValue(cls.FullName, out clsRecord))
+				{
+					clsRecord = new Tuple<CodeClass, List<CodeProperty>>(cls, new List<CodeProperty>());
+					clsPropDictionary.Add(cls.FullName, clsRecord);
+				}
+
+				foreach (var ce in cls.Members)
+				{
+					var prop = ce as CodeProperty;
+					if (prop != null)
+					{
+						string propType = prop.Type.AsFullName;
+						if(!(propType.Equals("System.Double") || propType.Equals("System.Int32")))
+						{
+							continue;
+						}
+						clsRecord.Item2.Add(prop);
+					}
+				}
+			}
+		}
+
+		foreach(var rec in clsPropDictionary)
+		{
+				string clsComment = FormatComment(rec.Value.Item1.DocComment, "    ");
+				if(!string.IsNullOrEmpty(clsComment))
+				{
+						Write(clsComment);
+				}
+
+				WriteLine("  public partial class " + rec.Value.Item1.Name + ": SimpleElementBase");
+				WriteLine("  {");
+
+				foreach (var prop in rec.Value.Item2)
+				{
+						Debug.WriteLine(prop.Name + " [" + prop.Name + "]");
+						if(prop.Name == "this")
+							continue;
+
+						string comment = FormatComment(prop.DocComment, "    ");
+						if(!string.IsNullOrEmpty(comment))
+						{
+							Write(comment);
+						}
+
+						string propText = string.Format("    public {0} {1} {{get; set;}}", prop.Type.AsFullName, prop.Name);
+						WriteLine(propText);
+						WriteLine("");
+				}
+
+				WriteLine("    public override Type GetStructClsType()");
+				WriteLine("    {");
+				WriteLine(string.Format("      return Type.GetType(\"{0},{1}\");", rec.Value.Item1.FullName, "CI.Geometry2D"));
+				WriteLine("    }");
+				WriteLine("");
+				WriteLine("    public override void CopyToSM(object destination)");
+				WriteLine("    {");
+				WriteLine("      dynamic dynamicDest = destination;");
+				foreach (var prop in rec.Value.Item2)
+				{
+						if(prop.Name == "this")
+							continue;
+
+						string propCopyText = string.Format("      dynamicDest.{0} = this.{0};", prop.Name);
+						WriteLine(propCopyText);
+				}
+				WriteLine("    }");
+				WriteLine("  }");
+		}
+
+		WriteLine("}");
+		WriteLine("");
+		WriteLine("");
+
+		CallContext.SetData("SimpleCssFactory.Parameter", clsPropDictionary);
+		ProcessTemplate("SimpleCssFactory.tt", "SimpleCssFactory.cs");
+	}
+}
+#>

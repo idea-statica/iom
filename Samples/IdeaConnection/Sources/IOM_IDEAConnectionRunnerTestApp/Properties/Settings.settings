@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="IOM_IDEAConnectionRunnerTestApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="IdeaInstallDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">k:\IDEA_RS\SVN\Release_8_2\_Sources\bin\Debug</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

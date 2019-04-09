@@ -1,0 +1,119 @@
+﻿<Window x:Class="IOM_IDEAConnectionRunnerTestApp.MainWindow"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:prop="clr-namespace:IOM_IDEAConnectionRunnerTestApp.Properties"
+	Title="Idea Connection Link Test" Height="550" Width="700" Loaded="Window_Loaded">
+  <Window.Resources>
+    <Style TargetType="{x:Type RadioButton}">
+      <Setter Property="Margin" Value="3" />
+    </Style>
+
+    <Style TargetType="{x:Type Button}">
+      <Setter Property="Margin" Value="3" />
+      <Setter Property="Padding" Value="2" />
+    </Style>
+  </Window.Resources>
+
+  <DockPanel LastChildFill="True">
+    <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+      <Button x:Name="showProtocolBtn" Content="Show Protocol" HorizontalAlignment="Left" VerticalAlignment="Top"  Click="showProtocolBtn_Click" />
+    </StackPanel>
+
+    <TabControl x:Name="mainAppTab">
+
+      <TabItem Header="Open IOM">
+        <DockPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" LastChildFill="True">
+          <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="1*" />
+              <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+              <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Vertical" Height="60">
+                  <Button x:Name="selectIOMBtn" Content="IOM File" Click="OnSelectIOMBtnClick" HorizontalAlignment="Left" />
+                  <Label x:Name="iomName" />
+                </StackPanel>
+              </StackPanel>
+
+              <!--<StackPanel Orientation="Vertical" Height="50">
+							<Button x:Name="selectConnectionBtn" Content="Connection File" Click="OnSelectConnectionBtnClick" HorizontalAlignment="Left" />
+							<Label x:Name="connectionName" />
+						</StackPanel>-->
+
+              <StackPanel Orientation="Vertical" Height="50">
+                <Button x:Name="selectTempleteBtn" Content="Connection Template / Project" Click="OnSelectTempleteBtnClick" HorizontalAlignment="Left" />
+                <Label x:Name="templateName" />
+              </StackPanel>
+
+              <StackPanel Orientation="Horizontal" Height="40">
+                <Button x:Name="openInIdeaConnection" Content="Run Idea Connection" HorizontalAlignment="Left" Click="RunIdeaConnection_Click" IsEnabled="False" Tag="RunApp" />
+                <Button x:Name="updateIDEABtn01" Content="Update IDEA Connection" Click="UpdateIDEAConnection_Click" HorizontalAlignment="Left" Margin="3,3,0,3" />
+                <!--<Button x:Name="runHiddenCalcBtn" Content="Hidden Calculation" HorizontalAlignment="Left" Click="RunIdeaConnection_Click" IsEnabled="False" Tag="RunCalcHidden" />-->
+              </StackPanel>
+            </StackPanel>
+            <TextBox x:Name="importSettingsTextBox" Grid.Column="2" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"
+											 HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" />
+          </Grid>
+          <WebBrowser x:Name="resultBrowser" Margin="0,5" />
+        </DockPanel>
+      </TabItem>
+
+      <TabItem Header="Generate IOM">
+        <StackPanel>
+          <StackPanel Orientation="Horizontal">
+            <Button Content="Create Idea IOM, open IDEA Connection" Click="Button_Click" />
+            <Button x:Name="updateIDEABtn02" Content="Create Idea IOM, update IDEA Connection" Click="UpdateIDEAConnection_Click" />
+          </StackPanel>
+
+          <StackPanel Orientation="Vertical">
+            <RadioButton  x:Name="Btn1" GroupName="Prj" Content="Project 1" IsChecked="True" />
+            <RadioButton  x:Name="Btn2" GroupName="Prj" Content="Project 2" />
+            <RadioButton  x:Name="Btn3" GroupName="Prj" Content="Project 3" />
+            <RadioButton  x:Name="Btn4" GroupName="Prj" Content="Project 4" />
+          </StackPanel>
+        </StackPanel>
+      </TabItem>
+
+      <TabItem Header="Log">
+        <StackPanel Orientation="Vertical">
+          <StackPanel Orientation="Horizontal">
+            <Button x:Name="showLogBtn" Content="Show Log" Click="showLogBtn_Click" HorizontalAlignment="Left" />
+            <Button x:Name="clearLogBtn" Click="clearLogBtn_Click">Clear log</Button>
+          </StackPanel>
+          <Label Name="logFileLabel"></Label>
+        </StackPanel>
+      </TabItem>
+
+      <TabItem Header="Settings">
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+          </Grid.ColumnDefinitions>
+          <TextBlock>Idea install folder</TextBlock>
+          <TextBox Text="{Binding Source={x:Static prop:Settings.Default}, Path=IdeaInstallDir, Mode=TwoWay}" Grid.Column="0" Grid.Row="1"/>
+        </Grid>
+      </TabItem>
+
+      <TabItem Header="Cross-section test">
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+          </Grid.ColumnDefinitions>
+          <Button Grid.Row="0" Content="Run Test" Click="CSS_Click_Test" />
+          <TextBox Grid.Row="1" x:Name="ListCss" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"
+        	HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" />
+        </Grid>
+      </TabItem>
+
+    </TabControl>
+  </DockPanel>
+</Window>

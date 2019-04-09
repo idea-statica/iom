@@ -1,0 +1,84 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="envdte" #>
+<#@ assembly name="envdte80" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="EnvDTE" #>
+<#@ import namespace="System.Diagnostics" #>
+<#@ output extension=".cs" #>
+<#@ import namespace="System.Runtime.Remoting.Messaging" #>
+<#@ import namespace="EnvDTE" #>
+<#
+WriteLine("using System;");
+WriteLine("using System.Collections.Generic;");
+WriteLine("");
+WriteLine("namespace IdeaRS.SimpleStructModel");
+WriteLine("{");
+WriteLine("  public static class SimpleConnectionFactory");
+WriteLine("  {");
+WriteLine("    private static Dictionary<string, Func<object, object>> factoryDict;");
+
+Dictionary<string, Tuple<CodeClass, List<CodeProperty>>> dict = Parameter;
+
+StringBuilder typesBuilder = new StringBuilder();
+StringBuilder factMethBuilder = new StringBuilder();
+if(dict != null)
+{
+	foreach(var pair in dict)
+	{
+		string clsName = pair.Value.Item1.Name;
+		var line = string.Format("      factoryDict.Add(\"{0}\", new Func<object, object>(SimpleConnectionFactory.Create{1}));", pair.Key, clsName);
+		typesBuilder.AppendLine(line);
+
+		var method = string.Format("    private static object Create{0}(object source)", clsName);
+		factMethBuilder.AppendLine(method);
+		factMethBuilder.AppendLine("    {");
+		factMethBuilder.AppendLine(string.Format("      var res = new IdeaRS.SimpleStructModel.{0}();", clsName));
+		factMethBuilder.AppendLine("      dynamic dynamicSource = source;");
+		foreach(var prop in pair.Value.Item2)
+		{
+			factMethBuilder.AppendLine(string.Format("      res.{0} = dynamicSource.{0};", prop.Name));
+		}
+		factMethBuilder.AppendLine("      return res;");
+		factMethBuilder.AppendLine("    }");
+		factMethBuilder.AppendLine("");
+	}
+}
+
+WriteLine("    static SimpleConnectionFactory()");
+WriteLine("    {");
+WriteLine("      factoryDict = new Dictionary<string, Func<object, object>>();");
+Write(typesBuilder.ToString());
+WriteLine("    }");
+
+WriteLine("    public static object CreateSimpleCrossSection(object source)");
+WriteLine("    {");
+WriteLine("      string sourceType = source.GetType().FullName;");
+WriteLine("      var factoryMethod = factoryDict[sourceType];");
+WriteLine("      return factoryMethod(source);");
+WriteLine("    }");
+WriteLine("");
+
+WriteLine("    public static object CreateSMElementIntance(SimpleElementBase simpleElement)");
+WriteLine("    {");
+WriteLine("      Type smClsType = simpleElement.GetStructClsType();");
+WriteLine("      var res = Activator.CreateInstance(smClsType);");
+WriteLine("      simpleElement.CopyToSM(res);");
+WriteLine("      return res;");
+WriteLine("    }");
+WriteLine("");
+
+WriteLine(factMethBuilder.ToString());
+WriteLine("  }");
+WriteLine("}");
+
+#>
+
+<#+
+Dictionary<string, Tuple<CodeClass, List<CodeProperty>>> Parameter
+{
+	get { return (Dictionary<string, Tuple<CodeClass, List<CodeProperty>>>)CallContext.GetData("SimpleCssFactory.Parameter"); }
+}
+#>
