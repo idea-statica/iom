@@ -35,7 +35,7 @@ IOM;k:\IDEA\_RS\Projects\BugFix32\mepSjIni.xml
 ```
 
 ## Cpp
-It contains example how to prepare IOM file from C++ code. More details you can find in _Samples\Connection\_CppCLI\ConnectionSampleIOMCppCLI.docx_
+It contains example how to create IOM file from C++ code. More details you can find in this [document](connection-cpp.md).
 
 ## ConnectionLinkTestApp
 
