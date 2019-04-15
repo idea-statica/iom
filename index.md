@@ -18,9 +18,9 @@ There is the documentation of [IdeaRS.OpenModel](iom-api/index.html)
 IdeaRS.OpenModel is also published as [the nuget package](https://www.nuget.org/packages/IdeaStatiCa.OpenModel/).
 
 ### IdeaRS.ConnectionLink
-This assembly is installed with other IDEA StatiCa products. You can find it in the installation directory. You can use it for controlling the application IdeaConnection from other applications. It enables to open a project in our application, update loading, apply template etc. You can find examples how to use here [Idea Connection project](samples/idea-connections/idea-connections.md)
+This assembly is installed with other IDEA StatiCa products. You can find it in the installation directory. You can use it for controlling the application IdeaConnection from other applications. It enables to open a project in our application, update loading, apply template etc. [Here](samples/idea-connections/idea-connections.md) you can find examples how to use IdeaRS.ConnectionLink in your applications.
 
-There is the documentation of [IdeaRS.ConnectionLink](connectionlink-api/index.html)
+There is also the documentation of [IdeaRS.ConnectionLink](connectionlink-api/index.html)
 
 ### Samples
 * It shows how to create [Idea Connection project](samples/idea-connections/idea-connections.md) from your application.
