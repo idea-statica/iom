@@ -20,13 +20,13 @@ This method contains these methods:
 ### CreateMaterials()
 -	Compiles the materials
 
-<img src="images/beam-mat.png" alt="beam-mat" width="50%"/><br/>
+<img src="images/beam-mat.png" alt="beam-mat" width="80%"/><br/>
 
 ### CreateCrossSections()
 -	Compiles the cross-sections
 
-<img src="images/beam-css.png" alt="beam-css" width="50%"/><br/>
-<img src="images/beam-css2.png" alt="beam-css2" width="50%"/><br/>
+<img src="images/beam-css.png" alt="beam-css" width="80%"/><br/>
+<img src="images/beam-css2.png" alt="beam-css2" width="80%"/><br/>
 
 ### CreateModel()
 -	Compiles the structural model
@@ -35,18 +35,18 @@ This method contains these methods:
 -	Beams
 -	Supports
 
-<img src="images/beam-model.png" alt="model" width="50%"/><br/>
+<img src="images/beam-model.png" alt="model" width="100%"/><br/>
 
 ### CreateLoad()
 -	Compiles the loading data
 -	Load groups
 
-<img src="images/beam-load1.png" alt="model" width="30%"/><br/>
-<img src="images/beam-load2.png" alt="model" width="50%"/><br/>
+<img src="images/beam-load1.png" alt="model" width="50%"/><br/>
+<img src="images/beam-load2.png" alt="model" width="100%"/><br/>
 
 -	Load cases
 
-<img src="images/beam-load3.png" alt="model" width="50%"/><br/>
+<img src="images/beam-load3.png" alt="model" width="100%"/><br/>
 
 -	Combinations
 

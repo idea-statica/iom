@@ -52,11 +52,11 @@ You cannot debug this code. It is used for faster communication with IDEA StatiC
 
 At first, set Idea applications installation folder on the **Settings** tab.
 
-<img src="images/settings.png" alt="settings" width="50%"/><br/>
+<img src="images/settings.png" alt="settings" width="100%"/><br/>
 
 TabItem **Generate IOM**
 
-<img src="images/generate.png" alt="generate" width="50%"/><br/>
+<img src="images/generate.png" alt="generate" width="100%"/><br/>
 
 **Create Idea IOM, open IDEA Connection** – Creates IOM according to settings (Project 1 .. 4) and runs IDEA Connection app.
 
@@ -93,7 +93,7 @@ There are 3 nodes and 2 members in the project. IPE rolled section and welded I-
 
 Connection is created in the node N2.
 
-<img src="images/ex1.png" alt="ex1" width="30%"/><br/>
+<img src="images/ex1.png" alt="ex1" width="80%"/><br/>
 
 ### Example 2 - 2 beams connected to the column
 
@@ -117,7 +117,7 @@ There are 5 nodes and 3 members in the project. Welded I-sections are used. Inte
 
 Connection is created in node N3
 
-<img src="images/ex2.png" alt="ex2" width="30%"/><br/>
+<img src="images/ex2.png" alt="ex2" width="80%"/><br/>
 
 ### Example 3 - 2 beams in one column
 
@@ -139,7 +139,7 @@ Example is in IOMGenerator3
 
 Connection is created in node N3
 
-<img src="images/ex3.png" alt="ex3" width="30%"/><br/>
+<img src="images/ex3.png" alt="ex3" width="80%"/><br/>
 
 ### Example 4 - 2 connection in one project
 
@@ -166,10 +166,10 @@ Connection is created in node N3
 
 Connection **Con N3**
 
-<img src="images/ex4.png" alt="ex4" width="30%"/><br/>
+<img src="images/ex4.png" alt="ex4" width="80%"/><br/>
 
 Connection is created in node N6
 
 Connection **Con N6**
 
-<img src="images/ex5.png" alt="ex5" width="30%"/><br/>
+<img src="images/ex5.png" alt="ex5" width="80%"/><br/>
