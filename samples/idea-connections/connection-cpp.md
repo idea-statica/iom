@@ -32,4 +32,4 @@ Create IOM and IOM results
 
 Start IdeaStatiCa Connection
 
-<img src="images/uml-fea-app.svg" alt="uml" width="50%"/><br/>
+<img src="images/uml-fea-app.svg" alt="uml" width="100%"/><br/>
