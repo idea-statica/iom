@@ -3,3 +3,5 @@ IOM interface can be used for the implementation of the link of any application 
 
 There is the documentation of its [API](https://idea-statica.github.io/iom/iom-api/index.html).
 
+IDEA Open Model is  also available as the nuget package :
+https://www.nuget.org/packages/IdeaStatiCa.OpenModel/
