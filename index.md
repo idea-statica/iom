@@ -23,5 +23,6 @@ This assembly is installed with other IDEA StatiCa products. You can find it in 
 There is also the documentation of [IdeaRS.ConnectionLink](connectionlink-api/index.html)
 
 ### Samples
+* It shows how to create [IOM of a Steel Frame structure](https://github.com/idea-statica/iom-examples)
 * It shows how to create [Idea Connection project](samples/idea-connections/idea-connections.md) from your application.
 * It shows how to create [Idea beam project](samples/idea-beam/idea-beam.md) in C# 
