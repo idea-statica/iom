@@ -1,5 +1,4 @@
-﻿
-using IdeaRS.OpenModel.Result;
+﻿using IdeaRS.OpenModel.Result;
 
 namespace IdeaRS.OpenModel
 {

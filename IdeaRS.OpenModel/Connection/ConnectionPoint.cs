@@ -57,5 +57,11 @@ namespace IdeaRS.OpenModel.Connection
 			set { NodeId = value; }
 #pragma warning restore 612, 618
 		}
+
+		/// <summary>
+		/// Set filename for Connection
+		/// </summary>
+		public string ProjectFileName { get; set; }
+
 	}
 }

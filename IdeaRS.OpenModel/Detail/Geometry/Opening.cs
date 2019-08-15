@@ -7,6 +7,7 @@ namespace IdeaRS.OpenModel.Detail
 	/// </summary>
 	[XmlInclude(typeof(OpeningRect))]
 	[XmlInclude(typeof(OpeningCirc))]
+	[XmlInclude(typeof(OpeningRectOffsets))]
 	public class Opening : OpenElementId
 	{
 		/// <summary>

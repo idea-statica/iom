@@ -44,6 +44,20 @@ namespace IdeaRS.OpenModel.Message
 		}
 
 		/// <summary>
+		/// Remove a message
+		/// </summary>
+		/// <param name="message">Message will be removed</param>
+		public void Remove(OpenMessage message)
+		{
+			if (Messages == null)
+			{
+				return;
+			}
+
+			Messages.Remove(message);
+		}
+
+		/// <summary>
 		/// List Error messages only
 		/// </summary>
 		[XmlIgnore]

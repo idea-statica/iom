@@ -3,7 +3,7 @@
 	/// <summary>
 	/// Material concrete CAN
 	/// </summary>
-	[OpenModelClass("CI.StructModel.Libraries.Material.Canadian.MatConcreteCAN,CI.Material", "CI.StructModel.Libraries.Material.IMatConcrete,CI.BasicTypes", typeof(MatConcrete))]
+	[OpenModelClass("CI.StructModel.Libraries.Material.Canadian.MatConcreteCAN,CI.Material", "CI.StructModel.Libraries.Material.IMaterial,CI.BasicTypes", typeof(MatConcrete))]
 	public class MatConcreteCAN : MatConcrete
 	{
 		/// <summary>

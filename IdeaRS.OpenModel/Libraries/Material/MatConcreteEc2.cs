@@ -139,7 +139,7 @@ namespace IdeaRS.OpenModel.Material
 	/// openModel.AddObject(mat);
 	/// </code>
 	/// </example>
-	[OpenModelClass("CI.StructModel.Libraries.Material.ECEN.MatConcreteECEN,CI.Material", "CI.StructModel.Libraries.Material.IMatConcrete,CI.BasicTypes", typeof(MatConcrete))]
+	[OpenModelClass("CI.StructModel.Libraries.Material.ECEN.MatConcreteECEN,CI.Material", "CI.StructModel.Libraries.Material.IMaterial,CI.BasicTypes", typeof(MatConcrete))]
 	public class MatConcreteEc2 : MatConcrete
 	{
 		/// <summary>

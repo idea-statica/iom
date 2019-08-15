@@ -2,7 +2,6 @@
 
 namespace IdeaRS.OpenModel
 {
-
 	/// <summary>
 	/// WeldEvaluation
 	/// </summary>
@@ -34,6 +33,32 @@ namespace IdeaRS.OpenModel
 		/// Plasticity in welds is taken into account in AM
 		/// </summary>
 		ApplyPlasticWelds = 4,
+	}
+
+	/// <summary>
+	/// Welding types defined in SP16-Table 39
+	/// </summary>
+	public enum WeldingTypeSNIP
+	{
+			/// <summary>
+			/// Manual welding
+			/// </summary>
+			Manual,
+
+			/// <summary>
+			/// Manual welding using rod solid cross-section with diameter less than 1.4mm
+			/// </summary>
+			ManualSmallRodDiam,
+
+			/// <summary>
+			/// Automatic and machine welding
+			/// </summary>
+			AutomaticAndMachine,
+
+			/// <summary>
+			/// Automatic welding
+			/// </summary>
+			Automatic
 	}
 
 	/// <summary>
@@ -85,8 +110,8 @@ namespace IdeaRS.OpenModel
 			//DeformationCapacity = true;
 			ApplyConeBreakoutCheck = true;
 			//ApplyGeneralDiagram = false;
-			double r = 0.008;
-			double ass = Math.PI * r * r;
+			//const double r = 0.008;
+			//double ass = Math.PI * r * r;
 			//double fu = 800e6;
 			//Kt = 210e9 * ass / 0.2;
 			//Ks = Kt;
@@ -100,17 +125,32 @@ namespace IdeaRS.OpenModel
 			//WeldEpsFactor = 0.08;
 			GammaM3 = 1.25;
 			PretensionForceFpc = 0.7;
-			//FrictionCoefficientPbolt = 0.3;
+			FrictionCoefficientPbolt = 0.3;
 			//WeldRefFactor = 1.0;
-			ExtensionLengthRationOpenSections = 1.0;
-			ExtensionLengthRationCloseSections = 2.0;
-
+			ExtensionLengthRationOpenSections = 0.5;
+			ExtensionLengthRationCloseSections = 0.5;
+			FactorPreloadBolt = 0.0;
+			BaseMetalCapacity = true ;
+			AlphaCC = 1.0;
+			ApplyBearingCheck = false;
 			LimitDeformation = 0.03;
 			LimitDeformationCheck = false;
+			AnalysisGNL = false;
+			WeldingTypeSNIP = WeldingTypeSNIP.AutomaticAndMachine;
+		}
+
+		/// <summary>
+		/// Inicialize by setted code
+		/// </summary>
+		public void InitByCode()
+		{
+			if(SteelSetup != null)
+			{
+				FrictionCoefficientPbolt = SteelSetup.FrictionCoefficientPboltDefault();
+			}
 		}
 
 		#endregion Constructors
-
 
 		/// <summary>
 		/// Steel Setup
@@ -186,6 +226,11 @@ namespace IdeaRS.OpenModel
 		/// Limit deformation on closed sections check or not
 		/// </summary>
 		public bool LimitDeformationCheck { get; set; }
+
+		/// <summary>
+		/// Analysis with GNL
+		/// </summary>
+		public bool AnalysisGNL { get; set; }
 
 		/// <summary>
 		/// Warning plastic strain
@@ -302,20 +347,43 @@ namespace IdeaRS.OpenModel
 		/// </summary>
 		public bool CrackedConcrete { get; set; }
 
+
 		/// <summary>
-		/// Minimal length of end part of open sections
-		/// Ration of the maximal size of the cross section
+		/// ExtensionLengthRationOpenSections
 		/// </summary>
 		public double ExtensionLengthRationOpenSections { get; set; }
 
 		/// <summary>
-		/// Minimal length of end part of hollow sections
-		/// Ration of the maximal size of the cross section
+		/// ExtensionLengthRationCloseSections
 		/// </summary>
 		public double ExtensionLengthRationCloseSections { get; set; }
 
-		/*
+		/// <summary>
+		/// FactorPreloadBolt
+		/// </summary>
+		public double FactorPreloadBolt { get; set; }
 
+		/// <summary>
+		/// BaseMetalCapacity
+		/// </summary>
+		public bool BaseMetalCapacity { get; set; }
+
+		/// <summary>
+		/// ApplyBearingCheck
+		/// </summary>
+		public bool ApplyBearingCheck { get; set; }
+
+		/// <summary>
+		/// Friction factor of slip-resistant joint
+		/// </summary>
+		public double FrictionCoefficientPbolt { get; set; }
+
+		/// <summary>
+		/// Welding types defined in SP16-Table 39
+		/// </summary>
+		public WeldingTypeSNIP WeldingTypeSNIP { get; set; }
+
+		/*
 		/// <summary>
 		/// True if bore holes
 		/// </summary>
@@ -353,11 +421,6 @@ namespace IdeaRS.OpenModel
 		/// Just for mesh testing
 		/// </summary>
 		public double WeldRefFactor { get; set; }
-
-		/// <summary>
-		/// Friction factor of slip-resistant joint
-		/// </summary>
-		public double FrictionCoefficientPbolt { get; set; }
 
 		#endregion SetupProperties
 
@@ -448,8 +511,7 @@ namespace IdeaRS.OpenModel
 		/// <summary>
 		/// Nonlinear stiffness coeff in shear after over loaded FLS
 		/// </summary>
-		public double Ksn { get; set; }
-
- */
+		public double Ksn { get; set;
+		*/
 	}
 }

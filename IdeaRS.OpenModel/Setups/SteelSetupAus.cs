@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace IdeaRS.OpenModel
+﻿namespace IdeaRS.OpenModel
 {
 
 	/// <summary>
@@ -38,5 +36,12 @@ namespace IdeaRS.OpenModel
 		/// </summary>
 		public double CrtBearing { get; set; }
 
+		/// <summary>
+		/// Friction Coefficient Pbolt Default
+		/// </summary>
+		public override double FrictionCoefficientPboltDefault()
+		{
+			return 0.35;
+		}
 	}
 }

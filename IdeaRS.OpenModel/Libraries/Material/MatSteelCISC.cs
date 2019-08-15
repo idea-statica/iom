@@ -6,7 +6,7 @@ namespace IdeaRS.OpenModel.Material
 	/// <summary>
 	/// Material steel CISC
 	/// </summary>
-	[OpenModelClass("CI.StructModel.Libraries.Material.Canadian.MatSteelCAN,CI.Material", "CI.StructModel.Libraries.Material.IMatSteel,CI.BasicTypes", typeof(MatSteel))]
+	[OpenModelClass("CI.StructModel.Libraries.Material.Canadian.MatSteelCAN,CI.Material", "CI.StructModel.Libraries.Material.IMaterial,CI.BasicTypes", typeof(MatSteel))]
   public class MatSteelCISC : MatSteel
 	{
 		/// <summary>

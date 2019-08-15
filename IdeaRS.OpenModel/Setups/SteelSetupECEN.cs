@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace IdeaRS.OpenModel
+﻿namespace IdeaRS.OpenModel
 {
 
 	/// <summary>

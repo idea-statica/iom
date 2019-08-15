@@ -78,7 +78,7 @@ namespace IdeaRS.OpenModel.Material
 	/// <summary>
 	/// Material concrete SIA
 	/// </summary>
-	[OpenModelClass("CI.StructModel.Libraries.Material.SIA.MatConcreteSIA,CI.Material", "CI.StructModel.Libraries.Material.IMatConcrete,CI.BasicTypes", typeof(MatConcrete))]
+	[OpenModelClass("CI.StructModel.Libraries.Material.SIA.MatConcreteSIA,CI.Material", "CI.StructModel.Libraries.Material.IMaterial,CI.BasicTypes", typeof(MatConcrete))]
 	public class MatConcreteSIA : MatConcrete
 	{
 		/// <summary>

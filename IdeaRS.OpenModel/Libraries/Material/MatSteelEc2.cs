@@ -52,7 +52,7 @@ namespace IdeaRS.OpenModel.Material
 	/// openModel.AddObject(matS);
 	/// </code>
 	/// </example>
-	[OpenModelClass("CI.StructModel.Libraries.Material.ECEN.MatSteelECEN,CI.Material", "CI.StructModel.Libraries.Material.IMatSteel,CI.BasicTypes", typeof(MatSteel))]
+	[OpenModelClass("CI.StructModel.Libraries.Material.ECEN.MatSteelECEN,CI.Material", "CI.StructModel.Libraries.Material.IMaterial,CI.BasicTypes", typeof(MatSteel))]
 	public class MatSteelEc2 : MatSteel
 	{
 		/// <summary>

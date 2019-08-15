@@ -24,6 +24,7 @@ namespace IdeaRS.OpenModel.Connection
 			UserWizardBrand = string.Empty;
 			DesignCode = "ECEN";
 			StartIdeaStaticaApp = true;
+			OrderMembersById = true;
 			// DefaultConnectionFileName = null;
 		}
 
@@ -31,6 +32,12 @@ namespace IdeaRS.OpenModel.Connection
 		/// Open import wizard window
 		/// </summary>
 		public bool UseWizard { get; set; }
+
+		/// <summary>
+		/// If true, connected members in connection are ordered acoording to topological rules
+		/// othewise by their IDs.
+		/// </summary>
+		public bool OrderMembersById { get; set; }
 
 		/// <summary>
 		/// Gets or sets the name of the default bolt assembly 
@@ -83,6 +90,7 @@ namespace IdeaRS.OpenModel.Connection
 		/// ECEN
 		/// AISC
 		/// CISC
+		/// RUS
 		/// </summary>
 		public string DesignCode { get; set; }
 
