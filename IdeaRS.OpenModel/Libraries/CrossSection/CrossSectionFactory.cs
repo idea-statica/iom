@@ -190,6 +190,20 @@
 			cssO.Parameters.Add(new ParameterDouble() { Name = "Tb", Value = thickBottom });
 		}
 
+		/// <summary>
+		/// Fill massive pipe shape
+		/// </summary>
+		/// <param name="cssO">Parameters of CrossSectionParameter will be filled</param>
+		/// <param name="r">The radius of circle.</param>
+		/// <param name="t">The thickness of wall.</param>
+		/// <returns></returns>
+		public static void FillOHollow(CrossSectionParameter cssO, double r, double t)
+		{
+			cssO.CrossSectionType = IdeaRS.OpenModel.CrossSection.CrossSectionType.CHSg;
+			cssO.Parameters.Add(new ParameterDouble() { Name = "R", Value = r });
+			cssO.Parameters.Add(new ParameterDouble() { Name = "T", Value = t });
+		}
+
 
 
 	}

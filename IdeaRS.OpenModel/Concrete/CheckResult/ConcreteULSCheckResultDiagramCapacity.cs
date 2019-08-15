@@ -54,6 +54,16 @@
 		/// <summary>
 		/// calculated ultimate internal forces
 		/// </summary>
+		public IdeaRS.OpenModel.Result.ResultOfInternalForces Fu1 { get; set; }
+
+		/// <summary>
+		/// calculated ultimate internal forces
+		/// </summary>
+		public IdeaRS.OpenModel.Result.ResultOfInternalForces Fu2 { get; set; }
+
+		/// <summary>
+		/// calculated ultimate internal forces
+		/// </summary>
 		public IdeaRS.OpenModel.Result.ResultOfInternalForces Fu { get; set; }
 
 		/// <summary>

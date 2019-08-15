@@ -23,5 +23,15 @@
 		/// Height of wall
 		/// </summary>
 		public double Height { get; set; }
+
+		/// <summary>
+		/// Offset horizontal top left
+		/// </summary>
+		public double Offset1 { get; set; }
+
+		/// <summary>
+		/// Offset horizontal top left
+		/// </summary>
+		public double Offset2 { get; set; }
 	}
 }

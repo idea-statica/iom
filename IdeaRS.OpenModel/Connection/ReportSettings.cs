@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using System.Runtime.Serialization;
+﻿using System.Runtime.Serialization;
 
 namespace IdeaRS.OpenModel.Connection
 {
@@ -43,6 +37,22 @@ namespace IdeaRS.OpenModel.Connection
 		/// Formulas are presented for all results
 		/// </summary>
 		All
+	}
+
+	/// <summary>
+	/// Defines a unit type.
+	/// </summary>
+	public enum UnitType
+	{
+		/// <summary>
+		/// Metric
+		/// </summary>
+		Metric,
+
+		/// <summary>
+		/// Imperial
+		/// </summary>
+		Imperial,
 	}
 
 	/// <summary>
@@ -92,6 +102,12 @@ namespace IdeaRS.OpenModel.Connection
 		/// </summary>
 		[DataMember]
 		public string CultureName { get; set; }
+
+		/// <summary>
+		/// The name of the required culture of the report
+		/// </summary>
+		[DataMember]
+		public UnitType Unit { get; set; }
 
 		/// <summary>
 		/// Indicates if formulas are in report

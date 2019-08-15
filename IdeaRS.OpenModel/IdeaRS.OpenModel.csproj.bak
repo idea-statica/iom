@@ -329,9 +329,11 @@
     <Compile Include="Setups\SteelSetup.cs" />
     <Compile Include="Setups\SteelSetupECEN.cs" />
     <Compile Include="Setups\SteelSetupRUS.cs" />
+    </None>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Attributes\OpenModelClassAttribute.cs" />
     <Compile Include="OpenModel.cs" />
+    <None Include="IdeaRS.OpenModel.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

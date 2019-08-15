@@ -1,4 +1,6 @@
-﻿namespace IdeaRS.OpenModel.CrossSection
+﻿using IdeaRS.OpenModel.Geometry2D;
+
+namespace IdeaRS.OpenModel.CrossSection
 {
 	/// <summary>
 	/// CrossSectionFactory
@@ -308,6 +310,19 @@
 			css.Parameters.Add(new ParameterDouble() { Name = "d", Value = 0.0 });
 		}
 
+		/// <summary>
+		/// Fill center line for general cold formed css
+		/// </summary>
+		/// <param name="gcf"></param>		
+		/// <param name="region2D">We need PolyLine2D from region2D</param>
+		/// <param name="Thickness">Thickness</param>
+		/// <param name="InsideRadius">Inside radius</param>
+		public static void FillColdFormedGeneral(CrossSectionGeneralColdFormed gcf, Region2D region2D, double Thickness, double InsideRadius)
+		{
+			gcf.Centerline = region2D.Outline;
+			gcf.Thickness = Thickness;
+			gcf.Radius = InsideRadius;
+		}
 
 	}
 }

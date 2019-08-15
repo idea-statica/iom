@@ -529,6 +529,11 @@ namespace IdeaRS.OpenModel.CrossSection
 		CFLgen = 102,
 
 		/// <summary>
+		/// Cold formed - general shape
+		/// </summary>
+		CFGeneral = 103, // JAR 8.4.2019 - new general shape - cause of Tekla css import
+
+		/// <summary>
 		/// Unique Name
 		/// </summary>
 		UniqueName = 1001,

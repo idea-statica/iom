@@ -78,6 +78,10 @@ namespace IdeaRS.OpenModel
 
 			CheckMember = new List<CheckMember>();
 			ConcreteCheckSection = new List<CheckSection>();
+
+			DesignMember = new List<DesignMember>();
+			SubStructure = new List<SubStructure>();
+
 		}
 
 		/// <summary>
@@ -306,6 +310,21 @@ namespace IdeaRS.OpenModel
 		public List<ResultClass> ResultClass { get; set; }
 
 		/// <summary>
+		/// Design Member
+		/// </summary>
+		public List<DesignMember> DesignMember { get; set; }
+
+		/// <summary>
+		/// Design Member
+		/// </summary>
+		public List<SubStructure> SubStructure { get; set; }
+		
+		///// <summary>
+		///// Design Member
+		///// </summary>
+		//public List<DesignMemberInSubStructure> DesignMemberInSubStructure { get; set; }
+
+		/// <summary>
 		/// Information about Connection Setup
 		/// </summary>
 		public ConnectionSetup ConnectionSetup { get; set; }
@@ -407,6 +426,7 @@ namespace IdeaRS.OpenModel
 
 			if (lst.Any(o => (o as OpenElementId).Id == id))
 			{
+				System.Diagnostics.Debug.Assert(false, "Snažíš se přidat do IOM objekt se stejným ID");
 				return -1;
 			}
 
@@ -578,6 +598,8 @@ namespace IdeaRS.OpenModel
 				data.Add(typeof(ResultClass).Name, ResultClass);
 				data.Add(typeof(CheckMember).Name, CheckMember);
 				data.Add(typeof(CheckSection).Name, ConcreteCheckSection);
+				data.Add(typeof(SubStructure).Name, SubStructure);
+				data.Add(typeof(DesignMember).Name, DesignMember);
 			}
 
 			data[typeof(ProjectData).Name] = new ProjectData[] { ProjectData };

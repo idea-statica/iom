@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using IdeaRS.OpenModel.Geometry2D;
+using System.Collections.Generic;
 
 namespace IdeaRS.OpenModel.CrossSection
 {
@@ -102,4 +103,5 @@ namespace IdeaRS.OpenModel.CrossSection
 		/// </summary>
 		public List<CssComponent> Components { get; set; }
 	}
+
 }

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace IdeaRS.OpenModel
+﻿namespace IdeaRS.OpenModel
 {
 	/// <summary>
 	/// Steel setup RUS class
@@ -37,5 +35,63 @@ namespace IdeaRS.OpenModel
 		/// </summary>
 		public double CrtBearing { get; set; }
 
+		/// <summary>
+		/// WeldingType
+		/// </summary>
+		public WeldingType WeldingType { get; set; }
+
+		/// <summary>
+		/// WeldingType
+		/// </summary>
+		public PreloadedBoltsLoadType PreloadedBoltsLoadType { get; set; }
+
+		/// <summary>
+		/// Friction Coefficient Pbolt Default
+		/// </summary>
+		public override double FrictionCoefficientPboltDefault()
+		{
+			return 0.35;
+		}
+	}
+
+	/// <summary>
+	/// Welding Type
+	/// </summary>
+	public enum WeldingType
+	{
+		/// <summary>
+		/// Manual welding
+		/// </summary>
+		Manual,
+
+		/// <summary>
+		/// Manual welding using rod solid cross-section with diameter less than 1.4mm
+		/// </summary>
+		ManualSmallRodDiam,
+
+		/// <summary>
+		/// Automatic and machine welding
+		/// </summary>
+		AutomaticAndMachine,
+
+		/// <summary>
+		/// Automatic welding
+		/// </summary>
+		Automatic
+	}
+
+	/// <summary>
+	/// Preloaded Bolts Load Type SNIP
+	/// </summary>
+	public enum PreloadedBoltsLoadType
+	{
+		/// <summary>
+		/// Static
+		/// </summary>
+		Static,
+		/// <summary>
+		/// Dynamic
+		/// </summary>
+		Dynamic,
 	}
 }

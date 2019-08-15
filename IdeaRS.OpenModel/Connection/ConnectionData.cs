@@ -1,8 +1,5 @@
-using IdeaRS.OpenModel.Geometry3D;
 using IdeaRS.OpenModel.Model;
-using System;
 using System.Collections.Generic;
-
 
 namespace IdeaRS.OpenModel.Connection
 {
@@ -23,9 +20,19 @@ namespace IdeaRS.OpenModel.Connection
 		public List<PlateData> Plates { get; set; }
 
 		/// <summary>
+		/// Folded plate of the connection
+		/// </summary>
+		public List<FoldedPlateData> FoldedPlates { get; set; }
+
+		/// <summary>
 		/// Bolt grids which belongs to the connection
 		/// </summary>
 		public List<BoltGrid> BoltGrids { get; set; }
+
+		/// <summary>
+		/// Anchor grids which belongs to the connection
+		/// </summary>
+		public List<AnchorGrid> AnchorGrids { get; set; }
 
 		/// <summary>
 		/// Welds of the connection
@@ -36,6 +43,11 @@ namespace IdeaRS.OpenModel.Connection
 		/// ConcreteBlocksof the connection
 		/// </summary>
 		public List<ConcreteBlockData> ConcreteBlocks { get; set; }
+
+		/// <summary>
+		/// cut beam by beams
+		/// </summary>
+		public List<CutBeamByBeamData> CutBeamByBeams { get; set; }
 	}
 
 	/// <summary>
@@ -217,15 +229,47 @@ namespace IdeaRS.OpenModel.Connection
 	}
 
 	/// <summary>
-	/// Provides data of the connected beam
+	/// Data of the anchor grid
 	/// </summary>
-	public class BeamData
+	public class AnchorGrid : BoltGrid
 	{
 		/// <summary>
-		/// Id of the beam
+		/// Data of concrete block
 		/// </summary>
-		public int Id { get; set; }
+		public ConcreteBlock ConcreteBlock { get; set; }
+	}
 
+	/// <summary>
+	/// Data of concrete block
+	/// </summary>
+	public class ConcreteBlock
+	{
+		/// <summary>
+		/// Lenght of ConcreteBlock
+		/// </summary>
+		public double Lenght { get; set; }
+
+		/// <summary>
+		/// Width of ConcreteBlock
+		/// </summary>
+		public double Width { get; set; }
+
+		/// <summary>
+		/// Height of ConcreteBlock
+		/// </summary>
+		public double Height { get; set; }
+
+		/// <summary>
+		/// Material of ConcreteBlock
+		/// </summary>
+		public string Material { get; set; }
+	}
+
+	/// <summary>
+	/// Provides data of the connected beam
+	/// </summary>
+	public class BeamData : OpenElementId
+	{
 		/// <summary>
 		/// Name of the beam
 		/// </summary>
@@ -263,14 +307,24 @@ namespace IdeaRS.OpenModel.Connection
 		public bool IsAdded { get; set; }
 
 		/// <summary>
+		/// Is negative object
+		/// </summary>
+		public bool IsNegativeObject { get; set; }
+
+		/// <summary>
 		/// Added member
 		/// </summary>
-		public Member1D AddedMember { get; set; }
+		public ReferenceElement AddedMember { get; set; }
 
 		/// <summary>
 		/// Mirro by Y
 		/// </summary>
 		public bool MirrorY { get; set; }
+
+		/// <summary>
+		/// The reference line of the member is in the center of gravity of the cross-section
+		/// </summary>
+		public bool RefLineInCenterOfGravity { get; set; }
 	}
 
 	/// <summary>
@@ -378,13 +432,8 @@ namespace IdeaRS.OpenModel.Connection
 	/// <summary>
 	/// Provides data of the single plate
 	/// </summary>
-	public class PlateData
+	public class PlateData : OpenElementId
 	{
-		/// <summary>
-		/// Plate unique ID
-		/// </summary>
-		public int Id { get; set; }
-
 		/// <summary>
 		/// Name of the plate
 		/// </summary>
@@ -435,6 +484,73 @@ namespace IdeaRS.OpenModel.Connection
 		/// In the case of the imported connection from another application
 		/// </summary>
 		public string OriginalModelId { get; set; }
+
+		/// <summary>
+		/// Is negative object
+		/// </summary>
+		public bool IsNegativeObject { get; set; }
+	}
+
+	/// <summary>
+	/// Provides data of the folded plate
+	/// </summary>
+	public class FoldedPlateData
+	{
+		/// <summary>
+		/// List of plates belong to folded plate
+		/// </summary>
+		public List<PlateData> Plates { get; set; }
+
+		/// <summary>
+		/// List of bends connected plates of foldedplate
+		/// </summary>
+		public List<BendData> Bends { get; set; }
+	}
+
+	/// <summary>
+	/// Provides data of bend
+	/// </summary>
+	public class BendData
+	{
+		/// <summary>
+		/// First plate
+		/// </summary>
+		public int Plate1Id { get ;set; }
+
+		/// <summary>
+		/// Second plate
+		/// </summary>
+		public int Plate2Id { get; set; }
+
+		/// <summary>
+		/// Radius of bend
+		/// </summary>
+		public double Radius { get; set; }
+
+		/// <summary>
+		/// Side boundary first plate point 1
+		/// </summary>
+		public IdeaRS.OpenModel.Geometry3D.Point3D Point1OfSideBoundary1 { get; set; }
+
+		/// <summary>
+		/// Side boundary first plate point 2
+		/// </summary>
+		public IdeaRS.OpenModel.Geometry3D.Point3D Point2OfSideBoundary1 { get; set; }
+
+		/// <summary>
+		/// End Face Normal vector
+		/// </summary>
+		public IdeaRS.OpenModel.Geometry3D.Vector3D EndFaceNormal1 { get; set; }
+
+		/// <summary>
+		/// Side boundary second plate point 1
+		/// </summary>
+		public IdeaRS.OpenModel.Geometry3D.Point3D Point1OfSideBoundary2 { get; set; }
+
+		/// <summary>
+		/// Side boundary second plate point 2
+		/// </summary>
+		public IdeaRS.OpenModel.Geometry3D.Point3D Point2OfSideBoundary2 { get; set; }
 	}
 
 	/// <summary>
@@ -448,13 +564,29 @@ namespace IdeaRS.OpenModel.Connection
 		public IdeaRS.OpenModel.Geometry3D.Point3D PlanePoint { get; set; }
 
 		/// <summary>
-		/// 3DPlane Normal AxisX
+		/// Plane normal
 		/// </summary>
-		public IdeaRS.OpenModel.Geometry3D.Vector3D PlaneNormalX { get; set; }
+		public IdeaRS.OpenModel.Geometry3D.Vector3D NormalVector { get; set; }
+	}
+
+	/// <summary>
+	/// Provides data of the cut objec by object
+	/// </summary>
+	public class CutBeamByBeamData
+	{
+		/// <summary>
+		/// Modified object
+		/// </summary>
+		public ReferenceElement ModifiedObject { get; set; }
 
 		/// <summary>
-		/// 3DPlane Normal AxisY
+		/// Cutting by object
 		/// </summary>
-		public IdeaRS.OpenModel.Geometry3D.Vector3D PlaneNormalY { get; set; }
+		public ReferenceElement CuttingObject { get; set; }
+
+		/// <summary>
+		/// is cut welded
+		/// </summary>
+		public bool IsWeld { get; set; }
 	}
 }

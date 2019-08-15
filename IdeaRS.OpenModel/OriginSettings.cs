@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace IdeaRS.OpenModel
 {
@@ -70,6 +67,11 @@ namespace IdeaRS.OpenModel
 		/// Russia design code
 		/// </summary>
 		RUS = 11,
+
+		/// <summary>
+		/// China design code
+		/// </summary>
+		CHN = 12,
 	}
 
 	/// <summary>
