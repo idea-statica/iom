@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.12.10.0" projectFile="C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\IdeaOpenModel.shfbproj" started="15.08.2019 11:53:26">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.12.10.0" projectFile="C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\IdeaOpenModel.shfbproj" started="20.08.2019 12:21:58">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -22,27 +22,27 @@ Source: C:\idea_deve\release_10.1\_Sources\StructuralModel\IdeaRS.OpenModel\Idea
     Found project &#39;C:\idea_deve\release_10.1\_Sources\StructuralModel\IdeaRS.OpenModel\IdeaRS.OpenModel.csproj&#39;
 
 Parsing project files
-    Found assembly &#39;C:\idea_deve\release_10.1\_Sources\StructuralModel\IdeaRS.OpenModel\..\..\bin\Debug\IdeaRS.OpenModel.dll&#39;
+    Found assembly &#39;C:\idea_deve\release_10.1\_Sources\StructuralModel\IdeaRS.OpenModel\..\..\bin\Release\IdeaRS.OpenModel.dll&#39;
 
 References to include (excluding framework assemblies):
     None
 
 Copying XML comments files
-    C:\idea_deve\release_10.1\_Sources\StructuralModel\IdeaRS.OpenModel\..\..\bin\Debug\IdeaRS.OpenModel.xml -&gt; C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\IdeaRS.OpenModel.xml
+    C:\idea_deve\release_10.1\_Sources\StructuralModel\IdeaRS.OpenModel\..\..\bin\Release\IdeaRS.OpenModel.XML -&gt; C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\IdeaRS.OpenModel.XML
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00,0210
+</plugIn>    Last step completed in 00:00:00,0350
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00,0157
+    Last step completed in 00:00:00,0260
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateRefInfo.proj]
-Build started 15.08.2019 11:53:27.
+Build started 20.08.2019 12:21:59.
 Project &quot;C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -52,7 +52,7 @@ GenerateRefInfo:
   Portions Copyright c 2006-2018, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 17 namespaces, 429 types, and 2660 members
+  Wrote information on 17 namespaces, 429 types, and 2657 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2018.12.10.0)
   Copyright c 2006-2018, Microsoft Corporation, All Rights Reserved.
@@ -62,13 +62,13 @@ Done Building Project &quot;C:\idea_deve\release_10.1\_Sources\Solutions\Documen
 
 Build succeeded.
 
-Time Elapsed 00:00:01.34
-    Last step completed in 00:00:01,4690
+Time Elapsed 00:00:01.38
+    Last step completed in 00:00:01,5140
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - TransformManifest.proj]
-Build started 15.08.2019 11:53:29.
+Build started 20.08.2019 12:22:01.
 Project &quot;C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2018.12.10.0)
@@ -88,12 +88,12 @@ Done Building Project &quot;C:\idea_deve\release_10.1\_Sources\Solutions\Documen
 
 Build succeeded.
 
-Time Elapsed 00:00:01.87
-    Last step completed in 00:00:01,9709
+Time Elapsed 00:00:01.98
+    Last step completed in 00:00:02,0930
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00,0950
+    Last step completed in 00:00:00,0970
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -114,7 +114,7 @@ C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Images\CFRegP.png -&g
 C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Images\CFRHS.png -&gt; C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\Output\Website\Images\CFRHS.png
 C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Images\CFSigma.png -&gt; C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\Output\Website\Images\CFSigma.png
 C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Images\CFU.png -&gt; C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\Output\Website\Images\CFU.png
-    Last step completed in 00:00:00,0287
+    Last step completed in 00:00:00,0350
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -123,7 +123,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 15.08.2019 11:53:31.
+Build started 20.08.2019 12:22:03.
 Project &quot;C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2018.12.10.0)
@@ -136,24 +136,24 @@ Build succeeded.
 
 Time Elapsed 00:00:00.17
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00,3013
+    Last step completed in 00:00:00,2960
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00,1719
+    Last step completed in 00:00:00,2060
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00,0156
+    Last step completed in 00:00:00,0180
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 15.08.2019 11:53:31.
+Build started 20.08.2019 12:22:03.
 Project &quot;C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2018.12.10.0)
@@ -184,7 +184,7 @@ BuildAssembler : warning : ShowMissingComponent: [T:IdeaRS.OpenModel.Result.Resu
 BuildAssembler : warning : ShowMissingComponent: [P:IdeaRS.OpenModel.Result.ResultOnMesh.Displacement] Missing &lt;summary&gt; documentation [C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:IdeaRS.OpenModel.Result.ResultOnMesh.Nodes] Missing &lt;summary&gt; documentation [C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:IdeaRS.OpenModel.Result.ResultOnMesh.Value] Missing &lt;summary&gt; documentation [C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\BuildTopics.proj]
-  Processed 2561 topic(s)
+  Processed 2558 topic(s)
   23 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
@@ -192,12 +192,12 @@ Done Building Project &quot;C:\idea_deve\release_10.1\_Sources\Solutions\Documen
 
 Build succeeded.
 
-Time Elapsed 00:00:10.48
-    Last step completed in 00:00:10,6063
+Time Elapsed 00:00:10.65
+    Last step completed in 00:00:10,7760
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00,0000
+    Last step completed in 00:00:00,0080
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -209,11 +209,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\Output\Website
-Processed 2561 HTML files
+Processed 2558 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\WebKI.xml
 Saving website table of contents to C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\WebTOC.xml
-    Last step completed in 00:00:05,2528
+    Last step completed in 00:00:05,3670
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -295,18 +295,18 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-3.3.1.min.js -&gt; C:\idea_deve\release_10.1\_Sources\Solutions\Documentation\Help\Working\Output\Website\scripts\jquery-3.3.1.min.js
-    Last step completed in 00:00:00,3594
+    Last step completed in 00:00:00,1930
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00,0000
+    Last step completed in 00:00:00,0010
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:10,0644
+</plugIn>    Last step completed in 00:00:10,7200
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -317,16 +317,16 @@ Copied 1500 files
 Copied 2000 files
 Copied 2500 files
 Copied 3000 files
-Copied 3320 files for the website content
-    Last step completed in 00:00:03,9563
+Copied 3317 files for the website content
+    Last step completed in 00:00:04,2111
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00,4693
+    Last step completed in 00:00:00,3990
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 15.08.2019 11:54:02.  Total time: 00:00:35,4435
+Build completed successfully at 20.08.2019 12:22:35.  Total time: 00:00:36,8751
 
 </buildStep>
 </shfbBuild>

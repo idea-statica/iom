@@ -197,12 +197,10 @@
   <HelpKINode Title="BeamData property" Url="html/f5e368e9-1866-b442-1810-b6214b90941e.htm" />
   <HelpKINode Title="BeamData.AddedMember property" Url="html/688714a5-c671-4bf5-15ac-b8a6cf930db5.htm" />
   <HelpKINode Title="BeamData.BeamData constructor" Url="html/c8175bba-3b7a-4eae-065a-68613ac1834d.htm" />
-  <HelpKINode Title="BeamData.CrossSectionType property" Url="html/de01bd24-f7f7-2f58-90ce-bcd6e3cfdd50.htm" />
   <HelpKINode Title="BeamData.Cuts property" Url="html/3210a4d4-e2fb-43c4-3360-2c776306cf2a.htm" />
   <HelpKINode Title="BeamData.IsAdded property" Url="html/ce6e1447-5c36-062e-27f8-012517fc9085.htm" />
   <HelpKINode Title="BeamData.IsNegativeObject property" Url="html/b938b7f2-18e3-e986-59fe-1770efe9ec5d.htm" />
   <HelpKINode Title="BeamData.MirrorY property" Url="html/b1c0aa45-daeb-6090-381e-f8bbc9ae424b.htm" />
-  <HelpKINode Title="BeamData.MPRLName property" Url="html/29cee824-7b83-0216-0f38-a7034a81559f.htm" />
   <HelpKINode Title="BeamData.Name property" Url="html/748aa40f-8fdc-a3b5-5a43-e3dfe3d8d607.htm" />
   <HelpKINode Title="BeamData.OriginalModelId property" Url="html/c526fda8-a476-bf3e-732b-2ecc49f92bb0.htm" />
   <HelpKINode Title="BeamData.Plates property" Url="html/b9d3c9b1-1dfd-215a-7e12-74b731ec640b.htm" />
@@ -307,8 +305,8 @@
   <HelpKINode Title="BentUpBar.TopLength property" Url="html/da8dae98-6022-479b-143f-a2bdbea09e5d.htm" />
   <HelpKINode Title="BentUpBarsReduction enumeration member" Url="html/a049c6c0-8240-c0d8-cef1-b1fa8aca3b3c.htm" />
   <HelpKINode Title="Bevel enumeration member">
-    <HelpKINode Title="WeldType Enumeration" Url="html/722ccc5e-a301-19b2-2da0-00969bf409b3.htm" />
     <HelpKINode Title="WeldType Enumeration" Url="html/65c3586d-3f3f-abf4-38b4-7d00ae7df351.htm" />
+    <HelpKINode Title="WeldType Enumeration" Url="html/722ccc5e-a301-19b2-2da0-00969bf409b3.htm" />
   </HelpKINode>
   <HelpKINode Title="BiggerSlenderner enumeration member" Url="html/a1c518c0-3a75-251f-5bc6-f48657c186ca.htm" />
   <HelpKINode Title="Bilinear enumeration member">
@@ -1538,7 +1536,6 @@
   <HelpKINode Title="CrossSectionThermalAttribute.CrossSectionThermalAttribute constructor" Url="html/bbc92c9e-6b9b-dcd2-8992-004af10f7c0c.htm" />
   <HelpKINode Title="CrossSectionType enumeration" Url="html/dac0216e-8135-ae07-8f25-2d90628e8a7b.htm" />
   <HelpKINode Title="CrossSectionType property">
-    <HelpKINode Title="BeamData.CrossSectionType Property " Url="html/de01bd24-f7f7-2f58-90ce-bcd6e3cfdd50.htm" />
     <HelpKINode Title="CrossSectionGeneralColdFormed.CrossSectionType Property " Url="html/5900d6a9-550e-ded4-ef9b-66ab1c8ae6be.htm" />
     <HelpKINode Title="CrossSectionParameter.CrossSectionType Property " Url="html/3c07fee2-5bed-4c43-7c73-46c6bac8a507.htm" />
   </HelpKINode>
@@ -1782,8 +1779,8 @@
   <HelpKINode Title="DivisionStrain enumeration member" Url="html/a049c6c0-8240-c0d8-cef1-b1fa8aca3b3c.htm" />
   <HelpKINode Title="DoNotUpdate enumeration member" Url="html/8f0b2ca2-9da2-e315-23ec-d08c5285afb2.htm" />
   <HelpKINode Title="DoubleFillet enumeration member">
-    <HelpKINode Title="WeldType Enumeration" Url="html/65c3586d-3f3f-abf4-38b4-7d00ae7df351.htm" />
     <HelpKINode Title="WeldType Enumeration" Url="html/722ccc5e-a301-19b2-2da0-00969bf409b3.htm" />
+    <HelpKINode Title="WeldType Enumeration" Url="html/65c3586d-3f3f-abf4-38b4-7d00ae7df351.htm" />
   </HelpKINode>
   <HelpKINode Title="Dutch enumeration member" Url="html/04f00597-3ff4-ffcd-9ca3-5c865386de63.htm" />
   <HelpKINode Title="Dynamic enumeration member" Url="html/11343419-5b3d-f295-6f3c-37fdb14f01a2.htm" />
@@ -2199,17 +2196,17 @@
   <HelpKINode Title="FromEnd enumeration member" Url="html/3ef8bbc2-90d3-d538-bf94-7d493748016c.htm" />
   <HelpKINode Title="FromSetup enumeration member" Url="html/a1c518c0-3a75-251f-5bc6-f48657c186ca.htm" />
   <HelpKINode Title="Ftk property" Url="html/d3fcc744-3412-02ff-a17b-e4771d35d886.htm" />
+  <HelpKINode Title="fu property">
+    <HelpKINode Title="MatSteelAUS.fu Property " Url="html/8da1b7d8-540d-f67c-5a0b-2147288deb34.htm" />
+    <HelpKINode Title="MatSteelCHN.fu Property " Url="html/ca7b3dd4-a714-b3b4-ed6c-f4d8319e93bc.htm" />
+    <HelpKINode Title="MatSteelEc2.fu Property " Url="html/fa611c5b-a90d-2c2b-eee3-d49e3a3fd24d.htm" />
+    <HelpKINode Title="MatSteelAISC.fu Property " Url="html/5a1360c7-dcfa-4bf9-93f7-0da8e4e8d2af.htm" />
+    <HelpKINode Title="MatSteelCISC.fu Property " Url="html/5c1c39fc-1316-9a27-5862-a87929529536.htm" />
+    <HelpKINode Title="MatSteelRUS.fu Property " Url="html/c2c851aa-20fb-f237-cb31-965752bb9793.htm" />
+  </HelpKINode>
   <HelpKINode Title="Fu property">
     <HelpKINode Title="MaterialStrength.Fu Property " Url="html/be63ed87-5f70-5ebb-76ce-372108647b44.htm" />
     <HelpKINode Title="ConcreteULSCheckResultDiagramCapacity.Fu Property " Url="html/b04ce490-de22-ecd1-e642-83b832c2343b.htm" />
-  </HelpKINode>
-  <HelpKINode Title="fu property">
-    <HelpKINode Title="MatSteelAISC.fu Property " Url="html/5a1360c7-dcfa-4bf9-93f7-0da8e4e8d2af.htm" />
-    <HelpKINode Title="MatSteelCHN.fu Property " Url="html/ca7b3dd4-a714-b3b4-ed6c-f4d8319e93bc.htm" />
-    <HelpKINode Title="MatSteelAUS.fu Property " Url="html/8da1b7d8-540d-f67c-5a0b-2147288deb34.htm" />
-    <HelpKINode Title="MatSteelCISC.fu Property " Url="html/5c1c39fc-1316-9a27-5862-a87929529536.htm" />
-    <HelpKINode Title="MatSteelEc2.fu Property " Url="html/fa611c5b-a90d-2c2b-eee3-d49e3a3fd24d.htm" />
-    <HelpKINode Title="MatSteelRUS.fu Property " Url="html/c2c851aa-20fb-f237-cb31-965752bb9793.htm" />
   </HelpKINode>
   <HelpKINode Title="Fu1 property" Url="html/486bbc5a-ae44-e361-fd24-1e0eae9552e2.htm" />
   <HelpKINode Title="Fu2 property" Url="html/45974613-bbc4-335b-4801-acdb24e9f32b.htm" />
@@ -2229,19 +2226,19 @@
     <HelpKINode Title="PointLoadOnLine.Fx Property " Url="html/bbd040c8-21e2-96b5-ccdd-f292ecaa70fb.htm" />
   </HelpKINode>
   <HelpKINode Title="Fy property">
-    <HelpKINode Title="MaterialStrength.Fy Property " Url="html/9cdaaedb-faf5-c8aa-0c22-e07781e1b903.htm" />
-    <HelpKINode Title="PointLoadOnLine.Fy Property " Url="html/9b99acdb-b887-1b72-4e82-bf4cef4395d2.htm" />
     <HelpKINode Title="LoadInPoint.Fy Property " Url="html/ea161437-93e8-f188-e1ec-df68e41025aa.htm" />
     <HelpKINode Title="LoadOnSurface.Fy Property " Url="html/25e94330-02c8-4fd8-37db-0dec56c7eb89.htm" />
     <HelpKINode Title="MatReinforcementACI.Fy Property " Url="html/a426e51f-cea4-6ffb-fd72-9feaaf66d2c0.htm" />
+    <HelpKINode Title="PointLoadOnLine.Fy Property " Url="html/9b99acdb-b887-1b72-4e82-bf4cef4395d2.htm" />
+    <HelpKINode Title="MaterialStrength.Fy Property " Url="html/9cdaaedb-faf5-c8aa-0c22-e07781e1b903.htm" />
   </HelpKINode>
   <HelpKINode Title="fy property">
     <HelpKINode Title="MatSteelAISC.fy Property " Url="html/947f63b7-7897-a4e4-e2c0-856880eaa03e.htm" />
     <HelpKINode Title="MatSteelAUS.fy Property " Url="html/b774a1c0-442d-c5db-2b96-ccec5046486d.htm" />
     <HelpKINode Title="MatSteelCHN.fy Property " Url="html/73635462-2fa7-e006-7b0d-0d11609e6d2d.htm" />
     <HelpKINode Title="MatSteelCISC.fy Property " Url="html/87448bd0-1dd1-51e6-5ac7-bbab72cb2f39.htm" />
-    <HelpKINode Title="MatSteelEc2.fy Property " Url="html/72f42729-47e4-d85a-cc4f-a38fecb84bda.htm" />
     <HelpKINode Title="MatSteelRUS.fy Property " Url="html/4c975221-ad16-4d9f-aba3-8cfc179b6fe8.htm" />
+    <HelpKINode Title="MatSteelEc2.fy Property " Url="html/72f42729-47e4-d85a-cc4f-a38fecb84bda.htm" />
   </HelpKINode>
   <HelpKINode Title="fy40 property">
     <HelpKINode Title="MatSteelAISC.fy40 Property " Url="html/53a603af-fd89-9a3c-b06f-412a96c08c8f.htm" />
@@ -3008,8 +3005,8 @@
   <HelpKINode Title="InitialStiffnessZ property" Url="html/4f5e5f99-6dbd-1eb0-43fd-c1ffdacc7fbd.htm" />
   <HelpKINode Title="InitilaStateofCrossSection enumeration member" Url="html/413d3ea9-9036-4fd9-1680-3a995a6dd49b.htm" />
   <HelpKINode Title="InLcs enumeration member">
-    <HelpKINode Title="LoadDirection Enumeration" Url="html/accc7822-a2a2-3545-22da-b2d2242d2d9b.htm" />
     <HelpKINode Title="LoadDirection Enumeration" Url="html/e93f729c-0ff2-aae2-3bf5-179ad27331e9.htm" />
+    <HelpKINode Title="LoadDirection Enumeration" Url="html/accc7822-a2a2-3545-22da-b2d2242d2d9b.htm" />
   </HelpKINode>
   <HelpKINode Title="InnerLines property" Url="html/9354e5ae-4bf1-f64f-7dc6-755c9f3a396f.htm" />
   <HelpKINode Title="InnerMessage property" Url="html/35be570b-8b8c-1c3f-e6e1-731bfff54484.htm" />
@@ -3292,8 +3289,8 @@
   <HelpKINode Title="LoadBase.Id property" Url="html/899d4dc3-e22b-f23a-3454-f3b0375d86df.htm" />
   <HelpKINode Title="LoadBase.LoadBase constructor" Url="html/3fe56284-cef3-c3e0-5231-b1fcc4223080.htm" />
   <HelpKINode Title="LoadCase class">
-    <HelpKINode Title="LoadCase Class" Url="html/413c8f97-6215-a54b-3d5b-eaa9dfc09610.htm" />
     <HelpKINode Title="LoadCase Class" Url="html/2435841a-a301-7fd5-fe57-dde4d8486b74.htm" />
+    <HelpKINode Title="LoadCase Class" Url="html/413c8f97-6215-a54b-3d5b-eaa9dfc09610.htm" />
     <HelpKINode Title="constructor" Url="html/2182ed17-2b50-4f36-8ebd-79e843a8b3b1.htm" />
     <HelpKINode Title="constructor" Url="html/289b5ca4-a7c0-66fe-8fbb-424873dc7668.htm" />
     <HelpKINode Title="properties" Url="html/d0d65128-165c-cc4b-58b9-b0d2dc38d084.htm" />
@@ -3340,8 +3337,8 @@
   <HelpKINode Title="LoadCaseType property" Url="html/0ddb7e48-adf3-516e-3ef3-f70d8988e55e.htm" />
   <HelpKINode Title="LoadChart property" Url="html/dba699aa-22f8-9259-a0c5-cc9bd95ec6c2.htm" />
   <HelpKINode Title="LoadDirection enumeration">
-    <HelpKINode Title="LoadDirection Enumeration" Url="html/accc7822-a2a2-3545-22da-b2d2242d2d9b.htm" />
     <HelpKINode Title="LoadDirection Enumeration" Url="html/e93f729c-0ff2-aae2-3bf5-179ad27331e9.htm" />
+    <HelpKINode Title="LoadDirection Enumeration" Url="html/accc7822-a2a2-3545-22da-b2d2242d2d9b.htm" />
   </HelpKINode>
   <HelpKINode Title="LoadForce enumeration member" Url="html/33920c28-d2b1-946f-1884-ba14a47069c3.htm" />
   <HelpKINode Title="LoadFromStream method">
@@ -4044,7 +4041,6 @@
   <HelpKINode Title="MoistureContent property" Url="html/ade9b8fe-43c3-42ef-1d6d-7a88600e5bd1.htm" />
   <HelpKINode Title="MomentResultant enumeration member" Url="html/a1c518c0-3a75-251f-5bc6-f48657c186ca.htm" />
   <HelpKINode Title="MprlElementID property" Url="html/cc6a4261-9c40-6bf1-b87b-2137335658ba.htm" />
-  <HelpKINode Title="MPRLName property" Url="html/29cee824-7b83-0216-0f38-a7034a81559f.htm" />
   <HelpKINode Title="MprlRecord class">
     <HelpKINode Title="MprlRecord Class" Url="html/9430b4e3-d025-4bb9-fc09-9de03a00d627.htm" />
     <HelpKINode Title="constructor" Url="html/bfbebaba-1c6f-b2b4-ce5f-9d7449548d55.htm" />
@@ -4613,10 +4609,7 @@
     <HelpKINode Title="Region2D.Outline Property " Url="html/6c6faaf3-9a56-8193-1fc0-e4ea3767b8df.htm" />
     <HelpKINode Title="Region3D.Outline Property " Url="html/3a096330-b62c-f974-4035-fc210618eecf.htm" />
   </HelpKINode>
-  <HelpKINode Title="OutlinePoints property">
-    <HelpKINode Title="ConcreteBlockData.OutlinePoints Property " Url="html/b75df548-9d17-a1eb-a4d2-8312cb0ecbe6.htm" />
-    <HelpKINode Title="PlateData.OutlinePoints Property " Url="html/c5e0556d-7378-e103-4528-e7ab276e7495.htm" />
-  </HelpKINode>
+  <HelpKINode Title="OutlinePoints property" Url="html/b75df548-9d17-a1eb-a4d2-8312cb0ecbe6.htm" />
   <HelpKINode Title="Oval enumeration member" Url="html/dac0216e-8135-ae07-8f25-2d90628e8a7b.htm" />
   <HelpKINode Title="Overall property" Url="html/83bb1a78-597f-7ba9-9b87-199197a5813b.htm" />
   <HelpKINode Title="OverallCheck enumeration member" Url="html/b1c4d367-0b8d-848e-79a2-dc59122d4c49.htm" />
@@ -4764,7 +4757,6 @@
   <HelpKINode Title="PlateData.Name property" Url="html/183737b5-ce24-b6ff-dfb8-8b73aa8eae99.htm" />
   <HelpKINode Title="PlateData.Origin property" Url="html/544b1a73-87f7-fafd-b851-dd5ff1092d34.htm" />
   <HelpKINode Title="PlateData.OriginalModelId property" Url="html/810b01f0-9046-ef60-86de-23468404aa00.htm" />
-  <HelpKINode Title="PlateData.OutlinePoints property" Url="html/c5e0556d-7378-e103-4528-e7ab276e7495.htm" />
   <HelpKINode Title="PlateData.PlateData constructor" Url="html/91620882-772f-778f-c466-c2620d6d0154.htm" />
   <HelpKINode Title="PlateData.Region property" Url="html/8fd9c4a1-f34b-d663-7907-7454eeba7779.htm" />
   <HelpKINode Title="PlateData.Thickness property" Url="html/ed1ae78f-50c8-7d40-ae72-677f4ddeb944.htm" />
@@ -6525,8 +6517,8 @@
   <HelpKINode Title="ValueY property" Url="html/7f053b32-83f6-a6ed-9993-9dd61e6fd1ac.htm" />
   <HelpKINode Title="ValueZ property" Url="html/9c71df2f-a4fe-d16c-69f6-25d90355c6e7.htm" />
   <HelpKINode Title="Variable enumeration member">
-    <HelpKINode Title="LoadCaseType Enumeration" Url="html/b7808982-f864-73ca-eba3-c55748218859.htm" />
     <HelpKINode Title="LoadCaseType Enumeration" Url="html/bc3da4a6-47d7-2cdf-2308-cc6ab2a56164.htm" />
+    <HelpKINode Title="LoadCaseType Enumeration" Url="html/b7808982-f864-73ca-eba3-c55748218859.htm" />
     <HelpKINode Title="LoadGroupType Enumeration" Url="html/ec65b1c7-3591-5848-c6c5-006839e3b5c3.htm" />
   </HelpKINode>
   <HelpKINode Title="Variable property" Url="html/cd8b8a83-a32a-8847-2392-a1efeacdc74d.htm" />
@@ -6657,8 +6649,8 @@
   <HelpKINode Title="WeldParam.WeldType property" Url="html/2e299332-ce38-5af9-57c7-e5231b84d350.htm" />
   <HelpKINode Title="Welds property" Url="html/2f1df7a6-ad0e-f3f9-79e4-29f9db04e000.htm" />
   <HelpKINode Title="WeldType enumeration">
-    <HelpKINode Title="WeldType Enumeration" Url="html/722ccc5e-a301-19b2-2da0-00969bf409b3.htm" />
     <HelpKINode Title="WeldType Enumeration" Url="html/65c3586d-3f3f-abf4-38b4-7d00ae7df351.htm" />
+    <HelpKINode Title="WeldType Enumeration" Url="html/722ccc5e-a301-19b2-2da0-00969bf409b3.htm" />
   </HelpKINode>
   <HelpKINode Title="WeldType property">
     <HelpKINode Title="WeldData.WeldType Property " Url="html/3054d61b-e4d5-0d6d-1668-81495c24dc5a.htm" />
