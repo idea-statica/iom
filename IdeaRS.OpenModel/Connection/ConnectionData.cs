@@ -1,5 +1,6 @@
 using IdeaRS.OpenModel.Model;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 
 namespace IdeaRS.OpenModel.Connection
 {
@@ -268,62 +269,62 @@ namespace IdeaRS.OpenModel.Connection
 	/// <summary>
 	/// Provides data of the connected beam
 	/// </summary>
+	[DataContract]
 	public class BeamData : OpenElementId
 	{
 		/// <summary>
 		/// Name of the beam
 		/// </summary>
+		[DataMember]
 		public string Name { get; set; }
 
 		/// <summary>
 		/// Plates of the beam
 		/// </summary>
+		[DataMember]
 		public List<PlateData> Plates { get; set; }
-
-		/// <summary>
-		/// Type of cross section
-		/// </summary>
-		public string CrossSectionType { get; set; }
-
-		/// <summary>
-		/// MPRL name of beam
-		/// </summary>
-		public string MPRLName { get; set; }
 
 		/// <summary>
 		/// Get or set the identification in the original model
 		/// In the case of the imported connection from another application
 		/// </summary>
+		[DataMember]
 		public string OriginalModelId { get; set; }
 
 		/// <summary>
 		/// Cuts on the beam
 		/// </summary>
+		[DataMember]
 		public List<CutData> Cuts { get; set; }
 
 		/// <summary>
 		/// Is addes beam
 		/// </summary>
+		[DataMember]
 		public bool IsAdded { get; set; }
 
 		/// <summary>
 		/// Is negative object
 		/// </summary>
+		[DataMember]
 		public bool IsNegativeObject { get; set; }
 
 		/// <summary>
 		/// Added member
 		/// </summary>
+		[DataMember]
 		public ReferenceElement AddedMember { get; set; }
 
 		/// <summary>
 		/// Mirro by Y
 		/// </summary>
+		[DataMember]
 		public bool MirrorY { get; set; }
 
 		/// <summary>
 		/// The reference line of the member is in the center of gravity of the cross-section
 		/// </summary>
+		[DataMember]
 		public bool RefLineInCenterOfGravity { get; set; }
 	}
 
@@ -432,62 +433,68 @@ namespace IdeaRS.OpenModel.Connection
 	/// <summary>
 	/// Provides data of the single plate
 	/// </summary>
+	[DataContract]
 	public class PlateData : OpenElementId
 	{
 		/// <summary>
 		/// Name of the plate
 		/// </summary>
+		[DataMember]
 		public string Name { get; set; }
 
 		/// <summary>
 		/// Thickness of the plate
 		/// </summary>
+		[DataMember]
 		public double Thickness { get; set; }
 
 		/// <summary>
 		/// Name of the material
 		/// </summary>
+		[DataMember]
 		public string Material { get; set; }
-
-		/// <summary>
-		/// Outline points
-		/// </summary>
-		public List<IdeaRS.OpenModel.Geometry2D.Point2D> OutlinePoints { get; set; }
 
 		/// <summary>
 		/// Origin of the plate LCS
 		/// </summary>
+		[DataMember]
 		public IdeaRS.OpenModel.Geometry3D.Point3D Origin { get; set; }
 
 		/// <summary>
 		/// LCS - Axis X
 		/// </summary>
+		[DataMember]
 		public IdeaRS.OpenModel.Geometry3D.Vector3D AxisX { get; set; }
 
 		/// <summary>
 		/// LCS - Axis Y
 		/// </summary>
+		[DataMember]
 		public IdeaRS.OpenModel.Geometry3D.Vector3D AxisY { get; set; }
 
 		/// <summary>
 		/// LCS - Axis Z
 		/// </summary>
+		[DataMember]
 		public IdeaRS.OpenModel.Geometry3D.Vector3D AxisZ { get; set; }
 
 		/// <summary>
 		/// Geometry of the plate in svg format
 		/// </summary>
+		[DataMember]
 		public string Region { get; set; }
 
 		/// <summary>
 		/// Get or set the identification in the original model
 		/// In the case of the imported connection from another application
 		/// </summary>
+		[DataMember]
 		public string OriginalModelId { get; set; }
 
 		/// <summary>
 		/// Is negative object
 		/// </summary>
+		[DataMember]
 		public bool IsNegativeObject { get; set; }
 	}
 
