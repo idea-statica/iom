@@ -1,9 +1,0 @@
-C:\git\bin\Debug\IdeaRS.OpenModel.xml
-C:\git\bin\Debug\IdeaRS.OpenModel.dll
-C:\git\bin\Debug\IdeaRS.OpenModel.pdb
-C:\git\iom\IdeaRS.OpenModel\obj\Debug\IdeaRS.OpenModel.csprojAssemblyReference.cache
-C:\git\iom\IdeaRS.OpenModel\obj\Debug\IdeaRS.OpenModel.Properties.Resources.resources
-C:\git\iom\IdeaRS.OpenModel\obj\Debug\IdeaRS.OpenModel.csproj.GenerateResource.cache
-C:\git\iom\IdeaRS.OpenModel\obj\Debug\IdeaRS.OpenModel.csproj.CoreCompileInputs.cache
-C:\git\iom\IdeaRS.OpenModel\obj\Debug\IdeaRS.OpenModel.dll
-C:\git\iom\IdeaRS.OpenModel\obj\Debug\IdeaRS.OpenModel.pdb
