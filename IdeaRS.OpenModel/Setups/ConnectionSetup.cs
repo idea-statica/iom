@@ -135,7 +135,7 @@ namespace IdeaRS.OpenModel
 			ApplyBearingCheck = false;
 			LimitDeformation = 0.03;
 			LimitDeformationCheck = false;
-			AnalysisGNL = false;
+			AnalysisGNL = true;
 			WeldingTypeSNIP = WeldingTypeSNIP.AutomaticAndMachine;
 		}
 
