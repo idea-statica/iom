@@ -1,4 +1,4 @@
-# Minimal requirments
+# Minimal requirements
 * Microsoft Visual Studio 2015 or newer (Toolset SDK 140) [Downloda link](https://www.microsoft.com/en-us/download/details.aspx?id=48159)
 * Microsoft Windows 8.1 SDK or newer [Download link](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive)
 * Microsoft .NET SDK 4.5 or newer [Download link](https://dotnet.microsoft.com/download/visual-studio-sdks)
