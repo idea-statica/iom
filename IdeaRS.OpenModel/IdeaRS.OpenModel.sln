@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaRS.OpenModel", "IdeaRS.OpenModel.csproj", "{7879B316-56A2-4172-AF85-653198E3A403}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdeaRS.OpenModel", "..\IdeaRS.OpenModel\IdeaRS.OpenModel.csproj", "{17D1C1FD-771D-4934-B8DA-C972A547B442}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +21,14 @@ Global
 		{7879B316-56A2-4172-AF85-653198E3A403}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7879B316-56A2-4172-AF85-653198E3A403}.Release|x64.ActiveCfg = Release|x64
 		{7879B316-56A2-4172-AF85-653198E3A403}.Release|x64.Build.0 = Release|x64
+		{17D1C1FD-771D-4934-B8DA-C972A547B442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D1C1FD-771D-4934-B8DA-C972A547B442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D1C1FD-771D-4934-B8DA-C972A547B442}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{17D1C1FD-771D-4934-B8DA-C972A547B442}.Debug|x64.Build.0 = Debug|Any CPU
+		{17D1C1FD-771D-4934-B8DA-C972A547B442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D1C1FD-771D-4934-B8DA-C972A547B442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D1C1FD-771D-4934-B8DA-C972A547B442}.Release|x64.ActiveCfg = Release|Any CPU
+		{17D1C1FD-771D-4934-B8DA-C972A547B442}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
