@@ -1,13 +1,15 @@
 # Supported platforms
-* .NET Standard	              2.0
-* .NET Core     	            2.0
-* .NET Framework	            4.6.1
-* Mono	                      5.4
-* Xamarin.iOS	                10.14
-* Xamarin.Mac	                3.8
-* Xamarin.Android	            8.0
-* Universal Windows Platform	10.0.16299
-* Unity	                      2018.1
+| Type        | Version         |
+| ------------- |:-------------:|
+| .NET Standard	     | 2.0|
+| .NET Core     | 2.0      |
+| .NET Framework	| 4.6.1     |
+| Mono	| 5.4     |
+| Xamarin.iOS	   	| 10.14     |
+| Xamarin.Mac	   	| 3.8     |
+| Xamarin.Android	   	| 8.0    |
+| Universal Windows Platform   	| 10.0.16299      |
+| Unity	   	| 2018.1      |
 
 # IDEA Open Model - IOM
 IOM interface can be used for the implementation of the link of any application with IDEA StatiCa products. You can find more information and samples how to use it [here](https://idea-statica.github.io/iom/).
