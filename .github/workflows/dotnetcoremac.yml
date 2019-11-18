@@ -1,0 +1,17 @@
+name: .NET Core Mac Os X
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.100-preview1-014459
+    - name: Build with dotnet
+      run: dotnet build --configuration Release
