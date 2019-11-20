@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>10.1.2</Version>
     <PackageLicenseExpression></PackageLicenseExpression>
     <Copyright>IdeaStatiCa 2019</Copyright>
     <RepositoryUrl>https://github.com/idea-statica/iom</RepositoryUrl>
