@@ -264,8 +264,7 @@ namespace IdeaRS.OpenModel.Message
 		/// <returns>Message text or empty</returns>
 		internal static string GetMessageText(MessageNumber number)
 		{
-			var sres = string.Empty;
-			messagesString.TryGetValue(number, out sres);
+			messagesString.TryGetValue(number, out string sres);
 			if (!string.IsNullOrEmpty(sres))
 			{
 				return Properties.Resources.ResourceManager.GetString(sres, Properties.Resources.Culture);

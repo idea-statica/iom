@@ -35,9 +35,11 @@ namespace IdeaRS.OpenModel.Result
 			XmlSerializer xs = new XmlSerializer(typeof(OpenModelResult));
 
 			Stream fs = new FileStream(xmlFileName, FileMode.Create);
-			XmlTextWriter writer = new XmlTextWriter(fs, Encoding.Unicode);
-			// Serialize using the XmlTextWriter.
-			writer.Formatting = Formatting.Indented;
+			XmlTextWriter writer = new XmlTextWriter(fs, Encoding.Unicode)
+			{
+				// Serialize using the XmlTextWriter.
+				Formatting = Formatting.Indented
+			};
 			xs.Serialize(writer, this);
 			writer.Close();
 			fs.Close();
@@ -65,8 +67,10 @@ namespace IdeaRS.OpenModel.Result
 		/// <returns>The new instance of Open Model Result </returns>
 		public static OpenModelResult LoadFromStream(Stream xmlFileStream)
 		{
-			XmlReaderSettings xmlSettings = new XmlReaderSettings();
-			xmlSettings.CloseInput = false;
+			XmlReaderSettings xmlSettings = new XmlReaderSettings
+			{
+				CloseInput = false
+			};
 
 			XmlReader reader = XmlReader.Create(xmlFileStream, xmlSettings);
 			XmlSerializer xs = new XmlSerializer(typeof(OpenModelResult));

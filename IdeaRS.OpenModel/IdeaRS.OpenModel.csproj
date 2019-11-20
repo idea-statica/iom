@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -8,19 +8,31 @@
     <PackageLicenseExpression></PackageLicenseExpression>
     <Copyright>IdeaStatiCa 2019</Copyright>
     <RepositoryUrl>https://github.com/idea-statica/iom</RepositoryUrl>
-    <RepositoryType>Git</RepositoryType>
-    <PackageIconUrl>https://avatars0.githubusercontent.com/u/49432985?s=200&amp;v=4</PackageIconUrl>
+    <RepositoryType>GitHub</RepositoryType>
     <PackageProjectUrl>https://github.com/idea-statica/iom</PackageProjectUrl>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <Authors>IdeaStatiCa</Authors>
+    <Company>IdeaStatiCa</Company>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageIcon>package-icon.png</PackageIcon>
+    <PackageIconUrl />
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="System.ServiceModel.Security" Version="4.6.0" />
     <PackageReference Include="WinInsider.System.Windows.Primitives" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\package-icon.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
