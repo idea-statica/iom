@@ -629,7 +629,10 @@ namespace IdeaRS.OpenModel
 			return t.Name;
 		}
 
-		private void ReferenceElementsReconstruction()
+		/// <summary>
+		/// Should be called after deserialization of the open model from xml
+		/// </summary>
+		public void ReferenceElementsReconstruction()
 		{
 			foreach (var listobj in GetData().ToArray())
 			{

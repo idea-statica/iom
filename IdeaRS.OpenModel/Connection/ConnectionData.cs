@@ -285,6 +285,18 @@ namespace IdeaRS.OpenModel.Connection
 		public List<PlateData> Plates { get; set; }
 
 		/// <summary>
+		/// Type of cross section
+		/// </summary>
+		[DataMember]
+		public string CrossSectionType { get; set; }
+
+		/// <summary>
+		/// MPRL name of beam
+		/// </summary>
+		[DataMember]
+		public string MprlName { get; set; }
+
+		/// <summary>
 		/// Get or set the identification in the original model
 		/// In the case of the imported connection from another application
 		/// </summary>
@@ -316,7 +328,7 @@ namespace IdeaRS.OpenModel.Connection
 		public ReferenceElement AddedMember { get; set; }
 
 		/// <summary>
-		/// Mirro by Y
+		/// Mirror by Y
 		/// </summary>
 		[DataMember]
 		public bool MirrorY { get; set; }
@@ -453,6 +465,12 @@ namespace IdeaRS.OpenModel.Connection
 		/// </summary>
 		[DataMember]
 		public string Material { get; set; }
+
+		/// <summary>
+		/// Outline points
+		/// </summary>
+		[DataMember]
+		public List<IdeaRS.OpenModel.Geometry2D.Point2D> OutlinePoints { get; set; }
 
 		/// <summary>
 		/// Origin of the plate LCS
