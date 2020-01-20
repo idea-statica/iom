@@ -19,6 +19,10 @@
     <Version>20.0.1</Version>
     <Description>IOM interface can be used for the implementation of the link of any application with IDEA StatiCa products.</Description>
     <SignAssembly>false</SignAssembly>
+    <Company>IDEA StatiCa</Company>
+    <PackageId>IdeaStatiCa.OpenModel</PackageId>
+    <Authors>IDEA StatiCa</Authors>
+    <Product>IdeaStatiCa.OpenModel</Product>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
