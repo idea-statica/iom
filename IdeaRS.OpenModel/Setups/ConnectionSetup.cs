@@ -40,31 +40,73 @@ namespace IdeaRS.OpenModel
 	/// </summary>
 	public enum WeldingTypeSNIP
 	{
-			/// <summary>
-			/// Manual welding
-			/// </summary>
-			Manual,
+	    /// <summary>
+	    /// Manual welding
+	    /// </summary>
+	    Manual,
 
-			/// <summary>
-			/// Manual welding using rod solid cross-section with diameter less than 1.4mm
-			/// </summary>
-			ManualSmallRodDiam,
+	    /// <summary>
+	    /// Manual welding using rod solid cross-section with diameter less than 1.4mm
+	    /// </summary>
+	    ManualSmallRodDiam,
 
-			/// <summary>
-			/// Automatic and machine welding
-			/// </summary>
-			AutomaticAndMachine,
+	    /// <summary>
+	    /// Automatic and machine welding
+	    /// </summary>
+	    AutomaticAndMachine,
 
-			/// <summary>
-			/// Automatic welding
-			/// </summary>
-			Automatic
+	    /// <summary>
+	    /// Automatic welding
+	    /// </summary>
+	    Automatic
 	}
 
 	/// <summary>
-	/// ConnectionSetup
+	/// CRT IS check
 	/// </summary>
-	public class ConnectionSetup
+	public enum CrtCompCheckIS
+	{
+		/// <summary>
+		/// IS check
+		/// </summary>
+		IS800_Cl_7_4,
+
+		/// <summary>
+		/// IS check
+		/// </summary>
+		IS456_Cl_34_4
+	}
+
+	/// <summary>
+	/// Types of cone breakout checks
+	/// </summary>
+	public enum ConeBreakoutCheckType
+    {
+        /// <summary>
+        /// Both tension and shear cone breakout checks are prerformed
+        /// </summary>
+        Both,
+
+        /// <summary>
+        /// Only tension cone breakout checks are prerformed
+        /// </summary>
+        Tension,
+
+        /// <summary>
+        /// Only shear cone breakout checks are prerformed
+        /// </summary>
+        Shear,
+
+        /// <summary>
+        /// None of cone breakout checks are prerformed
+        /// </summary>
+        None
+    }
+
+    /// <summary>
+    /// ConnectionSetup
+    /// </summary>
+    public class ConnectionSetup
 	{
 		#region Constructors
 
@@ -108,7 +150,7 @@ namespace IdeaRS.OpenModel
 			DistanceDiameterBetweenBP = 4.0;
 
 			//DeformationCapacity = true;
-			ApplyConeBreakoutCheck = true;
+			ApplyConeBreakoutCheck = ConeBreakoutCheckType.Both;
 			//ApplyGeneralDiagram = false;
 			//const double r = 0.008;
 			//double ass = Math.PI * r * r;
@@ -119,7 +161,7 @@ namespace IdeaRS.OpenModel
 			//Ktn = 1e-3;
 			//Ksn = 1e-3;
 			BearingCheck = false;
-			BearingAngle = 33.7 * Math.PI / 180;
+			BearingAngle = 26.57 * Math.PI / 180;
 			DecreasingFtrd = 0.15;
 			//WeldEccFactor = 0.0;
 			//WeldEpsFactor = 0.08;
@@ -175,7 +217,7 @@ namespace IdeaRS.OpenModel
 		/// <summary>
 		/// Apply cone breakout check
 		/// </summary>
-		public bool ApplyConeBreakoutCheck { get; set; }
+		public ConeBreakoutCheckType ApplyConeBreakoutCheck { get; set; }
 
 		/// <summary>
 		/// Pretension force fpc = k * fub * As
@@ -382,6 +424,16 @@ namespace IdeaRS.OpenModel
 		/// Welding types defined in SP16-Table 39
 		/// </summary>
 		public WeldingTypeSNIP WeldingTypeSNIP { get; set; }
+
+		/// <summary>
+		/// Crt check type
+		/// </summary>
+		public CrtCompCheckIS CrtCompCheckIS { get; set; }
+
+		/// <summary>
+		/// Max value of bolt grip
+		/// </summary>
+		public double BoltMaxGripLengthCoeff { get; set; }
 
 		/*
 		/// <summary>

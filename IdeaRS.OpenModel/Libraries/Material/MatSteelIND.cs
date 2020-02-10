@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 namespace IdeaRS.OpenModel.Material
 {
 	/// <summary>
-	/// Material steel CHN
+	/// Material steel IND
 	/// </summary>
-	[OpenModelClass("CI.StructModel.Libraries.Material.CHN.MatSteelCHN,CI.Material", "CI.StructModel.Libraries.Material.IMaterial,CI.BasicTypes", typeof(MatSteel))]
-	public class MatSteelCHN : MatSteel
+	[OpenModelClass("CI.StructModel.Libraries.Material.IND.MatSteelIND,CI.Material", "CI.StructModel.Libraries.Material.IMaterial,CI.BasicTypes", typeof(MatSteel))]
+	public class MatSteelIND : MatSteel
 	{
 		/// <summary>
 		/// Yield strength
@@ -25,12 +25,11 @@ namespace IdeaRS.OpenModel.Material
 		/// <summary>
 		/// Overstrength coefficient for fu
 		/// </summary>
-		public double PhiOMFu { get; set; }
+		public double GammaOVfu { get; set; }
 
 		/// <summary>
 		/// Overstrength coefficient for fy
 		/// </summary>
-		public double PhiOMFy { get; set; }
-
+		public double GammaOVfy { get; set; }
 	}
 }
