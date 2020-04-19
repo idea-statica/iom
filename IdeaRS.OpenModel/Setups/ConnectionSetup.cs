@@ -35,31 +35,31 @@ namespace IdeaRS.OpenModel
 		ApplyPlasticWelds = 4,
 	}
 
-	/// <summary>
-	/// Welding types defined in SP16-Table 39
-	/// </summary>
-	public enum WeldingTypeSNIP
-	{
-	    /// <summary>
-	    /// Manual welding
-	    /// </summary>
-	    Manual,
+	///// <summary>
+	///// Welding types defined in SP16-Table 39
+	///// </summary>
+	//public enum WeldingTypeSNIP
+	//{
+	//    /// <summary>
+	//    /// Manual welding
+	//    /// </summary>
+	//    Manual,
 
-	    /// <summary>
-	    /// Manual welding using rod solid cross-section with diameter less than 1.4mm
-	    /// </summary>
-	    ManualSmallRodDiam,
+	//    /// <summary>
+	//    /// Manual welding using rod solid cross-section with diameter less than 1.4mm
+	//    /// </summary>
+	//    ManualSmallRodDiam,
 
-	    /// <summary>
-	    /// Automatic and machine welding
-	    /// </summary>
-	    AutomaticAndMachine,
+	//    /// <summary>
+	//    /// Automatic and machine welding
+	//    /// </summary>
+	//    AutomaticAndMachine,
 
-	    /// <summary>
-	    /// Automatic welding
-	    /// </summary>
-	    Automatic
-	}
+	//    /// <summary>
+	//    /// Automatic welding
+	//    /// </summary>
+	//    Automatic
+	//}
 
 	/// <summary>
 	/// CRT IS check
@@ -178,7 +178,7 @@ namespace IdeaRS.OpenModel
 			LimitDeformation = 0.03;
 			LimitDeformationCheck = false;
 			AnalysisGNL = true;
-			WeldingTypeSNIP = WeldingTypeSNIP.AutomaticAndMachine;
+			//WeldingTypeSNIP = WeldingTypeSNIP.AutomaticAndMachine;
 		}
 
 		/// <summary>
@@ -420,10 +420,10 @@ namespace IdeaRS.OpenModel
 		/// </summary>
 		public double FrictionCoefficientPbolt { get; set; }
 
-		/// <summary>
-		/// Welding types defined in SP16-Table 39
-		/// </summary>
-		public WeldingTypeSNIP WeldingTypeSNIP { get; set; }
+		///// <summary>
+		///// Welding types defined in SP16-Table 39
+		///// </summary>
+		//public WeldingTypeSNIP WeldingTypeSNIP { get; set; }
 
 		/// <summary>
 		/// Crt check type

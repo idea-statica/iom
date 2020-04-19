@@ -222,4 +222,7 @@
   <data name="TimeoutError" xml:space="preserve">
     <value>Calculation timeout</value>
   </data>
+  <data name="NoInLibraryError" xml:space="preserve">
+    <value>Material in not in library.</value>
+  </data>
 </root>

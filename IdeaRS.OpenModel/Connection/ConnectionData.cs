@@ -338,6 +338,12 @@ namespace IdeaRS.OpenModel.Connection
 		/// </summary>
 		[DataMember]
 		public bool RefLineInCenterOfGravity { get; set; }
+
+		/// <summary>
+		/// Is beam bearing member
+		/// </summary>
+		[DataMember]
+		public bool IsBearingMember { get; set; }
 	}
 
 	/// <summary>
