@@ -17,12 +17,5 @@ There is the documentation of [IdeaRS.OpenModel](iom-api/index.html)
 
 IdeaRS.OpenModel is also published as [the nuget package](https://www.nuget.org/packages/IdeaStatiCa.OpenModel/).
 
-### IdeaRS.ConnectionLink
-This assembly is installed with other IDEA StatiCa products. You can find it in the installation directory. You can use it for controlling the application IdeaConnection from other applications. It enables to open a project in our application, update loading, apply template etc. [Here](samples/idea-connections/idea-connections.md) you can find examples how to use IdeaRS.ConnectionLink in your applications.
-
-There is also the documentation of [IdeaRS.ConnectionLink](connectionlink-api/index.html)
-
-### Samples
-* It shows how to create [IOM of a Steel Frame structure](https://github.com/idea-statica/iom-examples)
-* It shows how to create [Idea Connection project](samples/idea-connections/idea-connections.md) from your application.
-* It shows how to create [Idea beam project](samples/idea-beam/idea-beam.md) in C# 
+### Changes in Idea StatiCa API v20.0
+IdeaRS.ConnectionLink is obsolete and its functionality is replaced by the new API. Examples how to import steel connections or concrete reinforced sections can be found [here](https://github.com/idea-statica/iom-examples).
