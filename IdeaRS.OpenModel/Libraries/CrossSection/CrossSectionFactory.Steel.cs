@@ -494,7 +494,7 @@
 			cssO.CrossSectionType = IdeaRS.OpenModel.CrossSection.CrossSectionType.CHSPar;
 			cssO.Parameters.Add(new ParameterDouble() { Name = "R", Value = r });
 			cssO.Parameters.Add(new ParameterDouble() { Name = "T", Value = t });
+			cssO.Parameters.Add(new ParameterDouble() { Name = "t", Value = t });
 		}
-
 	}
 }

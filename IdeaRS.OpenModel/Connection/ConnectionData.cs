@@ -344,6 +344,12 @@ namespace IdeaRS.OpenModel.Connection
 		/// </summary>
 		[DataMember]
 		public bool IsBearingMember { get; set; }
+
+		/// <summary>
+		/// Automaticali add cut by workplane if it not defined
+		/// </summary>
+		[DataMember]
+		public bool AutoAddCutByWorkplane { get; set; }
 	}
 
 	/// <summary>
