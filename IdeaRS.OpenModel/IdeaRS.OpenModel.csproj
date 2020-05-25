@@ -16,14 +16,14 @@
   </PropertyGroup>
   <PropertyGroup>
       <RepositoryUrl></RepositoryUrl>
-    <Version>20.0.3</Version>
+    <Version>20.0.4</Version>
     <Description>IOM interface can be used for the implementation of the link of any application with IDEA StatiCa products.</Description>
     <SignAssembly>false</SignAssembly>
     <Company>IDEA StatiCa</Company>
     <PackageId>IdeaStatiCa.OpenModel</PackageId>
     <Authors>IDEA StatiCa</Authors>
     <Product>IdeaStatiCa.OpenModel</Product>
-    <AssemblyVersion>20.0.3.0</AssemblyVersion>
+    <AssemblyVersion>20.0.4.0</AssemblyVersion>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
