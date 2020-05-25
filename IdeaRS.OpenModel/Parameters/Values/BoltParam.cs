@@ -182,6 +182,51 @@ namespace IdeaRS.OpenModel.Parameters
 		}
 
 		/// <summary>
+		/// Creates new instance with varibale count of bolts based on * operator
+		/// </summary>
+		/// <param name="positions"></param>
+		/// <returns></returns>
+		public static NumberGroups Create(params string[] positions)
+		{
+			int countOfParams = positions.Length;
+			var numberGroups = new NumberGroups { new List<ValueCount>()};
+
+			for (int i=0; i<countOfParams; i++)
+			{
+				var position = positions[i];
+				if (position.Contains("*"))
+				{
+					string[] result = position.Split('*');
+					if (result.Length == 2)
+					{
+						bool valA = double.TryParse(result[0], out double a);
+						bool valB = int.TryParse(result[1], out int b);
+						if (valA && valB)
+						{
+							var valueCount = ValueCount.Create(a, b);
+							numberGroups[0].Add(valueCount);
+						}
+					}
+				}
+				else
+				{
+					bool valA = double.TryParse(position, out double a);
+					if (valA)
+					{
+						var valueCount = ValueCount.Create(a);
+						numberGroups[0].Add(valueCount);
+					}
+				}
+
+			}
+
+			return numberGroups;
+
+		}
+
+
+
+		/// <summary>
 		/// Creates new instance with one group with one value.
 		/// </summary>
 		/// <param name="value">The value to set to group.</param>

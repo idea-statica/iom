@@ -18,30 +18,30 @@ namespace IdeaRS.OpenModel
     /// </summary>
     ECEN = 1,
 
-    ///// <summary>
-    ///// British code
-    ///// </summary>
-    //BS = 2,
+	///// <summary>
+	///// British code
+	///// </summary>
+	//BS = 2,
 
-    ///// <summary>
-    ///// Czech code
-    ///// </summary>
-    //CSN = 3,
+	///// <summary>
+	///// Czech code
+	///// </summary>
+	//CSN = 3,
 
-    ///// <summary>
-    ///// French code
-    ///// </summary>
-    //French = 4,
+	///// <summary>
+	///// French code
+	///// </summary>
+	//French = 4,
 
-    ///// <summary>
-    ///// India code
-    ///// </summary>
-    //India = 5,
+	/// <summary>
+	/// India code
+	/// </summary>
+	India = 5,
 
-    /// <summary>
-    /// Swiss code
-    /// </summary>
-    SIA = 6,
+	/// <summary>
+	/// Swiss code
+	/// </summary>
+	SIA = 6,
 
     ///// <summary>
     ///// glass fiber reinforced bar
@@ -72,6 +72,11 @@ namespace IdeaRS.OpenModel
 		/// China design code
 		/// </summary>
 		CHN = 12,
+
+		/// <summary>
+		/// Hong Kong design code
+		/// </summary>
+		HKG = 13,
 	}
 
 	/// <summary>

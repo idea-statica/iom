@@ -63,5 +63,5 @@ namespace IdeaRS.OpenModel.Connection
 		/// </summary>
 		public string ProjectFileName { get; set; }
 
-	}
+    }
 }

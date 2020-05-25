@@ -1151,9 +1151,9 @@
 		French,
 
 		/// <summary>
-		/// England national annex
+		///British national annex
 		/// </summary>
-		English,
+		British,
 
 		/// <summary>
 		/// Singapore national annex

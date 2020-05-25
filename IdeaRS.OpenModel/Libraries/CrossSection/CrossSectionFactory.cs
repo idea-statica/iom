@@ -22,7 +22,7 @@
 		}
 
 		/// <summary>
-		/// Circular shape - massive concrete shape
+		/// Circular shape - for steel or concrete shape
 		/// </summary>
 		/// <param name="css">Parameters of CrossSectionParameter will be filled</param>
 		/// <param name="d">Diametrer of the shape</param>

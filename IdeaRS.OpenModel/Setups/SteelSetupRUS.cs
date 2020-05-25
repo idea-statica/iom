@@ -38,7 +38,7 @@
 		/// <summary>
 		/// WeldingType
 		/// </summary>
-		public WeldingType WeldingType { get; set; }
+		public WeldingTypeSNIP WeldingTypeSNIP { get; set; }
 
 		/// <summary>
 		/// WeldingType
@@ -57,7 +57,7 @@
 	/// <summary>
 	/// Welding Type
 	/// </summary>
-	public enum WeldingType
+	public enum WeldingTypeSNIP
 	{
 		/// <summary>
 		/// Manual welding

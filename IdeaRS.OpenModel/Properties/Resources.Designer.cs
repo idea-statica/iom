@@ -286,6 +286,15 @@ namespace IdeaRS.OpenModel.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Material in not in library..
+        /// </summary>
+        internal static string NoInLibraryError {
+            get {
+                return ResourceManager.GetString("NoInLibraryError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Object.
         /// </summary>
         internal static string Object {
