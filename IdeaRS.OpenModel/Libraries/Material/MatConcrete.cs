@@ -11,6 +11,8 @@ namespace IdeaRS.OpenModel.Material
 	[XmlInclude(typeof(MatConcreteCAN))]
 	[XmlInclude(typeof(MatConcreteAUS))]
 	[XmlInclude(typeof(MatConcreteRUS))]
+	[XmlInclude(typeof(MatConcreteIND))]
+	[XmlInclude(typeof(MatConcreteHKG))]
 	public abstract class MatConcrete : Material
 	{
 	}

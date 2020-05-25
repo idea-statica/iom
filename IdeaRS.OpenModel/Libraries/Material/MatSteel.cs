@@ -11,7 +11,8 @@ namespace IdeaRS.OpenModel.Material
 	[XmlInclude(typeof(MatSteelAUS))]
 	[XmlInclude(typeof(MatSteelRUS))]
 	[XmlInclude(typeof(MatSteelCHN))]
-
+	[XmlInclude(typeof(MatSteelIND))]
+	[XmlInclude(typeof(MatSteelHKG))]
 	public abstract class MatSteel : Material
 	{
 	}

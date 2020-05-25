@@ -17,32 +17,32 @@ namespace IdeaRS.OpenModel.Message
 	public enum MessageNumber : int
 	{
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="Unspecified"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="Unspecified"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		Unspecified = 0,
 
 		#region General
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="GeneralInformation"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="GeneralInformation"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		Information = 0x1000000,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="GeneralWarning"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="GeneralWarning"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		Warning = 0x2000000,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="GeneralError"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="GeneralError"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		Error = 0x4000000,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="Reserved"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="Reserved"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		Reserved = 0x8000000,
@@ -54,25 +54,25 @@ namespace IdeaRS.OpenModel.Message
 
 		#region Warning
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="WarnNoPropertyInData"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="WarnNoPropertyInData"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		WarnNoPropertyInData = Warning | 0x01,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="WarnValueOutOfRange"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="WarnValueOutOfRange"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		WarnValueOutOfRange = Warning | 0x02,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="WarnCurveCount"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="WarnCurveCount"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		WarnCurveCount = Warning | 0x03,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="WarnReinforcementBarsCollision"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="WarnReinforcementBarsCollision"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		WarnReinforcementBarsCollision = Warning | 0x05,
@@ -82,130 +82,136 @@ namespace IdeaRS.OpenModel.Message
 		#region Error
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrNoOpenObject"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrNoOpenObject"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrNoOpenObject = Error | 0x01,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrDataObjectNotCreated"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrDataObjectNotCreated"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrDataObjectNotCreated = Error | 0x02,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrNoObjectInOpenModel"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrNoObjectInOpenModel"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrNoObjectInOpenModel = Error | 0x03,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrNoReferenceObjectInOpenModel"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrNoReferenceObjectInOpenModel"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrNoReferenceObjectInOpenModel = Error | 0x04,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrNoEquivalentObjectInDataModel"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrNoEquivalentObjectInDataModel"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrNoEquivalentObjectInDataModel = Error | 0x05,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrNoCrossSectionParameter"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrNoCrossSectionParameter"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrNoCrossSectionParameter = Error | 0x06,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrBoltsTooClose"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrBoltsTooClose"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrBoltsTooClose = Error | 0x07,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrBoltsTooCloseEdge"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrBoltsTooCloseEdge"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrBoltsTooCloseEdge = Error | 0x08,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrContactsAngle"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrContactsAngle"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrContactsAngle = Error | 0x09,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrIncorrentMaterialE"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrIncorrentMaterialE"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrIncorrentMaterialE = Error | 0x0A,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrIncorrectMaterialEGP"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrIncorrectMaterialEGP"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrIncorrectMaterialEGP = Error | 0x0B,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrPreloadedBoltGrade"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrPreloadedBoltGrade"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrPreloadedBoltGrade = Error | 0x0C,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrValueOutOfRange"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrValueOutOfRange"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrValueOutOfRange = Error | 0x0D,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrCurveZeroPoint"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrCurveZeroPoint"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrCurveZeroPoint = Error | 0x0E,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrCurveFunction"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrCurveFunction"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrCurveFunction = Error | 0x0F,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrCurveDecreaseFunction"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrCurveDecreaseFunction"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrCurveDecreaseFunction = Error | 0x10,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrCurveDerivation"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrCurveDerivation"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrCurveDerivation = Error | 0x11,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrCurveNotSet"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrCurveNotSet"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrCurveNotSet = Error | 0x12,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrValidPolyline"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrValidPolyline"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrValidPolyline = Error | 0x13,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="ErrWarningLoad"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="ErrWarningLoad"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrWarningLoad = Error | 0x14,
 
 		/// <summary>
-		/// <include file='../Properties/Resources.resx' path='root/data[@name="TimeoutError"]/value/text()/*' />
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="TimeoutError"]/value/text()/*' />
 		/// </summary>
 		[EnumMember]
 		ErrTimeout = Error | 0x15,
+
+		/// <summary>
+		/// <include file='../IdeaRS.OpenModel/Properties/Resources.resx' path='root/data[@name="NoInLibraryError"]/value/text()/*' />
+		/// </summary>
+		[EnumMember]
+		ErrNoInLibrary = Error | 0x16,
 
 		#endregion
 	}

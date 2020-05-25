@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <!-- The configuration and platform will be used to determine which assemblies to include from solution and
+				 project documentation sources -->
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{d8e6186d-a754-4a5f-868f-8ed519389910}</ProjectGuid>
+    <SHFBSchemaVersion>2017.9.26.0</SHFBSchemaVersion>
+    <!-- AssemblyName, Name, and RootNamespace are not used by SHFB but Visual Studio adds them anyway -->
+    <AssemblyName>Documentation</AssemblyName>
+    <RootNamespace>Documentation</RootNamespace>
+    <Name>Documentation</Name>
+    <!-- SHFB properties -->
+    <FrameworkVersion>.NET Framework 4.5</FrameworkVersion>
+    <OutputPath>.\Help\</OutputPath>
+    <HtmlHelpName>IdeaOpenModel</HtmlHelpName>
+    <Language>en-US</Language>
+    <HelpFileFormat>Website</HelpFileFormat>
+    <SyntaxFilters>C#, Visual Basic</SyntaxFilters>
+    <PresentationStyle>VS2013</PresentationStyle>
+    <CleanIntermediates>True</CleanIntermediates>
+    <KeepLogFile>True</KeepLogFile>
+    <DisableCodeBlockComponent>False</DisableCodeBlockComponent>
+    <IndentHtml>False</IndentHtml>
+    <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
+    <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
+    <DocumentationSources>
+      <DocumentationSource sourceFile="IdeaRS.OpenModel\IdeaRS.OpenModel.csproj" />
+    </DocumentationSources>
+    <HelpTitle>IDEA Open Model</HelpTitle>
+    <HelpFileVersion>20.0</HelpFileVersion>
+    <NamingMethod>MemberName</NamingMethod>
+    <ContentPlacement>AboveNamespaces</ContentPlacement>
+    <RootNamespaceContainer>True</RootNamespaceContainer>
+    <NamespaceGrouping>True</NamespaceGrouping>
+    <MaximumGroupParts>2</MaximumGroupParts>
+    <Preliminary>False</Preliminary>
+    <HeaderText>Compatible with IDEA StatiCa Beta 20.0</HeaderText>
+    <SdkLinkTarget>Blank</SdkLinkTarget>
+    <VisibleItems>InheritedMembers, Protected, ProtectedInternalAsProtected, NonBrowsable</VisibleItems>
+  </PropertyGroup>
+  <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
+			 the build.  The others are optional common platform types that may appear. -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Win32' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Win32' ">
+  </PropertyGroup>
+  <!-- Import the SHFB build targets -->
+  <Import Project="$(SHFBROOT)\SandcastleHelpFileBuilder.targets" />
+  <!-- The pre-build and post-build event properties must appear *after* the targets file import in order to be
+			 evaluated correctly. -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\WeldedT.png">
+      <ImageId>WeldedT</ImageId>
+      <AlternateText>WeldedT</AlternateText>
+    </Content>
+    <Content Include="Images\WeldedLsym.png">
+      <ImageId>WeldedLsym</ImageId>
+      <AlternateText>Welded Lsym</AlternateText>
+    </Content>
+    <Content Include="Images\WeldedL.png">
+      <ImageId>WeldedL</ImageId>
+      <AlternateText>WeldedL</AlternateText>
+    </Content>
+    <Content Include="Images\WeldedI.png">
+      <ImageId>WeldedI</ImageId>
+      <AlternateText>WeldedI</AlternateText>
+    </Content>
+    <Content Include="Images\WeldedC.png">
+      <ImageId>WeldedC</ImageId>
+      <AlternateText>WeldedC</AlternateText>
+    </Content>
+    <Content Include="Images\InternalForcesConvention.png">
+      <ImageId>InternalForcesConvention</ImageId>
+      <AlternateText>Internal Forces Convention</AlternateText>
+    </Content>
+    <Content Include="Images\IAsym.png">
+      <ImageId>IAsym</ImageId>
+      <AlternateText>IAsym</AlternateText>
+    </Content>
+    <Content Include="Images\IArc.png">
+      <ImageId>IArc</ImageId>
+      <AlternateText>IArc</AlternateText>
+    </Content>
+    <Content Include="Images\CFZed.png">
+      <ImageId>CFZed</ImageId>
+      <AlternateText>CFZed</AlternateText>
+    </Content>
+    <Content Include="Images\CFZ.png">
+      <ImageId>CFZ</ImageId>
+      <AlternateText>CFZ</AlternateText>
+    </Content>
+    <Content Include="Images\CFU.png">
+      <ImageId>CFU</ImageId>
+      <AlternateText>CFU</AlternateText>
+    </Content>
+    <Content Include="Images\CFSigma.png">
+      <ImageId>CFSigma</ImageId>
+      <AlternateText>CFSigma</AlternateText>
+    </Content>
+    <Content Include="Images\CFRHS.png">
+      <ImageId>CFRHS</ImageId>
+      <AlternateText>CFRHS</AlternateText>
+    </Content>
+    <Content Include="Images\CFRegP.png">
+      <ImageId>CFRegP</ImageId>
+      <AlternateText>CFRegP</AlternateText>
+    </Content>
+    <Content Include="Images\CFOmega.png">
+      <ImageId>CFOmega</ImageId>
+      <AlternateText>CFOmega</AlternateText>
+    </Content>
+    <Content Include="Images\CFLgen.png">
+      <ImageId>CFLgen</ImageId>
+      <AlternateText>CFLgen</AlternateText>
+    </Content>
+    <Content Include="Images\CFL.png">
+      <ImageId>CFL</ImageId>
+      <AlternateText>CFL</AlternateText>
+    </Content>
+    <Content Include="Images\CFCo.png">
+      <ImageId>CFCo</ImageId>
+      <AlternateText>CFCo</AlternateText>
+    </Content>
+  </ItemGroup>
+</Project>

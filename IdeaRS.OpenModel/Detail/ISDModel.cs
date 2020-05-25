@@ -19,7 +19,12 @@
 		/// <summary>
 		/// Frame joint
 		/// </summary>
-		FrameJoint
+		FrameJoint,
+
+		/// <summary>
+		/// Diaphragm
+		/// </summary>
+		Diaphragm,
 	}
 
 	/// <summary>

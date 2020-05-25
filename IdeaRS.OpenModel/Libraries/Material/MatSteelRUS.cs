@@ -27,27 +27,27 @@ namespace IdeaRS.OpenModel.Material
 		/// </summary>
 		public double GammaM { get; set; }
 
-		/// <summary>
-		/// Material strength for specific thickness of plate
-		/// </summary>
-		public MaterialStrengthProperty MaterialStrength { get; set; }
+		///// <summary>
+		///// Material strength for specific thickness of plate
+		///// </summary>
+		//public MaterialStrengthProperty MaterialStrength { get; set; }
 
-		/// <summary>
-		/// Overstrength coefficient for fu
-		/// </summary>
-		public double GammaOVfu
-		{
-			get;
-			set;
-		}
+		///// <summary>
+		///// Overstrength coefficient for fu
+		///// </summary>
+		//public double GammaOVfu
+		//{
+		//	get;
+		//	set;
+		//}
 
-		/// <summary>
-		/// Overstrength coefficient for fy
-		/// </summary>
-		public double GammaOVfy
-		{
-			get;
-			set;
-		}
+		///// <summary>
+		///// Overstrength coefficient for fy
+		///// </summary>
+		//public double GammaOVfy
+		//{
+		//	get;
+		//	set;
+		//}
 	}
 }

@@ -118,6 +118,11 @@ namespace IdeaRS.OpenModel.Material
 		public string Name { get; set; }
 
 		/// <summary>
+		/// Load from library - try override properties from library find material by name
+		/// </summary>
+		public bool LoadFromLibrary { get; set; }
+
+		/// <summary>
 		/// Young's modulus
 		/// </summary>
 		public double E { get; set; }
