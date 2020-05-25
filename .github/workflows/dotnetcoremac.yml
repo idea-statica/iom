@@ -14,4 +14,4 @@ jobs:
       with:
         dotnet-version: 3.1.100-preview1-014459
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: dotnet build IdeaRS.OpenModel/IdeaRS.OpenModel.sln --configuration Release
