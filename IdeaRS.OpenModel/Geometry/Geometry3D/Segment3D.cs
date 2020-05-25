@@ -1,8 +1,12 @@
-﻿namespace IdeaRS.OpenModel.Geometry3D
+﻿using System.Xml.Serialization;
+
+namespace IdeaRS.OpenModel.Geometry3D
 {
 	/// <summary>
 	/// Represents a segment in three-dimensional space.
 	/// </summary>
+	[XmlInclude(typeof(ArcSegment3D))]
+	[XmlInclude(typeof(LineSegment3D))]
 	public abstract class Segment3D : OpenElementId
 	{
 		//private ReferenceElement endPoint;

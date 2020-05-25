@@ -6,7 +6,7 @@ namespace IdeaRS.OpenModel.CrossSection
 	/// Cross-section
 	/// </summary>
 	[XmlInclude(typeof(CrossSectionParameter))]
-	[XmlInclude(typeof(CrossSectionComponent))]	
+	[XmlInclude(typeof(CrossSectionComponent))]
 	[XmlInclude(typeof(CrossSectionGeneralColdFormed))]
 	public abstract class CrossSection : OpenElementId
 	{

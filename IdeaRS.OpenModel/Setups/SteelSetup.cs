@@ -12,11 +12,15 @@ namespace IdeaRS.OpenModel
 	[XmlInclude(typeof(SteelSetupCISC))]
 	[XmlInclude(typeof(SteelSetupAUS))]
 	[XmlInclude(typeof(SteelSetupRUS))]
+	[XmlInclude(typeof(SteelSetupIND))]
+	[XmlInclude(typeof(SteelSetupHKG))]
 	[KnownType(typeof(SteelSetupECEN))]
 	[KnownType(typeof(SteelSetupAISC))]
 	[KnownType(typeof(SteelSetupCISC))]
 	[KnownType(typeof(SteelSetupAUS))]
 	[KnownType(typeof(SteelSetupRUS))]
+	[KnownType(typeof(SteelSetupIND))]
+	[KnownType(typeof(SteelSetupHKG))]
 	public abstract class SteelSetup
 	{
 		/// <summary>
