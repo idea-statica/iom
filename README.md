@@ -27,5 +27,7 @@ There is the documentation of the latest IOM [Latest version (v20.0)](https://id
 
 There is the documentation of the older IOM [v10.1](https://idea-statica.github.io/iom/iom-api/v10.1/index.html).
 
+There is the documentation of the older IOM [v10.0](https://idea-statica.github.io/iom/iom-api/v10.0/index.html).
+
 IDEA Open Model is  also available as the nuget package :
 https://www.nuget.org/packages/IdeaStatiCa.OpenModel/
