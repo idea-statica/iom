@@ -10,7 +10,6 @@
 | Xamarin.Android	   	| 8.0 or newer   |
 | Universal Windows Platform   	| 10.0.16299 or newer     |
 | Unity	   	| 2018.1 or newer     |
-=======
 # Minimal requirements
 * Microsoft Visual Studio 2015 or newer (Toolset SDK 140) [Download link](https://www.microsoft.com/en-us/download/details.aspx?id=48159)
 * Microsoft Windows 8.1 SDK or newer [Download link](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive)
