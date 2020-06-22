@@ -3,7 +3,7 @@
 	/// <summary>
 	/// Defaults which are used for applying template
 	/// </summary>
-	public class ApplyConnTempleteSetting
+	public class ApplyConnTemplateSetting
 	{
 		/// <summary>
 		/// ID of the bolt assembly which will be used as default (it must exists in the project)
