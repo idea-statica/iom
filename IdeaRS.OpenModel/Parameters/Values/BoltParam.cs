@@ -224,8 +224,6 @@ namespace IdeaRS.OpenModel.Parameters
 
 		}
 
-
-
 		/// <summary>
 		/// Creates new instance with one group with one value.
 		/// </summary>
