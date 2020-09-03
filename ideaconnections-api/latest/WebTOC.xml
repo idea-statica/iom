@@ -1,0 +1,1095 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="7eba0a12-5bd9-4c1d-a518-1dbf8a0e535f" Title="IdeaRS.Connections.Data" Url="html/N_IdeaRS_Connections_Data.htm">
+    <HelpTOCNode Id="94f46538-aa9a-4ea2-9962-345903b9e4f3" Title="AddedMemberData Class" Url="html/T_IdeaRS_Connections_Data_AddedMemberData.htm">
+      <HelpTOCNode Title="AddedMemberData Constructor " Url="html/M_IdeaRS_Connections_Data_AddedMemberData__ctor.htm" />
+      <HelpTOCNode Id="76b923e1-d5de-4f49-88d9-d7daec92101c" Title="AddedMemberData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_AddedMemberData.htm">
+        <HelpTOCNode Title="AddedMemberLen1 Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_AddedMemberLen1.htm" />
+        <HelpTOCNode Title="AddedMemberLen2 Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_AddedMemberLen2.htm" />
+        <HelpTOCNode Title="AddedMemberPlateIndex Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_AddedMemberPlateIndex.htm" />
+        <HelpTOCNode Title="AddedMemberType Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_AddedMemberType.htm" />
+        <HelpTOCNode Title="AngleAlpha Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_AngleAlpha.htm" />
+        <HelpTOCNode Title="AngleBeta Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_AngleBeta.htm" />
+        <HelpTOCNode Title="CoordSystem Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_CoordSystem.htm" />
+        <HelpTOCNode Title="CrossSectionType Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_CrossSectionType.htm" />
+        <HelpTOCNode Title="CustomGeometry Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_CustomGeometry.htm" />
+        <HelpTOCNode Title="DefineBy Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_DefineBy.htm" />
+        <HelpTOCNode Title="DirVectX Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_DirVectX.htm" />
+        <HelpTOCNode Title="DirVectY Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_DirVectY.htm" />
+        <HelpTOCNode Title="DirVectZ Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_DirVectZ.htm" />
+        <HelpTOCNode Title="EccentricityBeginX Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_EccentricityBeginX.htm" />
+        <HelpTOCNode Title="EccentricityBeginY Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_EccentricityBeginY.htm" />
+        <HelpTOCNode Title="EccentricityBeginZ Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_EccentricityBeginZ.htm" />
+        <HelpTOCNode Title="InsertPointOnRefLine Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_InsertPointOnRefLine.htm" />
+        <HelpTOCNode Title="InsertPtX Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_InsertPtX.htm" />
+        <HelpTOCNode Title="InsertPtY Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_InsertPtY.htm" />
+        <HelpTOCNode Title="InsertPtZ Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_InsertPtZ.htm" />
+        <HelpTOCNode Title="LCSYVectX Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_LCSYVectX.htm" />
+        <HelpTOCNode Title="LCSYVectY Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_LCSYVectY.htm" />
+        <HelpTOCNode Title="LCSYVectZ Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_LCSYVectZ.htm" />
+        <HelpTOCNode Title="LCSZVectX Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_LCSZVectX.htm" />
+        <HelpTOCNode Title="LCSZVectY Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_LCSZVectY.htm" />
+        <HelpTOCNode Title="LCSZVectZ Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_LCSZVectZ.htm" />
+        <HelpTOCNode Title="Length Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_Length.htm" />
+        <HelpTOCNode Title="LocLocation Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_LocLocation.htm" />
+        <HelpTOCNode Title="LocMemberPath Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_LocMemberPath.htm" />
+        <HelpTOCNode Title="LocPitch Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_LocPitch.htm" />
+        <HelpTOCNode Title="LocPlatePath Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_LocPlatePath.htm" />
+        <HelpTOCNode Title="LocRelatedTo Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_LocRelatedTo.htm" />
+        <HelpTOCNode Title="LocRotation Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_LocRotation.htm" />
+        <HelpTOCNode Title="LocType Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_LocType.htm" />
+        <HelpTOCNode Title="LocXposition Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_LocXposition.htm" />
+        <HelpTOCNode Title="LocYposition Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_LocYposition.htm" />
+        <HelpTOCNode Title="MirrorY Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_MirrorY.htm" />
+        <HelpTOCNode Title="MirrorZ Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_MirrorZ.htm" />
+        <HelpTOCNode Title="OriginalModelId Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_OriginalModelId.htm" />
+        <HelpTOCNode Title="PlacementDefinition Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_PlacementDefinition.htm" />
+        <HelpTOCNode Title="PlateEdgeInx Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_PlateEdgeInx.htm" />
+        <HelpTOCNode Title="RotationRx Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_RotationRx.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_AddedMemberData_Weld.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AddedMemberData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_AddedMemberData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="AddedMemberPartCode Enumeration" Url="html/T_IdeaRS_Connections_Data_AddedMemberPartCode.htm" />
+    <HelpTOCNode Title="AddedMemberType Enumeration" Url="html/T_IdeaRS_Connections_Data_AddedMemberType.htm" />
+    <HelpTOCNode Id="b5d699ac-dc8a-459a-bf7c-120b7729421c" Title="AggregatedPropWrpAttribute Class" Url="html/T_IdeaRS_Connections_Data_AggregatedPropWrpAttribute.htm">
+      <HelpTOCNode Title="AggregatedPropWrpAttribute Constructor " Url="html/M_IdeaRS_Connections_Data_AggregatedPropWrpAttribute__ctor.htm" />
+      <HelpTOCNode Id="e71b10e7-521a-4af2-a42c-2e1b35d7067c" Title="AggregatedPropWrpAttribute Properties" Url="html/Properties_T_IdeaRS_Connections_Data_AggregatedPropWrpAttribute.htm">
+        <HelpTOCNode Title="PropertyType Property " Url="html/P_IdeaRS_Connections_Data_AggregatedPropWrpAttribute_PropertyType.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AggregatedPropWrpAttribute Methods" Url="html/Methods_T_IdeaRS_Connections_Data_AggregatedPropWrpAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f4f6c602-12d7-4d99-a3af-9c63c73cb9b7" Title="AnchoringData Class" Url="html/T_IdeaRS_Connections_Data_AnchoringData.htm">
+      <HelpTOCNode Title="AnchoringData Constructor " Url="html/M_IdeaRS_Connections_Data_AnchoringData__ctor.htm" />
+      <HelpTOCNode Id="39470bf0-3c3a-4eeb-91b4-b4b7ac122560" Title="AnchoringData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_AnchoringData.htm">
+        <HelpTOCNode Title="Angles Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_Angles.htm" />
+        <HelpTOCNode Title="AnchorLength Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_AnchorLength.htm" />
+        <HelpTOCNode Title="AnchorName Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_AnchorName.htm" />
+        <HelpTOCNode Title="AnchorTypeData Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_AnchorTypeData.htm" />
+        <HelpTOCNode Title="AnchorTypeDataSize Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_AnchorTypeDataSize.htm" />
+        <HelpTOCNode Title="ApplyBoltShearType Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_ApplyBoltShearType.htm" />
+        <HelpTOCNode Title="CircularLayerRadius Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_CircularLayerRadius.htm" />
+        <HelpTOCNode Title="Cols Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_Cols.htm" />
+        <HelpTOCNode Title="CustomLcsAngle Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_CustomLcsAngle.htm" />
+        <HelpTOCNode Title="CustomReferencePoint Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_CustomReferencePoint.htm" />
+        <HelpTOCNode Title="CustomReferencePointPosition Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_CustomReferencePointPosition.htm" />
+        <HelpTOCNode Title="EditorData Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_EditorData.htm" />
+        <HelpTOCNode Title="GridType Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_GridType.htm" />
+        <HelpTOCNode Title="HorizontalGridLinesBottom Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_HorizontalGridLinesBottom.htm" />
+        <HelpTOCNode Title="HorizontalGridLinesTop Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_HorizontalGridLinesTop.htm" />
+        <HelpTOCNode Title="NumberOfAnchorsCL Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_NumberOfAnchorsCL.htm" />
+        <HelpTOCNode Title="PositionType Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_PositionType.htm" />
+        <HelpTOCNode Title="ReferencePointPosition Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_ReferencePointPosition.htm" />
+        <HelpTOCNode Title="Rows Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_Rows.htm" />
+        <HelpTOCNode Title="ShearPlaneThread Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_ShearPlaneThread.htm" />
+        <HelpTOCNode Title="VerticalGridLinesLeft Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_VerticalGridLinesLeft.htm" />
+        <HelpTOCNode Title="VerticalGridLinesRight Property " Url="html/P_IdeaRS_Connections_Data_AnchoringData_VerticalGridLinesRight.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AnchoringData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_AnchoringData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="dbd14b11-71a5-4611-8706-940d4d120ac7" Title="AnchoringDataHelper Class" Url="html/T_IdeaRS_Connections_Data_AnchoringDataHelper.htm">
+      <HelpTOCNode Id="04827537-4ebe-4d59-9689-0ec30bd3c60c" Title="AnchoringDataHelper Methods" Url="html/Methods_T_IdeaRS_Connections_Data_AnchoringDataHelper.htm">
+        <HelpTOCNode Title="CreateOrigin Method " Url="html/M_IdeaRS_Connections_Data_AnchoringDataHelper_CreateOrigin.htm" />
+        <HelpTOCNode Title="CreateRegionForAnchoring Method " Url="html/M_IdeaRS_Connections_Data_AnchoringDataHelper_CreateRegionForAnchoring.htm" />
+        <HelpTOCNode Id="05be1701-2186-4804-855c-bdbaa5407c2c" Title="ParseToAbsPos Method " Url="html/Overload_IdeaRS_Connections_Data_AnchoringDataHelper_ParseToAbsPos.htm">
+          <HelpTOCNode Title="ParseToAbsPos Method (IList`1(String), Double, IFormatProvider)" Url="html/M_IdeaRS_Connections_Data_AnchoringDataHelper_ParseToAbsPos.htm" />
+          <HelpTOCNode Title="ParseToAbsPos Method (String, Double, IFormatProvider)" Url="html/M_IdeaRS_Connections_Data_AnchoringDataHelper_ParseToAbsPos_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ParseToGroups Method " Url="html/M_IdeaRS_Connections_Data_AnchoringDataHelper_ParseToGroups.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="30ddd0f4-fba2-4952-ae1d-ea19c4f076d9" Title="BasePlateAnchoringData Class" Url="html/T_IdeaRS_Connections_Data_BasePlateAnchoringData.htm">
+      <HelpTOCNode Title="BasePlateAnchoringData Constructor " Url="html/M_IdeaRS_Connections_Data_BasePlateAnchoringData__ctor.htm" />
+      <HelpTOCNode Id="b768b818-b6f0-4f82-808d-78aedb67cbbf" Title="BasePlateAnchoringData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_BasePlateAnchoringData.htm">
+        <HelpTOCNode Title="Anchoring Property " Url="html/P_IdeaRS_Connections_Data_BasePlateAnchoringData_Anchoring.htm" />
+        <HelpTOCNode Title="BasePlatePath Property " Url="html/P_IdeaRS_Connections_Data_BasePlateAnchoringData_BasePlatePath.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BasePlateAnchoringData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_BasePlateAnchoringData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8a807ab4-4d36-473a-9a20-31014eb3b20c" Title="BasePlateData Class" Url="html/T_IdeaRS_Connections_Data_BasePlateData.htm">
+      <HelpTOCNode Title="BasePlateData Constructor " Url="html/M_IdeaRS_Connections_Data_BasePlateData__ctor.htm" />
+      <HelpTOCNode Id="433238ad-0a2c-48d4-8dee-9750e660c7b0" Title="BasePlateData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_BasePlateData.htm">
+        <HelpTOCNode Title="Anchoring Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_Anchoring.htm" />
+        <HelpTOCNode Title="BasePlateContact Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_BasePlateContact.htm" />
+        <HelpTOCNode Title="ColumnPath Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_ColumnPath.htm" />
+        <HelpTOCNode Title="CoordSystem Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_CoordSystem.htm" />
+        <HelpTOCNode Title="Fastening Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_Fastening.htm" />
+        <HelpTOCNode Title="FlangesWeld Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_FlangesWeld.htm" />
+        <HelpTOCNode Title="FoundationBlockHeight Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_FoundationBlockHeight.htm" />
+        <HelpTOCNode Title="FoundationBlockOffset Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_FoundationBlockOffset.htm" />
+        <HelpTOCNode Title="InnerRadius Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_InnerRadius.htm" />
+        <HelpTOCNode Title="IsWeld Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_IsWeld.htm" />
+        <HelpTOCNode Title="MatConcreteName Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_MatConcreteName.htm" />
+        <HelpTOCNode Title="MortarJoint Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_MortarJoint.htm" />
+        <HelpTOCNode Title="MortarJointThickness Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_MortarJointThickness.htm" />
+        <HelpTOCNode Title="OffsetBottom Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_OffsetBottom.htm" />
+        <HelpTOCNode Title="OffsetLeft Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_OffsetLeft.htm" />
+        <HelpTOCNode Title="OffsetRight Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_OffsetRight.htm" />
+        <HelpTOCNode Title="OffsetTop Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_OffsetTop.htm" />
+        <HelpTOCNode Title="Orientation Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_Orientation.htm" />
+        <HelpTOCNode Title="OuterRadius Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_OuterRadius.htm" />
+        <HelpTOCNode Title="PlateSizeMethod Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_PlateSizeMethod.htm" />
+        <HelpTOCNode Title="RotationOnZ Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_RotationOnZ.htm" />
+        <HelpTOCNode Title="ShearForceTransfer Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_ShearForceTransfer.htm" />
+        <HelpTOCNode Title="ShearIronCssName Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_ShearIronCssName.htm" />
+        <HelpTOCNode Title="ShearIronLength Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_ShearIronLength.htm" />
+        <HelpTOCNode Title="ShearIronPosition Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_ShearIronPosition.htm" />
+        <HelpTOCNode Title="ShearIronRotation Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_ShearIronRotation.htm" />
+        <HelpTOCNode Title="ShearLugFlangesWeld Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_ShearLugFlangesWeld.htm" />
+        <HelpTOCNode Title="ShearLugWebsWeld Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_ShearLugWebsWeld.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_BasePlateData_Weld.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BasePlateData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_BasePlateData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="897409a2-8553-4ba3-ad96-d6461b078bfe" Title="BeamSegmentStubData Class" Url="html/T_IdeaRS_Connections_Data_BeamSegmentStubData.htm">
+      <HelpTOCNode Title="BeamSegmentStubData Constructor " Url="html/M_IdeaRS_Connections_Data_BeamSegmentStubData__ctor.htm" />
+      <HelpTOCNode Id="e380cf1e-7c98-48f5-a2d3-8a4f20d9367b" Title="BeamSegmentStubData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_BeamSegmentStubData.htm">
+        <HelpTOCNode Title="CrossSectionType Property " Url="html/P_IdeaRS_Connections_Data_BeamSegmentStubData_CrossSectionType.htm" />
+        <HelpTOCNode Title="EccentricityBeginY Property " Url="html/P_IdeaRS_Connections_Data_BeamSegmentStubData_EccentricityBeginY.htm" />
+        <HelpTOCNode Title="EccentricityBeginZ Property " Url="html/P_IdeaRS_Connections_Data_BeamSegmentStubData_EccentricityBeginZ.htm" />
+        <HelpTOCNode Title="ExplodeToPlates Property " Url="html/P_IdeaRS_Connections_Data_BeamSegmentStubData_ExplodeToPlates.htm" />
+        <HelpTOCNode Title="Fastening Property " Url="html/P_IdeaRS_Connections_Data_BeamSegmentStubData_Fastening.htm" />
+        <HelpTOCNode Title="InclinationBottom Property " Url="html/P_IdeaRS_Connections_Data_BeamSegmentStubData_InclinationBottom.htm" />
+        <HelpTOCNode Title="InclinationLeft Property " Url="html/P_IdeaRS_Connections_Data_BeamSegmentStubData_InclinationLeft.htm" />
+        <HelpTOCNode Title="InclinationRight Property " Url="html/P_IdeaRS_Connections_Data_BeamSegmentStubData_InclinationRight.htm" />
+        <HelpTOCNode Title="InclinationTop Property " Url="html/P_IdeaRS_Connections_Data_BeamSegmentStubData_InclinationTop.htm" />
+        <HelpTOCNode Title="Plate2Plate Property " Url="html/P_IdeaRS_Connections_Data_BeamSegmentStubData_Plate2Plate.htm" />
+        <HelpTOCNode Title="ProfileType Property " Url="html/P_IdeaRS_Connections_Data_BeamSegmentStubData_ProfileType.htm" />
+        <HelpTOCNode Title="StubPltThickness Property " Url="html/P_IdeaRS_Connections_Data_BeamSegmentStubData_StubPltThickness.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BeamSegmentStubData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_BeamSegmentStubData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b446f440-a59a-4329-bcf0-de4cfd4f5198" Title="CalcCaseData Class" Url="html/T_IdeaRS_Connections_Data_CalcCaseData.htm">
+      <HelpTOCNode Title="CalcCaseData Constructor " Url="html/M_IdeaRS_Connections_Data_CalcCaseData__ctor.htm" />
+      <HelpTOCNode Id="45a75f25-f201-4261-aece-f88f69a2526b" Title="CalcCaseData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_CalcCaseData.htm">
+        <HelpTOCNode Title="ForcesOnSegments Property " Url="html/P_IdeaRS_Connections_Data_CalcCaseData_ForcesOnSegments.htm" />
+        <HelpTOCNode Title="ForcesPercentageOnSegments Property " Url="html/P_IdeaRS_Connections_Data_CalcCaseData_ForcesPercentageOnSegments.htm" />
+        <HelpTOCNode Title="CheckEquilibrium Property " Url="html/P_IdeaRS_Connections_Data_CalcCaseData_CheckEquilibrium.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P_IdeaRS_Connections_Data_CalcCaseData_Id.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P_IdeaRS_Connections_Data_CalcCaseData_Name.htm" />
+        <HelpTOCNode Title="PercentageLoad Property " Url="html/P_IdeaRS_Connections_Data_CalcCaseData_PercentageLoad.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CalcCaseData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_CalcCaseData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="CleatConnectionType Enumeration" Url="html/T_IdeaRS_Connections_Data_CleatConnectionType.htm" />
+    <HelpTOCNode Id="2de83471-4805-4f04-85e9-aa5483ef2a0a" Title="CleatData Class" Url="html/T_IdeaRS_Connections_Data_CleatData.htm">
+      <HelpTOCNode Title="CleatData Constructor " Url="html/M_IdeaRS_Connections_Data_CleatData__ctor.htm" />
+      <HelpTOCNode Id="4437adce-7c19-4bf5-8e29-fd039fe8a85b" Title="CleatData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_CleatData.htm">
+        <HelpTOCNode Title="Anchoring Property " Url="html/P_IdeaRS_Connections_Data_CleatData_Anchoring.htm" />
+        <HelpTOCNode Title="Anchoring2 Property " Url="html/P_IdeaRS_Connections_Data_CleatData_Anchoring2.htm" />
+        <HelpTOCNode Title="BehindMemberPlate Property " Url="html/P_IdeaRS_Connections_Data_CleatData_BehindMemberPlate.htm" />
+        <HelpTOCNode Title="ConnectedMember2Part Property " Url="html/P_IdeaRS_Connections_Data_CleatData_ConnectedMember2Part.htm" />
+        <HelpTOCNode Title="ConnectedMember2Path Property " Url="html/P_IdeaRS_Connections_Data_CleatData_ConnectedMember2Path.htm" />
+        <HelpTOCNode Title="ConnectedMemberPart Property " Url="html/P_IdeaRS_Connections_Data_CleatData_ConnectedMemberPart.htm" />
+        <HelpTOCNode Title="ConnectedMemberPath Property " Url="html/P_IdeaRS_Connections_Data_CleatData_ConnectedMemberPath.htm" />
+        <HelpTOCNode Title="ConnectedPlatePath Property " Url="html/P_IdeaRS_Connections_Data_CleatData_ConnectedPlatePath.htm" />
+        <HelpTOCNode Title="ConnectedToMemberPath Property " Url="html/P_IdeaRS_Connections_Data_CleatData_ConnectedToMemberPath.htm" />
+        <HelpTOCNode Title="ConnectedToPlatePath Property " Url="html/P_IdeaRS_Connections_Data_CleatData_ConnectedToPlatePath.htm" />
+        <HelpTOCNode Title="ConnectionType Property " Url="html/P_IdeaRS_Connections_Data_CleatData_ConnectionType.htm" />
+        <HelpTOCNode Title="CreateNotch Property " Url="html/P_IdeaRS_Connections_Data_CleatData_CreateNotch.htm" />
+        <HelpTOCNode Title="Fastening Property " Url="html/P_IdeaRS_Connections_Data_CleatData_Fastening.htm" />
+        <HelpTOCNode Title="Fastening2 Property " Url="html/P_IdeaRS_Connections_Data_CleatData_Fastening2.htm" />
+        <HelpTOCNode Title="Length Property " Url="html/P_IdeaRS_Connections_Data_CleatData_Length.htm" />
+        <HelpTOCNode Title="NotchOffset Property " Url="html/P_IdeaRS_Connections_Data_CleatData_NotchOffset.htm" />
+        <HelpTOCNode Title="Offset Property " Url="html/P_IdeaRS_Connections_Data_CleatData_Offset.htm" />
+        <HelpTOCNode Title="Position Property " Url="html/P_IdeaRS_Connections_Data_CleatData_Position.htm" />
+        <HelpTOCNode Title="ProfileConversely Property " Url="html/P_IdeaRS_Connections_Data_CleatData_ProfileConversely.htm" />
+        <HelpTOCNode Title="ProfileName Property " Url="html/P_IdeaRS_Connections_Data_CleatData_ProfileName.htm" />
+        <HelpTOCNode Title="RemainingPart Property " Url="html/P_IdeaRS_Connections_Data_CleatData_RemainingPart.htm" />
+        <HelpTOCNode Title="RemainingPart2 Property " Url="html/P_IdeaRS_Connections_Data_CleatData_RemainingPart2.htm" />
+        <HelpTOCNode Title="SameBoltsOnLegs Property " Url="html/P_IdeaRS_Connections_Data_CleatData_SameBoltsOnLegs.htm" />
+        <HelpTOCNode Title="Shift Property " Url="html/P_IdeaRS_Connections_Data_CleatData_Shift.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_CleatData_Weld.htm" />
+        <HelpTOCNode Title="Weld2 Property " Url="html/P_IdeaRS_Connections_Data_CleatData_Weld2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CleatData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_CleatData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f82b63cb-bc64-41c0-8349-9b7b0d3c7212" Title="ColumnWidenerData Class" Url="html/T_IdeaRS_Connections_Data_ColumnWidenerData.htm">
+      <HelpTOCNode Title="ColumnWidenerData Constructor " Url="html/M_IdeaRS_Connections_Data_ColumnWidenerData__ctor.htm" />
+      <HelpTOCNode Id="ee228793-95f8-4ea2-a3e8-f61529f5f90e" Title="ColumnWidenerData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_ColumnWidenerData.htm">
+        <HelpTOCNode Title="ColumnPath Property " Url="html/P_IdeaRS_Connections_Data_ColumnWidenerData_ColumnPath.htm" />
+        <HelpTOCNode Title="ConnectedPlatePath Property " Url="html/P_IdeaRS_Connections_Data_ColumnWidenerData_ConnectedPlatePath.htm" />
+        <HelpTOCNode Title="Height Property " Url="html/P_IdeaRS_Connections_Data_ColumnWidenerData_Height.htm" />
+        <HelpTOCNode Title="Offset Property " Url="html/P_IdeaRS_Connections_Data_ColumnWidenerData_Offset.htm" />
+        <HelpTOCNode Title="PositionCode Property " Url="html/P_IdeaRS_Connections_Data_ColumnWidenerData_PositionCode.htm" />
+        <HelpTOCNode Title="SegmentPartCode Property " Url="html/P_IdeaRS_Connections_Data_ColumnWidenerData_SegmentPartCode.htm" />
+        <HelpTOCNode Title="ShapeParam1 Property " Url="html/P_IdeaRS_Connections_Data_ColumnWidenerData_ShapeParam1.htm" />
+        <HelpTOCNode Title="ShapeParam2 Property " Url="html/P_IdeaRS_Connections_Data_ColumnWidenerData_ShapeParam2.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_ColumnWidenerData_Weld.htm" />
+        <HelpTOCNode Title="WidenerShapeCode Property " Url="html/P_IdeaRS_Connections_Data_ColumnWidenerData_WidenerShapeCode.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/P_IdeaRS_Connections_Data_ColumnWidenerData_Width.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ColumnWidenerData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ColumnWidenerData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="cfc8f7da-4125-4afd-8327-2ff05c599363" Title="ConCalcCaseForces Class" Url="html/T_IdeaRS_Connections_Data_ConCalcCaseForces.htm">
+      <HelpTOCNode Title="ConCalcCaseForces Constructor " Url="html/M_IdeaRS_Connections_Data_ConCalcCaseForces__ctor.htm" />
+      <HelpTOCNode Id="0ae5259e-cc86-47cf-8864-66bba75d9814" Title="ConCalcCaseForces Properties" Url="html/Properties_T_IdeaRS_Connections_Data_ConCalcCaseForces.htm">
+        <HelpTOCNode Title="InternalForces Property " Url="html/P_IdeaRS_Connections_Data_ConCalcCaseForces_InternalForces.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ConCalcCaseForces Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ConCalcCaseForces.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="249dfc5e-c9a3-4b22-bccc-7b840c6e44bb" Title="ConcreteBlockData Class" Url="html/T_IdeaRS_Connections_Data_ConcreteBlockData.htm">
+      <HelpTOCNode Title="ConcreteBlockData Constructor " Url="html/M_IdeaRS_Connections_Data_ConcreteBlockData__ctor.htm" />
+      <HelpTOCNode Id="e4685e10-9e99-4faa-b8f6-0753a64cd265" Title="ConcreteBlockData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_ConcreteBlockData.htm">
+        <HelpTOCNode Title="BasePlateContact Property " Url="html/P_IdeaRS_Connections_Data_ConcreteBlockData_BasePlateContact.htm" />
+        <HelpTOCNode Title="BasePlateContactThickness Property " Url="html/P_IdeaRS_Connections_Data_ConcreteBlockData_BasePlateContactThickness.htm" />
+        <HelpTOCNode Title="FoundationBlockHeight Property " Url="html/P_IdeaRS_Connections_Data_ConcreteBlockData_FoundationBlockHeight.htm" />
+        <HelpTOCNode Title="FoundationBlockOffset Property " Url="html/P_IdeaRS_Connections_Data_ConcreteBlockData_FoundationBlockOffset.htm" />
+        <HelpTOCNode Title="MatConcreteName Property " Url="html/P_IdeaRS_Connections_Data_ConcreteBlockData_MatConcreteName.htm" />
+        <HelpTOCNode Title="ShearForceTransfer Property " Url="html/P_IdeaRS_Connections_Data_ConcreteBlockData_ShearForceTransfer.htm" />
+        <HelpTOCNode Title="ShearIronCssName Property " Url="html/P_IdeaRS_Connections_Data_ConcreteBlockData_ShearIronCssName.htm" />
+        <HelpTOCNode Title="ShearIronLength Property " Url="html/P_IdeaRS_Connections_Data_ConcreteBlockData_ShearIronLength.htm" />
+        <HelpTOCNode Title="ShearIronPosition Property " Url="html/P_IdeaRS_Connections_Data_ConcreteBlockData_ShearIronPosition.htm" />
+        <HelpTOCNode Title="ShearIronRotation Property " Url="html/P_IdeaRS_Connections_Data_ConcreteBlockData_ShearIronRotation.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ConcreteBlockData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ConcreteBlockData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="79ffe613-6c3a-4612-87f0-cc6ce2776440" Title="ConItemListAttribute Class" Url="html/T_IdeaRS_Connections_Data_ConItemListAttribute.htm">
+      <HelpTOCNode Title="ConItemListAttribute Constructor " Url="html/M_IdeaRS_Connections_Data_ConItemListAttribute__ctor.htm" />
+      <HelpTOCNode Id="786e1621-e32c-43b5-bfd7-e99aedb80e22" Title="ConItemListAttribute Properties" Url="html/Properties_T_IdeaRS_Connections_Data_ConItemListAttribute.htm">
+        <HelpTOCNode Title="PropertyType Property " Url="html/P_IdeaRS_Connections_Data_ConItemListAttribute_PropertyType.htm" />
+        <HelpTOCNode Title="WrapperType Property " Url="html/P_IdeaRS_Connections_Data_ConItemListAttribute_WrapperType.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ConItemListAttribute Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ConItemListAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ff98d90d-9845-4be4-a470-e425a22dfcc9" Title="ConnectedBeamCriteria Class" Url="html/T_IdeaRS_Connections_Data_ConnectedBeamCriteria.htm">
+      <HelpTOCNode Title="ConnectedBeamCriteria Constructor " Url="html/M_IdeaRS_Connections_Data_ConnectedBeamCriteria__ctor.htm" />
+      <HelpTOCNode Title="ConnectedBeamCriteria Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ConnectedBeamCriteria.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="ConnectedToType Enumeration" Url="html/T_IdeaRS_Connections_Data_ConnectedToType.htm" />
+    <HelpTOCNode Id="2abbfbd6-d276-43ff-a7be-7558faba291e" Title="ConnectionCmdData Class" Url="html/T_IdeaRS_Connections_Data_ConnectionCmdData.htm">
+      <HelpTOCNode Title="ConnectionCmdData Constructor " Url="html/M_IdeaRS_Connections_Data_ConnectionCmdData__ctor.htm" />
+      <HelpTOCNode Id="1e977621-a11c-4883-8c73-6a295241c7a4" Title="ConnectionCmdData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_ConnectionCmdData.htm">
+        <HelpTOCNode Title="IsActive Property " Url="html/P_IdeaRS_Connections_Data_ConnectionCmdData_IsActive.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P_IdeaRS_Connections_Data_ConnectionCmdData_Name.htm" />
+        <HelpTOCNode Title="OperationId Property " Url="html/P_IdeaRS_Connections_Data_ConnectionCmdData_OperationId.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d1cfa103-c01e-4e9f-babf-3b48a0c73bf6" Title="ConnectionCmdData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ConnectionCmdData.htm">
+        <HelpTOCNode Title="GetShallowCopy Method " Url="html/M_IdeaRS_Connections_Data_ConnectionCmdData_GetShallowCopy.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e66fdcd0-f58e-4a2e-a756-c4f47504555a" Title="ConnectionData Class" Url="html/T_IdeaRS_Connections_Data_ConnectionData.htm">
+      <HelpTOCNode Title="ConnectionData Constructor " Url="html/M_IdeaRS_Connections_Data_ConnectionData__ctor.htm" />
+      <HelpTOCNode Id="a0ba9d58-11bd-41c9-a605-fe10d12f3821" Title="ConnectionData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_ConnectionData.htm">
+        <HelpTOCNode Title="BeamProperties Property " Url="html/P_IdeaRS_Connections_Data_ConnectionData_BeamProperties.htm" />
+        <HelpTOCNode Title="BeamSequence Property " Url="html/P_IdeaRS_Connections_Data_ConnectionData_BeamSequence.htm" />
+        <HelpTOCNode Title="NodeId Property " Url="html/P_IdeaRS_Connections_Data_ConnectionData_NodeId.htm" />
+        <HelpTOCNode Title="Properties Property " Url="html/P_IdeaRS_Connections_Data_ConnectionData_Properties.htm" />
+        <HelpTOCNode Title="Sequence Property " Url="html/P_IdeaRS_Connections_Data_ConnectionData_Sequence.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7bc3f372-4845-4ff7-b116-95cc212ea0cb" Title="ConnectionData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ConnectionData.htm">
+        <HelpTOCNode Id="a71918e9-2ae1-4735-9a7c-38bc5d0ac0ec" Title="AddBeam Method " Url="html/Overload_IdeaRS_Connections_Data_ConnectionData_AddBeam.htm">
+          <HelpTOCNode Title="AddBeam Method (Guid, ConnectionCmdData)" Url="html/M_IdeaRS_Connections_Data_ConnectionData_AddBeam.htm" />
+          <HelpTOCNode Title="AddBeam Method (Int32, Guid, ConnectionCmdData)" Url="html/M_IdeaRS_Connections_Data_ConnectionData_AddBeam_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b5b8c68a-6048-425b-b6c3-11211d8e8ca4" Title="AddOperation Method " Url="html/Overload_IdeaRS_Connections_Data_ConnectionData_AddOperation.htm">
+          <HelpTOCNode Title="AddOperation Method (Guid, ConnectionCmdData)" Url="html/M_IdeaRS_Connections_Data_ConnectionData_AddOperation.htm" />
+          <HelpTOCNode Title="AddOperation Method (Int32, Guid, ConnectionCmdData)" Url="html/M_IdeaRS_Connections_Data_ConnectionData_AddOperation_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3f890ace-980c-4008-acca-3fa8e723d9d1" Title="ConnectionDesignData Class" Url="html/T_IdeaRS_Connections_Data_ConnectionDesignData.htm">
+      <HelpTOCNode Title="ConnectionDesignData Constructor " Url="html/M_IdeaRS_Connections_Data_ConnectionDesignData__ctor.htm" />
+      <HelpTOCNode Id="871b7f9b-50ed-4aba-b165-4ef80348550c" Title="ConnectionDesignData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_ConnectionDesignData.htm">
+        <HelpTOCNode Title="CalculationCases Property " Url="html/P_IdeaRS_Connections_Data_ConnectionDesignData_CalculationCases.htm" />
+        <HelpTOCNode Title="Connection Property " Url="html/P_IdeaRS_Connections_Data_ConnectionDesignData_Connection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ConnectionDesignData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ConnectionDesignData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f654d99d-ae5f-40f2-b563-4f17f646392b" Title="ConnectionItemAttribute Class" Url="html/T_IdeaRS_Connections_Data_ConnectionItemAttribute.htm">
+      <HelpTOCNode Title="ConnectionItemAttribute Constructor " Url="html/M_IdeaRS_Connections_Data_ConnectionItemAttribute__ctor.htm" />
+      <HelpTOCNode Id="e1bbb433-fe57-4cd5-a449-b4cefc3fdb93" Title="ConnectionItemAttribute Properties" Url="html/Properties_T_IdeaRS_Connections_Data_ConnectionItemAttribute.htm">
+        <HelpTOCNode Title="PropertyType Property " Url="html/P_IdeaRS_Connections_Data_ConnectionItemAttribute_PropertyType.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ConnectionItemAttribute Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ConnectionItemAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="78010ed4-b4cf-41ef-90cb-d8c16f27bcd2" Title="ConnectionPartDataBase Class" Url="html/T_IdeaRS_Connections_Data_ConnectionPartDataBase.htm">
+      <HelpTOCNode Title="ConnectionPartDataBase Constructor " Url="html/M_IdeaRS_Connections_Data_ConnectionPartDataBase__ctor.htm" />
+      <HelpTOCNode Title="ConnectionPartDataBase Properties" Url="html/Properties_T_IdeaRS_Connections_Data_ConnectionPartDataBase.htm" />
+      <HelpTOCNode Title="ConnectionPartDataBase Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ConnectionPartDataBase.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7b683c6c-3884-4d21-98f3-46c8018f251e" Title="ConnectionPropData Class" Url="html/T_IdeaRS_Connections_Data_ConnectionPropData.htm">
+      <HelpTOCNode Id="ce970a29-a598-44b2-8dbe-a15ca1309039" Title="ConnectionPropData Constructor " Url="html/Overload_IdeaRS_Connections_Data_ConnectionPropData__ctor.htm">
+        <HelpTOCNode Title="ConnectionPropData Constructor " Url="html/M_IdeaRS_Connections_Data_ConnectionPropData__ctor.htm" />
+        <HelpTOCNode Title="ConnectionPropData Constructor (ConnectionPropData)" Url="html/M_IdeaRS_Connections_Data_ConnectionPropData__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b792b9ae-dbcd-4155-978e-ed778bd4ede2" Title="ConnectionPropData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_ConnectionPropData.htm">
+        <HelpTOCNode Title="Items Property " Url="html/P_IdeaRS_Connections_Data_ConnectionPropData_Items.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f7758eef-5c04-42c0-851f-0869763717f9" Title="ConnectionPropData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ConnectionPropData.htm">
+        <HelpTOCNode Title="Add Method " Url="html/M_IdeaRS_Connections_Data_ConnectionPropData_Add.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="90266ed4-ad0b-4a14-a468-49ea30241e53" Title="ConnectionTemplate Class" Url="html/T_IdeaRS_Connections_Data_ConnectionTemplate.htm">
+      <HelpTOCNode Title="ConnectionTemplate Constructor " Url="html/M_IdeaRS_Connections_Data_ConnectionTemplate__ctor.htm" />
+      <HelpTOCNode Id="342ebe58-c50a-4bda-8ca3-cdefabddc76f" Title="ConnectionTemplate Properties" Url="html/Properties_T_IdeaRS_Connections_Data_ConnectionTemplate.htm">
+        <HelpTOCNode Title="Criteria Property " Url="html/P_IdeaRS_Connections_Data_ConnectionTemplate_Criteria.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P_IdeaRS_Connections_Data_ConnectionTemplate_Name.htm" />
+        <HelpTOCNode Title="Parameters Property " Url="html/P_IdeaRS_Connections_Data_ConnectionTemplate_Parameters.htm" />
+        <HelpTOCNode Title="ParametersModelLinks Property " Url="html/P_IdeaRS_Connections_Data_ConnectionTemplate_ParametersModelLinks.htm" />
+        <HelpTOCNode Title="Properties Property " Url="html/P_IdeaRS_Connections_Data_ConnectionTemplate_Properties.htm" />
+        <HelpTOCNode Title="Sequence Property " Url="html/P_IdeaRS_Connections_Data_ConnectionTemplate_Sequence.htm" />
+        <HelpTOCNode Title="TemplateId Property " Url="html/P_IdeaRS_Connections_Data_ConnectionTemplate_TemplateId.htm" />
+        <HelpTOCNode Title="TopologyCode Property " Url="html/P_IdeaRS_Connections_Data_ConnectionTemplate_TopologyCode.htm" />
+        <HelpTOCNode Title="Version Property " Url="html/P_IdeaRS_Connections_Data_ConnectionTemplate_Version.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ConnectionTemplate Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ConnectionTemplate.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="ConnectionType Enumeration" Url="html/T_IdeaRS_Connections_Data_ConnectionType.htm" />
+    <HelpTOCNode Id="0e6644cd-23ac-429c-8fce-363df2f89de9" Title="ConnectorGridData Class" Url="html/T_IdeaRS_Connections_Data_ConnectorGridData.htm">
+      <HelpTOCNode Title="ConnectorGridData Constructor " Url="html/M_IdeaRS_Connections_Data_ConnectorGridData__ctor.htm" />
+      <HelpTOCNode Id="b2a276e2-5143-4a21-a140-51ef448a83f4" Title="ConnectorGridData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_ConnectorGridData.htm">
+        <HelpTOCNode Title="AnchorBeamPlatePath Property " Url="html/P_IdeaRS_Connections_Data_ConnectorGridData_AnchorBeamPlatePath.htm" />
+        <HelpTOCNode Title="Anchoring Property " Url="html/P_IdeaRS_Connections_Data_ConnectorGridData_Anchoring.htm" />
+        <HelpTOCNode Title="AnchorPlatePath Property " Url="html/P_IdeaRS_Connections_Data_ConnectorGridData_AnchorPlatePath.htm" />
+        <HelpTOCNode Title="BlockType Property " Url="html/P_IdeaRS_Connections_Data_ConnectorGridData_BlockType.htm" />
+        <HelpTOCNode Title="ConnectedPlatesPath Property " Url="html/P_IdeaRS_Connections_Data_ConnectorGridData_ConnectedPlatesPath.htm" />
+        <HelpTOCNode Title="ExistingBlockPath Property " Url="html/P_IdeaRS_Connections_Data_ConnectorGridData_ExistingBlockPath.htm" />
+        <HelpTOCNode Title="FastenerType Property " Url="html/P_IdeaRS_Connections_Data_ConnectorGridData_FastenerType.htm" />
+        <HelpTOCNode Title="Fastening Property " Url="html/P_IdeaRS_Connections_Data_ConnectorGridData_Fastening.htm" />
+        <HelpTOCNode Title="FlangesWeld Property " Url="html/P_IdeaRS_Connections_Data_ConnectorGridData_FlangesWeld.htm" />
+        <HelpTOCNode Title="MainConnectedBeam Property " Url="html/P_IdeaRS_Connections_Data_ConnectorGridData_MainConnectedBeam.htm" />
+        <HelpTOCNode Title="MainPlatePath Property " Url="html/P_IdeaRS_Connections_Data_ConnectorGridData_MainPlatePath.htm" />
+        <HelpTOCNode Title="NewConcreteBlock Property " Url="html/P_IdeaRS_Connections_Data_ConnectorGridData_NewConcreteBlock.htm" />
+        <HelpTOCNode Title="PlateSide Property " Url="html/P_IdeaRS_Connections_Data_ConnectorGridData_PlateSide.htm" />
+        <HelpTOCNode Title="ShearLugWeld Property " Url="html/P_IdeaRS_Connections_Data_ConnectorGridData_ShearLugWeld.htm" />
+        <HelpTOCNode Title="WebWeld Property " Url="html/P_IdeaRS_Connections_Data_ConnectorGridData_WebWeld.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ConnectorGridData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ConnectorGridData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7bfe9950-b30a-486a-aeb2-4b9fada5a1b0" Title="ConParamInterfacesAttribute Class" Url="html/T_IdeaRS_Connections_Data_ConParamInterfacesAttribute.htm">
+      <HelpTOCNode Title="ConParamInterfacesAttribute Constructor " Url="html/M_IdeaRS_Connections_Data_ConParamInterfacesAttribute__ctor.htm" />
+      <HelpTOCNode Id="dbc56600-84b2-4883-a0eb-f64f39343b31" Title="ConParamInterfacesAttribute Properties" Url="html/Properties_T_IdeaRS_Connections_Data_ConParamInterfacesAttribute.htm">
+        <HelpTOCNode Title="Interfaces Property " Url="html/P_IdeaRS_Connections_Data_ConParamInterfacesAttribute_Interfaces.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ConParamInterfacesAttribute Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ConParamInterfacesAttribute.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="CoordinateSystemType Enumeration" Url="html/T_IdeaRS_Connections_Data_CoordinateSystemType.htm" />
+    <HelpTOCNode Id="3fbaf816-a07a-4c50-8ca4-36d3a8abe9ed" Title="CreateSegmentCommandData Class" Url="html/T_IdeaRS_Connections_Data_CreateSegmentCommandData.htm">
+      <HelpTOCNode Title="CreateSegmentCommandData Constructor " Url="html/M_IdeaRS_Connections_Data_CreateSegmentCommandData__ctor.htm" />
+      <HelpTOCNode Id="9efd8810-c376-484d-b4aa-3e523e1dcafe" Title="CreateSegmentCommandData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_CreateSegmentCommandData.htm">
+        <HelpTOCNode Title="AngleAlpha Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_AngleAlpha.htm" />
+        <HelpTOCNode Title="AngleBeta Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_AngleBeta.htm" />
+        <HelpTOCNode Title="CrossSectionType Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_CrossSectionType.htm" />
+        <HelpTOCNode Title="CssHeight Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_CssHeight.htm" />
+        <HelpTOCNode Title="CssWidth Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_CssWidth.htm" />
+        <HelpTOCNode Title="DirVectX Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_DirVectX.htm" />
+        <HelpTOCNode Title="DirVectY Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_DirVectY.htm" />
+        <HelpTOCNode Title="DirVectZ Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_DirVectZ.htm" />
+        <HelpTOCNode Title="EccentricityBeginX Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_EccentricityBeginX.htm" />
+        <HelpTOCNode Title="EccentricityBeginY Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_EccentricityBeginY.htm" />
+        <HelpTOCNode Title="EccentricityBeginZ Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_EccentricityBeginZ.htm" />
+        <HelpTOCNode Title="EccentricityEndX Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_EccentricityEndX.htm" />
+        <HelpTOCNode Title="EccentricityEndY Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_EccentricityEndY.htm" />
+        <HelpTOCNode Title="EccentricityEndZ Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_EccentricityEndZ.htm" />
+        <HelpTOCNode Title="FlangeThickness Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_FlangeThickness.htm" />
+        <HelpTOCNode Title="ForceAbsPosition Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_ForceAbsPosition.htm" />
+        <HelpTOCNode Title="ForceIn Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_ForceIn.htm" />
+        <HelpTOCNode Title="InsertPointOnRefLine Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_InsertPointOnRefLine.htm" />
+        <HelpTOCNode Title="LCSYVectX Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_LCSYVectX.htm" />
+        <HelpTOCNode Title="LCSYVectY Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_LCSYVectY.htm" />
+        <HelpTOCNode Title="LCSYVectZ Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_LCSYVectZ.htm" />
+        <HelpTOCNode Title="LCSZVectX Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_LCSZVectX.htm" />
+        <HelpTOCNode Title="LCSZVectY Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_LCSZVectY.htm" />
+        <HelpTOCNode Title="LCSZVectZ Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_LCSZVectZ.htm" />
+        <HelpTOCNode Title="Length Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_Length.htm" />
+        <HelpTOCNode Title="MaterialName Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_MaterialName.htm" />
+        <HelpTOCNode Title="MirrorY Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_MirrorY.htm" />
+        <HelpTOCNode Title="MirrorZ Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_MirrorZ.htm" />
+        <HelpTOCNode Title="OriginalModelId Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_OriginalModelId.htm" />
+        <HelpTOCNode Title="PlacementDefinition Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_PlacementDefinition.htm" />
+        <HelpTOCNode Title="RigidLinkX Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_RigidLinkX.htm" />
+        <HelpTOCNode Title="RigidLinkY Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_RigidLinkY.htm" />
+        <HelpTOCNode Title="RigidLinkZ Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_RigidLinkZ.htm" />
+        <HelpTOCNode Title="RotationRx Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_RotationRx.htm" />
+        <HelpTOCNode Title="SegmentEndBehavior Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_SegmentEndBehavior.htm" />
+        <HelpTOCNode Title="SupportCode Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_SupportCode.htm" />
+        <HelpTOCNode Title="TheoreticalLengthY Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_TheoreticalLengthY.htm" />
+        <HelpTOCNode Title="TheoreticalLengthZ Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_TheoreticalLengthZ.htm" />
+        <HelpTOCNode Title="WebThickness Property " Url="html/P_IdeaRS_Connections_Data_CreateSegmentCommandData_WebThickness.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CreateSegmentCommandData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_CreateSegmentCommandData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="deb68cbc-ba73-4e5e-b753-912dcd29daa0" Title="CutBeamByBeamData Class" Url="html/T_IdeaRS_Connections_Data_CutBeamByBeamData.htm">
+      <HelpTOCNode Title="CutBeamByBeamData Constructor " Url="html/M_IdeaRS_Connections_Data_CutBeamByBeamData__ctor.htm" />
+      <HelpTOCNode Id="72ce1710-c529-4a3d-bdba-c1beece0df28" Title="CutBeamByBeamData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_CutBeamByBeamData.htm">
+        <HelpTOCNode Title="CuttingObjectPath Property " Url="html/P_IdeaRS_Connections_Data_CutBeamByBeamData_CuttingObjectPath.htm" />
+        <HelpTOCNode Title="ExtendToPlane Property " Url="html/P_IdeaRS_Connections_Data_CutBeamByBeamData_ExtendToPlane.htm" />
+        <HelpTOCNode Title="FlangesWeld Property " Url="html/P_IdeaRS_Connections_Data_CutBeamByBeamData_FlangesWeld.htm" />
+        <HelpTOCNode Title="IsWeld Property " Url="html/P_IdeaRS_Connections_Data_CutBeamByBeamData_IsWeld.htm" />
+        <HelpTOCNode Title="KeptPartCode Property " Url="html/P_IdeaRS_Connections_Data_CutBeamByBeamData_KeptPartCode.htm" />
+        <HelpTOCNode Title="Method Property " Url="html/P_IdeaRS_Connections_Data_CutBeamByBeamData_Method.htm" />
+        <HelpTOCNode Title="ModifiedObjectPath Property " Url="html/P_IdeaRS_Connections_Data_CutBeamByBeamData_ModifiedObjectPath.htm" />
+        <HelpTOCNode Title="Offset Property " Url="html/P_IdeaRS_Connections_Data_CutBeamByBeamData_Offset.htm" />
+        <HelpTOCNode Title="Orientation Property " Url="html/P_IdeaRS_Connections_Data_CutBeamByBeamData_Orientation.htm" />
+        <HelpTOCNode Title="PlaneOnCuttingObject Property " Url="html/P_IdeaRS_Connections_Data_CutBeamByBeamData_PlaneOnCuttingObject.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_CutBeamByBeamData_Weld.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CutBeamByBeamData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_CutBeamByBeamData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3b03790e-53d5-4b29-bab0-93e306f3f65d" Title="CutBeamData Class" Url="html/T_IdeaRS_Connections_Data_CutBeamData.htm">
+      <HelpTOCNode Title="CutBeamData Constructor " Url="html/M_IdeaRS_Connections_Data_CutBeamData__ctor.htm" />
+      <HelpTOCNode Id="2b61d392-c082-4304-bf87-e539cdfbade0" Title="CutBeamData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_CutBeamData.htm">
+        <HelpTOCNode Title="CutPartOnMem1 Property " Url="html/P_IdeaRS_Connections_Data_CutBeamData_CutPartOnMem1.htm" />
+        <HelpTOCNode Title="CutPartOnMem2 Property " Url="html/P_IdeaRS_Connections_Data_CutBeamData_CutPartOnMem2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CutBeamData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_CutBeamData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c26d2901-a561-4f84-88d0-c949a77772b4" Title="CutCommandData Class" Url="html/T_IdeaRS_Connections_Data_CutCommandData.htm">
+      <HelpTOCNode Title="CutCommandData Constructor " Url="html/M_IdeaRS_Connections_Data_CutCommandData__ctor.htm" />
+      <HelpTOCNode Id="87fb12ec-fc77-4ad7-84f3-def0b61dd814" Title="CutCommandData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_CutCommandData.htm">
+        <HelpTOCNode Title="CuttingPlane Property " Url="html/P_IdeaRS_Connections_Data_CutCommandData_CuttingPlane.htm" />
+        <HelpTOCNode Title="ExtendToPlane Property " Url="html/P_IdeaRS_Connections_Data_CutCommandData_ExtendToPlane.htm" />
+        <HelpTOCNode Title="IsWeld Property " Url="html/P_IdeaRS_Connections_Data_CutCommandData_IsWeld.htm" />
+        <HelpTOCNode Title="Object Property " Url="html/P_IdeaRS_Connections_Data_CutCommandData_Object.htm" />
+        <HelpTOCNode Title="Offset Property " Url="html/P_IdeaRS_Connections_Data_CutCommandData_Offset.htm" />
+        <HelpTOCNode Title="Orientation Property " Url="html/P_IdeaRS_Connections_Data_CutCommandData_Orientation.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CutCommandData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_CutCommandData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="CutMethod Enumeration" Url="html/T_IdeaRS_Connections_Data_CutMethod.htm" />
+    <HelpTOCNode Title="CutOrientation Enumeration" Url="html/T_IdeaRS_Connections_Data_CutOrientation.htm" />
+    <HelpTOCNode Title="CutPart Enumeration" Url="html/T_IdeaRS_Connections_Data_CutPart.htm" />
+    <HelpTOCNode Id="9bb38a79-f344-430a-97e9-bb412f462b8c" Title="CutPlateData Class" Url="html/T_IdeaRS_Connections_Data_CutPlateData.htm">
+      <HelpTOCNode Title="CutPlateData Constructor " Url="html/M_IdeaRS_Connections_Data_CutPlateData__ctor.htm" />
+      <HelpTOCNode Id="877ccf96-333f-4648-a1e6-1f86201488bf" Title="CutPlateData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_CutPlateData.htm">
+        <HelpTOCNode Title="CuttingMemberPath Property " Url="html/P_IdeaRS_Connections_Data_CutPlateData_CuttingMemberPath.htm" />
+        <HelpTOCNode Title="CuttingPlatePath Property " Url="html/P_IdeaRS_Connections_Data_CutPlateData_CuttingPlatePath.htm" />
+        <HelpTOCNode Title="CuttingSurface Property " Url="html/P_IdeaRS_Connections_Data_CutPlateData_CuttingSurface.htm" />
+        <HelpTOCNode Title="FlangesWeld Property " Url="html/P_IdeaRS_Connections_Data_CutPlateData_FlangesWeld.htm" />
+        <HelpTOCNode Title="IsWeld Property " Url="html/P_IdeaRS_Connections_Data_CutPlateData_IsWeld.htm" />
+        <HelpTOCNode Title="Method Property " Url="html/P_IdeaRS_Connections_Data_CutPlateData_Method.htm" />
+        <HelpTOCNode Title="ModifiedMemberPath Property " Url="html/P_IdeaRS_Connections_Data_CutPlateData_ModifiedMemberPath.htm" />
+        <HelpTOCNode Title="ModifiedPlatePath Property " Url="html/P_IdeaRS_Connections_Data_CutPlateData_ModifiedPlatePath.htm" />
+        <HelpTOCNode Title="Offset Property " Url="html/P_IdeaRS_Connections_Data_CutPlateData_Offset.htm" />
+        <HelpTOCNode Title="PlateAdjustment Property " Url="html/P_IdeaRS_Connections_Data_CutPlateData_PlateAdjustment.htm" />
+        <HelpTOCNode Title="RemainingPart Property " Url="html/P_IdeaRS_Connections_Data_CutPlateData_RemainingPart.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_CutPlateData_Weld.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CutPlateData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_CutPlateData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7b6e197b-f35e-478c-aa13-b644812e2d37" Title="DataHelper Class" Url="html/T_IdeaRS_Connections_Data_DataHelper.htm">
+      <HelpTOCNode Id="86b54d80-baa0-44d6-9df6-6636864f01dd" Title="DataHelper Methods" Url="html/Methods_T_IdeaRS_Connections_Data_DataHelper.htm">
+        <HelpTOCNode Title="ParseToDoubles Method " Url="html/M_IdeaRS_Connections_Data_DataHelper_ParseToDoubles.htm" />
+        <HelpTOCNode Title="ParseToOffset Method " Url="html/M_IdeaRS_Connections_Data_DataHelper_ParseToOffset.htm" />
+        <HelpTOCNode Title="ParseToPoint Method " Url="html/M_IdeaRS_Connections_Data_DataHelper_ParseToPoint.htm" />
+        <HelpTOCNode Title="ParseToVector Method " Url="html/M_IdeaRS_Connections_Data_DataHelper_ParseToVector.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="DefineBy Enumeration" Url="html/T_IdeaRS_Connections_Data_DefineBy.htm" />
+    <HelpTOCNode Id="3778c547-54ac-4f48-a4ae-6c0e7e0be70e" Title="DissipativeItemCommandData Class" Url="html/T_IdeaRS_Connections_Data_DissipativeItemCommandData.htm">
+      <HelpTOCNode Title="DissipativeItemCommandData Constructor " Url="html/M_IdeaRS_Connections_Data_DissipativeItemCommandData__ctor.htm" />
+      <HelpTOCNode Id="2661f43f-7cf4-41e9-8055-eff83536fa53" Title="DissipativeItemCommandData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_DissipativeItemCommandData.htm">
+        <HelpTOCNode Title="DissipativePartPaths Property " Url="html/P_IdeaRS_Connections_Data_DissipativeItemCommandData_DissipativePartPaths.htm" />
+        <HelpTOCNode Title="Setting Property " Url="html/P_IdeaRS_Connections_Data_DissipativeItemCommandData_Setting.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DissipativeItemCommandData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_DissipativeItemCommandData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="DistanceComparison Enumeration" Url="html/T_IdeaRS_Connections_Data_DistanceComparison.htm" />
+    <HelpTOCNode Id="0f173a71-679f-42c6-a759-8332e83fa4f1" Title="EndPlateData Class" Url="html/T_IdeaRS_Connections_Data_EndPlateData.htm">
+      <HelpTOCNode Title="EndPlateData Constructor " Url="html/M_IdeaRS_Connections_Data_EndPlateData__ctor.htm" />
+      <HelpTOCNode Id="dee8f294-89b9-4c68-bbfa-70ef444cabfa" Title="EndPlateData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_EndPlateData.htm">
+        <HelpTOCNode Title="Anchoring Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_Anchoring.htm" />
+        <HelpTOCNode Title="BackingPlateOffset Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_BackingPlateOffset.htm" />
+        <HelpTOCNode Title="BackingPlateOffsetBottom Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_BackingPlateOffsetBottom.htm" />
+        <HelpTOCNode Title="BackingPlateOffsetTop Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_BackingPlateOffsetTop.htm" />
+        <HelpTOCNode Title="BackingPlateThickness Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_BackingPlateThickness.htm" />
+        <HelpTOCNode Title="CreateNotch Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_CreateNotch.htm" />
+        <HelpTOCNode Title="Fastening Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_Fastening.htm" />
+        <HelpTOCNode Title="IsBackingPlate Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_IsBackingPlate.htm" />
+        <HelpTOCNode Title="IsWeld Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_IsWeld.htm" />
+        <HelpTOCNode Title="Member1 Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_Member1.htm" />
+        <HelpTOCNode Title="Member2 Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_Member2.htm" />
+        <HelpTOCNode Title="MemberFlangesWeld Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_MemberFlangesWeld.htm" />
+        <HelpTOCNode Title="MemberWeld Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_MemberWeld.htm" />
+        <HelpTOCNode Title="NotchOffset Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_NotchOffset.htm" />
+        <HelpTOCNode Title="PlateWeld Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_PlateWeld.htm" />
+        <HelpTOCNode Title="RelatedMember Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_RelatedMember.htm" />
+        <HelpTOCNode Title="RelatedPlate Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_RelatedPlate.htm" />
+        <HelpTOCNode Title="RemainingPart1 Property " Url="html/P_IdeaRS_Connections_Data_EndPlateData_RemainingPart1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="EndPlateData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_EndPlateData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fcb94b9d-ee0d-4622-bebd-12e0266ab621" Title="EndPlateDataBase Class" Url="html/T_IdeaRS_Connections_Data_EndPlateDataBase.htm">
+      <HelpTOCNode Title="EndPlateDataBase Constructor " Url="html/M_IdeaRS_Connections_Data_EndPlateDataBase__ctor.htm" />
+      <HelpTOCNode Id="eade3c6c-002c-4247-a11c-fab1bca19b70" Title="EndPlateDataBase Properties" Url="html/Properties_T_IdeaRS_Connections_Data_EndPlateDataBase.htm">
+        <HelpTOCNode Title="ConnectionType Property " Url="html/P_IdeaRS_Connections_Data_EndPlateDataBase_ConnectionType.htm" />
+        <HelpTOCNode Title="InnerRadius Property " Url="html/P_IdeaRS_Connections_Data_EndPlateDataBase_InnerRadius.htm" />
+        <HelpTOCNode Title="OffsetBottom Property " Url="html/P_IdeaRS_Connections_Data_EndPlateDataBase_OffsetBottom.htm" />
+        <HelpTOCNode Title="OffsetLeft Property " Url="html/P_IdeaRS_Connections_Data_EndPlateDataBase_OffsetLeft.htm" />
+        <HelpTOCNode Title="OffsetRight Property " Url="html/P_IdeaRS_Connections_Data_EndPlateDataBase_OffsetRight.htm" />
+        <HelpTOCNode Title="OffsetTop Property " Url="html/P_IdeaRS_Connections_Data_EndPlateDataBase_OffsetTop.htm" />
+        <HelpTOCNode Title="OuterRadius Property " Url="html/P_IdeaRS_Connections_Data_EndPlateDataBase_OuterRadius.htm" />
+        <HelpTOCNode Title="PlateSizeMethod Property " Url="html/P_IdeaRS_Connections_Data_EndPlateDataBase_PlateSizeMethod.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="EndPlateDataBase Methods" Url="html/Methods_T_IdeaRS_Connections_Data_EndPlateDataBase.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3106d2c5-ab74-4fd3-a518-9f83f13504dc" Title="EndPlateOnFlangesData Class" Url="html/T_IdeaRS_Connections_Data_EndPlateOnFlangesData.htm">
+      <HelpTOCNode Title="EndPlateOnFlangesData Constructor " Url="html/M_IdeaRS_Connections_Data_EndPlateOnFlangesData__ctor.htm" />
+      <HelpTOCNode Id="10b5e063-0df8-48d6-af34-231b9756df34" Title="EndPlateOnFlangesData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_EndPlateOnFlangesData.htm">
+        <HelpTOCNode Title="BeamEndPlateOffsetBottom Property " Url="html/P_IdeaRS_Connections_Data_EndPlateOnFlangesData_BeamEndPlateOffsetBottom.htm" />
+        <HelpTOCNode Title="BeamEndPlateOffsetLeft Property " Url="html/P_IdeaRS_Connections_Data_EndPlateOnFlangesData_BeamEndPlateOffsetLeft.htm" />
+        <HelpTOCNode Title="BeamEndPlateOffsetRight Property " Url="html/P_IdeaRS_Connections_Data_EndPlateOnFlangesData_BeamEndPlateOffsetRight.htm" />
+        <HelpTOCNode Title="BeamEndPlateOffsetTop Property " Url="html/P_IdeaRS_Connections_Data_EndPlateOnFlangesData_BeamEndPlateOffsetTop.htm" />
+        <HelpTOCNode Title="BeamEndPlateThickness Property " Url="html/P_IdeaRS_Connections_Data_EndPlateOnFlangesData_BeamEndPlateThickness.htm" />
+        <HelpTOCNode Title="BeamPlateHeightAutomatic Property " Url="html/P_IdeaRS_Connections_Data_EndPlateOnFlangesData_BeamPlateHeightAutomatic.htm" />
+        <HelpTOCNode Title="BeamPlateSize Property " Url="html/P_IdeaRS_Connections_Data_EndPlateOnFlangesData_BeamPlateSize.htm" />
+        <HelpTOCNode Title="HeightAutomatic Property " Url="html/P_IdeaRS_Connections_Data_EndPlateOnFlangesData_HeightAutomatic.htm" />
+        <HelpTOCNode Title="StiffenerChamferCorners Property " Url="html/P_IdeaRS_Connections_Data_EndPlateOnFlangesData_StiffenerChamferCorners.htm" />
+        <HelpTOCNode Title="StiffenerChamferSize Property " Url="html/P_IdeaRS_Connections_Data_EndPlateOnFlangesData_StiffenerChamferSize.htm" />
+        <HelpTOCNode Title="StiffenerMaterialName Property " Url="html/P_IdeaRS_Connections_Data_EndPlateOnFlangesData_StiffenerMaterialName.htm" />
+        <HelpTOCNode Title="StiffenerThickness Property " Url="html/P_IdeaRS_Connections_Data_EndPlateOnFlangesData_StiffenerThickness.htm" />
+        <HelpTOCNode Title="StiffenerType Property " Url="html/P_IdeaRS_Connections_Data_EndPlateOnFlangesData_StiffenerType.htm" />
+        <HelpTOCNode Title="StiffenerWeld Property " Url="html/P_IdeaRS_Connections_Data_EndPlateOnFlangesData_StiffenerWeld.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="EndPlateOnFlangesData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_EndPlateOnFlangesData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="EndPlateStiffener Enumeration" Url="html/T_IdeaRS_Connections_Data_EndPlateStiffener.htm" />
+    <HelpTOCNode Title="Fastener Enumeration" Url="html/T_IdeaRS_Connections_Data_Fastener.htm" />
+    <HelpTOCNode Id="a943da8d-0dda-4ced-8978-5e438aa4f10c" Title="FasteningData Class" Url="html/T_IdeaRS_Connections_Data_FasteningData.htm">
+      <HelpTOCNode Title="FasteningData Constructor " Url="html/M_IdeaRS_Connections_Data_FasteningData__ctor.htm" />
+      <HelpTOCNode Id="456ee271-cd83-4e77-ad1f-5f429ea6b036" Title="FasteningData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_FasteningData.htm">
+        <HelpTOCNode Title="Angle Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_Angle.htm" />
+        <HelpTOCNode Title="Angles Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_Angles.htm" />
+        <HelpTOCNode Title="AnchorLength Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_AnchorLength.htm" />
+        <HelpTOCNode Title="AnchorTypeData Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_AnchorTypeData.htm" />
+        <HelpTOCNode Title="AnchorTypeDataSize Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_AnchorTypeDataSize.htm" />
+        <HelpTOCNode Title="BoltEndOffset Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_BoltEndOffset.htm" />
+        <HelpTOCNode Title="BoltInteraction Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_BoltInteraction.htm" />
+        <HelpTOCNode Title="BoltStartOffest Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_BoltStartOffest.htm" />
+        <HelpTOCNode Title="Cols Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_Cols.htm" />
+        <HelpTOCNode Title="ColsGridType Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_ColsGridType.htm" />
+        <HelpTOCNode Title="ColsNegative Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_ColsNegative.htm" />
+        <HelpTOCNode Title="ColsPosition Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_ColsPosition.htm" />
+        <HelpTOCNode Title="ColsSymmetry Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_ColsSymmetry.htm" />
+        <HelpTOCNode Title="CoordinateSystem Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_CoordinateSystem.htm" />
+        <HelpTOCNode Title="Counts Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_Counts.htm" />
+        <HelpTOCNode Title="CustomLcsAngle Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_CustomLcsAngle.htm" />
+        <HelpTOCNode Title="CustomLcsPoint Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_CustomLcsPoint.htm" />
+        <HelpTOCNode Title="EditorData Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_EditorData.htm" />
+        <HelpTOCNode Title="FastenerName Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_FastenerName.htm" />
+        <HelpTOCNode Title="IsCustomLcs Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_IsCustomLcs.htm" />
+        <HelpTOCNode Title="PolarInput Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_PolarInput.htm" />
+        <HelpTOCNode Title="PolarPosition Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_PolarPosition.htm" />
+        <HelpTOCNode Title="Positions Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_Positions.htm" />
+        <HelpTOCNode Title="Radii Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_Radii.htm" />
+        <HelpTOCNode Title="Rows Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_Rows.htm" />
+        <HelpTOCNode Title="RowsGridType Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_RowsGridType.htm" />
+        <HelpTOCNode Title="RowsNegative Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_RowsNegative.htm" />
+        <HelpTOCNode Title="RowsPosition Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_RowsPosition.htm" />
+        <HelpTOCNode Title="RowsSymmetry Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_RowsSymmetry.htm" />
+        <HelpTOCNode Title="ShearPlaneThread Property " Url="html/P_IdeaRS_Connections_Data_FasteningData_ShearPlaneThread.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FasteningData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_FasteningData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6162d2f0-a1ce-47c5-84e6-6b446f0c0525" Title="FinPlateData Class" Url="html/T_IdeaRS_Connections_Data_FinPlateData.htm">
+      <HelpTOCNode Title="FinPlateData Constructor " Url="html/M_IdeaRS_Connections_Data_FinPlateData__ctor.htm" />
+      <HelpTOCNode Id="1b7f2cd7-2a59-4824-b8a5-705bd438e29e" Title="FinPlateData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_FinPlateData.htm">
+        <HelpTOCNode Title="Anchoring Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_Anchoring.htm" />
+        <HelpTOCNode Title="ConnectionType Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_ConnectionType.htm" />
+        <HelpTOCNode Title="CreateNotch Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_CreateNotch.htm" />
+        <HelpTOCNode Title="Fastening Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_Fastening.htm" />
+        <HelpTOCNode Title="Gap Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_Gap.htm" />
+        <HelpTOCNode Title="IsWeld Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_IsWeld.htm" />
+        <HelpTOCNode Title="Member1 Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_Member1.htm" />
+        <HelpTOCNode Title="Member1Part Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_Member1Part.htm" />
+        <HelpTOCNode Title="MemberFlangesWeld Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_MemberFlangesWeld.htm" />
+        <HelpTOCNode Title="MemberWeld Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_MemberWeld.htm" />
+        <HelpTOCNode Title="NotchOffset Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_NotchOffset.htm" />
+        <HelpTOCNode Title="OffsetBottom Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_OffsetBottom.htm" />
+        <HelpTOCNode Title="OffsetTop Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_OffsetTop.htm" />
+        <HelpTOCNode Title="Overlap Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_Overlap.htm" />
+        <HelpTOCNode Title="PlateWeld Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_PlateWeld.htm" />
+        <HelpTOCNode Title="PositionCode Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_PositionCode.htm" />
+        <HelpTOCNode Title="RelatedMember Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_RelatedMember.htm" />
+        <HelpTOCNode Title="RemainingPart Property " Url="html/P_IdeaRS_Connections_Data_FinPlateData_RemainingPart.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FinPlateData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_FinPlateData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="ForcesIn Enumeration" Url="html/T_IdeaRS_Connections_Data_ForcesIn.htm" />
+    <HelpTOCNode Id="4ce1cd5e-03e7-49b8-83bc-3fa780ac5f0a" Title="GeneralPlateData Class" Url="html/T_IdeaRS_Connections_Data_GeneralPlateData.htm">
+      <HelpTOCNode Title="GeneralPlateData Constructor " Url="html/M_IdeaRS_Connections_Data_GeneralPlateData__ctor.htm" />
+      <HelpTOCNode Id="a0d1052a-3559-4b19-9e48-67d784ff944f" Title="GeneralPlateData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_GeneralPlateData.htm">
+        <HelpTOCNode Title="CoordSystem Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_CoordSystem.htm" />
+        <HelpTOCNode Title="CustomGeometry Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_CustomGeometry.htm" />
+        <HelpTOCNode Title="LocIsWelded Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_LocIsWelded.htm" />
+        <HelpTOCNode Title="LocJointPoint Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_LocJointPoint.htm" />
+        <HelpTOCNode Title="LocJointRotation Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_LocJointRotation.htm" />
+        <HelpTOCNode Title="LocLocation Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_LocLocation.htm" />
+        <HelpTOCNode Title="LocMemberPath Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_LocMemberPath.htm" />
+        <HelpTOCNode Title="LocPitch Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_LocPitch.htm" />
+        <HelpTOCNode Title="LocPlatePath Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_LocPlatePath.htm" />
+        <HelpTOCNode Title="LocRelatedTo Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_LocRelatedTo.htm" />
+        <HelpTOCNode Title="LocRotation Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_LocRotation.htm" />
+        <HelpTOCNode Title="LocType Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_LocType.htm" />
+        <HelpTOCNode Title="LocXposition Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_LocXposition.htm" />
+        <HelpTOCNode Title="LocYposition Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_LocYposition.htm" />
+        <HelpTOCNode Title="OriginalModelId Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_OriginalModelId.htm" />
+        <HelpTOCNode Title="PlateEdgeInx Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_PlateEdgeInx.htm" />
+        <HelpTOCNode Title="Shape Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_Shape.htm" />
+        <HelpTOCNode Title="ShapeParam1 Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_ShapeParam1.htm" />
+        <HelpTOCNode Title="ShapeParam2 Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_ShapeParam2.htm" />
+        <HelpTOCNode Title="ShapeParam3 Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_ShapeParam3.htm" />
+        <HelpTOCNode Title="ShapeParam4 Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_ShapeParam4.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_GeneralPlateData_Weld.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="GeneralPlateData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_GeneralPlateData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="603937c1-f755-4c2a-9d84-76f3ac5571b9" Title="GeneralWeldData Class" Url="html/T_IdeaRS_Connections_Data_GeneralWeldData.htm">
+      <HelpTOCNode Title="GeneralWeldData Constructor " Url="html/M_IdeaRS_Connections_Data_GeneralWeldData__ctor.htm" />
+      <HelpTOCNode Id="3cf5572f-130b-47b2-b08f-942b7476a3da" Title="GeneralWeldData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_GeneralWeldData.htm">
+        <HelpTOCNode Title="SurfaceEdgeInx Property " Url="html/P_IdeaRS_Connections_Data_GeneralWeldData_SurfaceEdgeInx.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_GeneralWeldData_Weld.htm" />
+        <HelpTOCNode Title="WeldedEdgeIndexes Property " Url="html/P_IdeaRS_Connections_Data_GeneralWeldData_WeldedEdgeIndexes.htm" />
+        <HelpTOCNode Title="WeldedEdgeInx Property " Url="html/P_IdeaRS_Connections_Data_GeneralWeldData_WeldedEdgeInx.htm" />
+        <HelpTOCNode Title="WeldedMemberEdgePath Property " Url="html/P_IdeaRS_Connections_Data_GeneralWeldData_WeldedMemberEdgePath.htm" />
+        <HelpTOCNode Title="WeldedMemberSurfacePath Property " Url="html/P_IdeaRS_Connections_Data_GeneralWeldData_WeldedMemberSurfacePath.htm" />
+        <HelpTOCNode Title="WeldedPlateEdgePath Property " Url="html/P_IdeaRS_Connections_Data_GeneralWeldData_WeldedPlateEdgePath.htm" />
+        <HelpTOCNode Title="WeldedPlateSurfacePath Property " Url="html/P_IdeaRS_Connections_Data_GeneralWeldData_WeldedPlateSurfacePath.htm" />
+        <HelpTOCNode Title="WeldPlacement Property " Url="html/P_IdeaRS_Connections_Data_GeneralWeldData_WeldPlacement.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="GeneralWeldData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_GeneralWeldData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="GeneralWeldPlacement Enumeration" Url="html/T_IdeaRS_Connections_Data_GeneralWeldPlacement.htm" />
+    <HelpTOCNode Id="9189795d-f455-46dc-bda7-8cd2fb55ba01" Title="GussetData Class" Url="html/T_IdeaRS_Connections_Data_GussetData.htm">
+      <HelpTOCNode Title="GussetData Constructor " Url="html/M_IdeaRS_Connections_Data_GussetData__ctor.htm" />
+      <HelpTOCNode Id="e40ea49f-157c-4a1c-b0fb-3a73013e91c2" Title="GussetData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_GussetData.htm">
+        <HelpTOCNode Title="Anchoring Property " Url="html/P_IdeaRS_Connections_Data_GussetData_Anchoring.htm" />
+        <HelpTOCNode Title="BottomObjectPath Property " Url="html/P_IdeaRS_Connections_Data_GussetData_BottomObjectPath.htm" />
+        <HelpTOCNode Title="ConnectedMemberPath Property " Url="html/P_IdeaRS_Connections_Data_GussetData_ConnectedMemberPath.htm" />
+        <HelpTOCNode Title="ConnectedPlatePath Property " Url="html/P_IdeaRS_Connections_Data_GussetData_ConnectedPlatePath.htm" />
+        <HelpTOCNode Title="ConnectedTo Property " Url="html/P_IdeaRS_Connections_Data_GussetData_ConnectedTo.htm" />
+        <HelpTOCNode Title="ConnectedToPlatePath Property " Url="html/P_IdeaRS_Connections_Data_GussetData_ConnectedToPlatePath.htm" />
+        <HelpTOCNode Title="ConnectionAlignment Property " Url="html/P_IdeaRS_Connections_Data_GussetData_ConnectionAlignment.htm" />
+        <HelpTOCNode Title="ConnectionGap Property " Url="html/P_IdeaRS_Connections_Data_GussetData_ConnectionGap.htm" />
+        <HelpTOCNode Title="ConnectionNotch Property " Url="html/P_IdeaRS_Connections_Data_GussetData_ConnectionNotch.htm" />
+        <HelpTOCNode Title="ConnectionNotchGap Property " Url="html/P_IdeaRS_Connections_Data_GussetData_ConnectionNotchGap.htm" />
+        <HelpTOCNode Title="ConnectionType Property " Url="html/P_IdeaRS_Connections_Data_GussetData_ConnectionType.htm" />
+        <HelpTOCNode Title="Fastening Property " Url="html/P_IdeaRS_Connections_Data_GussetData_Fastening.htm" />
+        <HelpTOCNode Title="PlateEccentricity Property " Url="html/P_IdeaRS_Connections_Data_GussetData_PlateEccentricity.htm" />
+        <HelpTOCNode Title="PlateHeight Property " Url="html/P_IdeaRS_Connections_Data_GussetData_PlateHeight.htm" />
+        <HelpTOCNode Title="PlatePositionX Property " Url="html/P_IdeaRS_Connections_Data_GussetData_PlatePositionX.htm" />
+        <HelpTOCNode Title="PlateShapeCode Property " Url="html/P_IdeaRS_Connections_Data_GussetData_PlateShapeCode.htm" />
+        <HelpTOCNode Title="PlateShapeParam1 Property " Url="html/P_IdeaRS_Connections_Data_GussetData_PlateShapeParam1.htm" />
+        <HelpTOCNode Title="PlateShapeParam2 Property " Url="html/P_IdeaRS_Connections_Data_GussetData_PlateShapeParam2.htm" />
+        <HelpTOCNode Title="PlateWeld Property " Url="html/P_IdeaRS_Connections_Data_GussetData_PlateWeld.htm" />
+        <HelpTOCNode Title="PlateWidth Property " Url="html/P_IdeaRS_Connections_Data_GussetData_PlateWidth.htm" />
+        <HelpTOCNode Title="SideObjectPath Property " Url="html/P_IdeaRS_Connections_Data_GussetData_SideObjectPath.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_GussetData_Weld.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="GussetData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_GussetData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="GussetNotchType Enumeration" Url="html/T_IdeaRS_Connections_Data_GussetNotchType.htm" />
+    <HelpTOCNode Id="be70849d-5f2f-4cef-8994-cd520db8c584" Title="GussetPlateData Class" Url="html/T_IdeaRS_Connections_Data_GussetPlateData.htm">
+      <HelpTOCNode Title="GussetPlateData Constructor " Url="html/M_IdeaRS_Connections_Data_GussetPlateData__ctor.htm" />
+      <HelpTOCNode Id="7c41b92e-f586-4d03-a503-36e19a8c8507" Title="GussetPlateData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_GussetPlateData.htm">
+        <HelpTOCNode Title="AdjustWebs Property " Url="html/P_IdeaRS_Connections_Data_GussetPlateData_AdjustWebs.htm" />
+        <HelpTOCNode Title="AreWeldedWebs Property " Url="html/P_IdeaRS_Connections_Data_GussetPlateData_AreWeldedWebs.htm" />
+        <HelpTOCNode Title="BottomObjectPath Property " Url="html/P_IdeaRS_Connections_Data_GussetPlateData_BottomObjectPath.htm" />
+        <HelpTOCNode Title="ConnectedWebsPath Property " Url="html/P_IdeaRS_Connections_Data_GussetPlateData_ConnectedWebsPath.htm" />
+        <HelpTOCNode Title="CutGussetPlate Property " Url="html/P_IdeaRS_Connections_Data_GussetPlateData_CutGussetPlate.htm" />
+        <HelpTOCNode Title="GussetShift Property " Url="html/P_IdeaRS_Connections_Data_GussetPlateData_GussetShift.htm" />
+        <HelpTOCNode Title="Height Property " Url="html/P_IdeaRS_Connections_Data_GussetPlateData_Height.htm" />
+        <HelpTOCNode Title="Placement Property " Url="html/P_IdeaRS_Connections_Data_GussetPlateData_Placement.htm" />
+        <HelpTOCNode Title="ShapeCode Property " Url="html/P_IdeaRS_Connections_Data_GussetPlateData_ShapeCode.htm" />
+        <HelpTOCNode Title="ShapeParam1 Property " Url="html/P_IdeaRS_Connections_Data_GussetPlateData_ShapeParam1.htm" />
+        <HelpTOCNode Title="ShapeParam2 Property " Url="html/P_IdeaRS_Connections_Data_GussetPlateData_ShapeParam2.htm" />
+        <HelpTOCNode Title="SideObjectPath Property " Url="html/P_IdeaRS_Connections_Data_GussetPlateData_SideObjectPath.htm" />
+        <HelpTOCNode Title="WebCutOffset Property " Url="html/P_IdeaRS_Connections_Data_GussetPlateData_WebCutOffset.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_GussetPlateData_Weld.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/P_IdeaRS_Connections_Data_GussetPlateData_Width.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="GussetPlateData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_GussetPlateData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8ff8dc10-ff30-45a9-8869-6653ba84760e" Title="IBoltableData Interface" Url="html/T_IdeaRS_Connections_Data_IBoltableData.htm">
+      <HelpTOCNode Id="350dcaec-3574-46d0-9747-4b320d4a86d9" Title="IBoltableData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_IBoltableData.htm">
+        <HelpTOCNode Title="Fastening Property " Url="html/P_IdeaRS_Connections_Data_IBoltableData_Fastening.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="401e8718-1cad-4f55-a439-88fc04a1cca0" Title="IConnectionCmdData Interface" Url="html/T_IdeaRS_Connections_Data_IConnectionCmdData.htm">
+      <HelpTOCNode Id="62229e24-6245-4f12-af27-181fa9e4d513" Title="IConnectionCmdData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_IConnectionCmdData.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P_IdeaRS_Connections_Data_IConnectionCmdData_Name.htm" />
+        <HelpTOCNode Title="OperationId Property " Url="html/P_IdeaRS_Connections_Data_IConnectionCmdData_OperationId.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="df9c558b-771c-4c40-ac29-8c161edb497d" Title="IConnectionPartData Interface" Url="html/T_IdeaRS_Connections_Data_IConnectionPartData.htm">
+      <HelpTOCNode Id="ac943052-fa67-4600-b069-d99b024b8b21" Title="IConnectionPartData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_IConnectionPartData.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P_IdeaRS_Connections_Data_IConnectionPartData_Name.htm" />
+        <HelpTOCNode Title="OperationId Property " Url="html/P_IdeaRS_Connections_Data_IConnectionPartData_OperationId.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="273d1f1e-dafe-4094-b364-f473765f5c40" Title="InternalForceOnSegmentData Class" Url="html/T_IdeaRS_Connections_Data_InternalForceOnSegmentData.htm">
+      <HelpTOCNode Title="InternalForceOnSegmentData Constructor " Url="html/M_IdeaRS_Connections_Data_InternalForceOnSegmentData__ctor.htm" />
+      <HelpTOCNode Id="7aac04dd-2bfa-454b-a231-3e144a786cef" Title="InternalForceOnSegmentData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_InternalForceOnSegmentData.htm">
+        <HelpTOCNode Title="AbsPosition Property " Url="html/P_IdeaRS_Connections_Data_InternalForceOnSegmentData_AbsPosition.htm" />
+        <HelpTOCNode Title="BeamSegmentId Property " Url="html/P_IdeaRS_Connections_Data_InternalForceOnSegmentData_BeamSegmentId.htm" />
+        <HelpTOCNode Title="ForceIn Property " Url="html/P_IdeaRS_Connections_Data_InternalForceOnSegmentData_ForceIn.htm" />
+        <HelpTOCNode Title="Mx Property " Url="html/P_IdeaRS_Connections_Data_InternalForceOnSegmentData_Mx.htm" />
+        <HelpTOCNode Title="My Property " Url="html/P_IdeaRS_Connections_Data_InternalForceOnSegmentData_My.htm" />
+        <HelpTOCNode Title="Mz Property " Url="html/P_IdeaRS_Connections_Data_InternalForceOnSegmentData_Mz.htm" />
+        <HelpTOCNode Title="N Property " Url="html/P_IdeaRS_Connections_Data_InternalForceOnSegmentData_N.htm" />
+        <HelpTOCNode Title="Position Property " Url="html/P_IdeaRS_Connections_Data_InternalForceOnSegmentData_Position.htm" />
+        <HelpTOCNode Title="Qy Property " Url="html/P_IdeaRS_Connections_Data_InternalForceOnSegmentData_Qy.htm" />
+        <HelpTOCNode Title="Qz Property " Url="html/P_IdeaRS_Connections_Data_InternalForceOnSegmentData_Qz.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="InternalForceOnSegmentData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_InternalForceOnSegmentData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="ItemOrientation Enumeration" Url="html/T_IdeaRS_Connections_Data_ItemOrientation.htm" />
+    <HelpTOCNode Title="ItemType Enumeration" Url="html/T_IdeaRS_Connections_Data_ItemType.htm" />
+    <HelpTOCNode Id="16c2fc6c-33a3-45f9-8714-b6078f9d356e" Title="ManufacturingOperationData Class" Url="html/T_IdeaRS_Connections_Data_ManufacturingOperationData.htm">
+      <HelpTOCNode Title="ManufacturingOperationData Constructor " Url="html/M_IdeaRS_Connections_Data_ManufacturingOperationData__ctor.htm" />
+      <HelpTOCNode Id="386b6a36-5c21-4234-a13d-fbd006a015f3" Title="ManufacturingOperationData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_ManufacturingOperationData.htm">
+        <HelpTOCNode Title="CommandId Property " Url="html/P_IdeaRS_Connections_Data_ManufacturingOperationData_CommandId.htm" />
+        <HelpTOCNode Title="ParameterId Property " Url="html/P_IdeaRS_Connections_Data_ManufacturingOperationData_ParameterId.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ManufacturingOperationData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ManufacturingOperationData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="cdb37dbe-f77a-4ce7-a3b4-5cee58e95f31" Title="ManufacturingSequence Class" Url="html/T_IdeaRS_Connections_Data_ManufacturingSequence.htm">
+      <HelpTOCNode Title="ManufacturingSequence Constructor " Url="html/M_IdeaRS_Connections_Data_ManufacturingSequence__ctor.htm" />
+      <HelpTOCNode Id="206dc82c-28f4-4aba-9c78-bb083f316876" Title="ManufacturingSequence Properties" Url="html/Properties_T_IdeaRS_Connections_Data_ManufacturingSequence.htm">
+        <HelpTOCNode Title="Operations Property " Url="html/P_IdeaRS_Connections_Data_ManufacturingSequence_Operations.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ManufacturingSequence Methods" Url="html/Methods_T_IdeaRS_Connections_Data_ManufacturingSequence.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0216fa3e-02a8-465d-85fd-bc96f5cb1699" Title="MemberAddedMemberData Class" Url="html/T_IdeaRS_Connections_Data_MemberAddedMemberData.htm">
+      <HelpTOCNode Title="MemberAddedMemberData Constructor " Url="html/M_IdeaRS_Connections_Data_MemberAddedMemberData__ctor.htm" />
+      <HelpTOCNode Title="MemberAddedMemberData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_MemberAddedMemberData.htm" />
+      <HelpTOCNode Title="MemberAddedMemberData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_MemberAddedMemberData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="de89a620-9105-4a47-a33d-c0f184748916" Title="MemberCutBeamData Class" Url="html/T_IdeaRS_Connections_Data_MemberCutBeamData.htm">
+      <HelpTOCNode Title="MemberCutBeamData Constructor " Url="html/M_IdeaRS_Connections_Data_MemberCutBeamData__ctor.htm" />
+      <HelpTOCNode Title="MemberCutBeamData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_MemberCutBeamData.htm" />
+      <HelpTOCNode Title="MemberCutBeamData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_MemberCutBeamData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="106ecf7e-dcba-4edd-ae56-aebae1bfe9bc" Title="MemberCutPlateData Class" Url="html/T_IdeaRS_Connections_Data_MemberCutPlateData.htm">
+      <HelpTOCNode Title="MemberCutPlateData Constructor " Url="html/M_IdeaRS_Connections_Data_MemberCutPlateData__ctor.htm" />
+      <HelpTOCNode Title="MemberCutPlateData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_MemberCutPlateData.htm" />
+      <HelpTOCNode Title="MemberCutPlateData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_MemberCutPlateData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e4749e66-dd87-48b8-a1bb-dcc8f72c25f7" Title="MemberGeneralWeldData Class" Url="html/T_IdeaRS_Connections_Data_MemberGeneralWeldData.htm">
+      <HelpTOCNode Title="MemberGeneralWeldData Constructor " Url="html/M_IdeaRS_Connections_Data_MemberGeneralWeldData__ctor.htm" />
+      <HelpTOCNode Title="MemberGeneralWeldData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_MemberGeneralWeldData.htm" />
+      <HelpTOCNode Title="MemberGeneralWeldData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_MemberGeneralWeldData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="388a7f4b-d7c0-4567-a2cb-6c5482e6903c" Title="MemberLongitudinalStiffenerData Class" Url="html/T_IdeaRS_Connections_Data_MemberLongitudinalStiffenerData.htm">
+      <HelpTOCNode Title="MemberLongitudinalStiffenerData Constructor " Url="html/M_IdeaRS_Connections_Data_MemberLongitudinalStiffenerData__ctor.htm" />
+      <HelpTOCNode Id="6a906b96-0a3f-4e50-852f-6357a3bfb16e" Title="MemberLongitudinalStiffenerData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_MemberLongitudinalStiffenerData.htm">
+        <HelpTOCNode Title="BeginOffsetX Property " Url="html/P_IdeaRS_Connections_Data_MemberLongitudinalStiffenerData_BeginOffsetX.htm" />
+        <HelpTOCNode Title="EndOffsetX Property " Url="html/P_IdeaRS_Connections_Data_MemberLongitudinalStiffenerData_EndOffsetX.htm" />
+        <HelpTOCNode Title="OffsetY Property " Url="html/P_IdeaRS_Connections_Data_MemberLongitudinalStiffenerData_OffsetY.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MemberLongitudinalStiffenerData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_MemberLongitudinalStiffenerData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5cff475f-d5cd-4e3e-96f3-20fe261c2278" Title="MemberOpeningData Class" Url="html/T_IdeaRS_Connections_Data_MemberOpeningData.htm">
+      <HelpTOCNode Title="MemberOpeningData Constructor " Url="html/M_IdeaRS_Connections_Data_MemberOpeningData__ctor.htm" />
+      <HelpTOCNode Title="MemberOpeningData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_MemberOpeningData.htm" />
+      <HelpTOCNode Title="MemberOpeningData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_MemberOpeningData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="MemberRelatedTo Enumeration" Url="html/T_IdeaRS_Connections_Data_MemberRelatedTo.htm" />
+    <HelpTOCNode Id="398c0b3e-bb73-4261-bcf0-cc6ced2827b8" Title="MemberTransversalStiffenerData Class" Url="html/T_IdeaRS_Connections_Data_MemberTransversalStiffenerData.htm">
+      <HelpTOCNode Title="MemberTransversalStiffenerData Constructor " Url="html/M_IdeaRS_Connections_Data_MemberTransversalStiffenerData__ctor.htm" />
+      <HelpTOCNode Title="MemberTransversalStiffenerData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_MemberTransversalStiffenerData.htm" />
+      <HelpTOCNode Title="MemberTransversalStiffenerData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_MemberTransversalStiffenerData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="PlacementDefinitionType Enumeration" Url="html/T_IdeaRS_Connections_Data_PlacementDefinitionType.htm" />
+    <HelpTOCNode Id="a8c68803-5990-461d-8b7b-11436bc0aaa2" Title="Plate2PlateData Class" Url="html/T_IdeaRS_Connections_Data_Plate2PlateData.htm">
+      <HelpTOCNode Title="Plate2PlateData Constructor " Url="html/M_IdeaRS_Connections_Data_Plate2PlateData__ctor.htm" />
+      <HelpTOCNode Id="95f65439-e1b3-4403-9c5b-7f44addd8c65" Title="Plate2PlateData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_Plate2PlateData.htm">
+        <HelpTOCNode Title="Anchoring Property " Url="html/P_IdeaRS_Connections_Data_Plate2PlateData_Anchoring.htm" />
+        <HelpTOCNode Title="Fastening Property " Url="html/P_IdeaRS_Connections_Data_Plate2PlateData_Fastening.htm" />
+        <HelpTOCNode Title="FlangesWeld Property " Url="html/P_IdeaRS_Connections_Data_Plate2PlateData_FlangesWeld.htm" />
+        <HelpTOCNode Title="IsWeld Property " Url="html/P_IdeaRS_Connections_Data_Plate2PlateData_IsWeld.htm" />
+        <HelpTOCNode Title="Member1 Property " Url="html/P_IdeaRS_Connections_Data_Plate2PlateData_Member1.htm" />
+        <HelpTOCNode Title="Member2 Property " Url="html/P_IdeaRS_Connections_Data_Plate2PlateData_Member2.htm" />
+        <HelpTOCNode Title="PositionOnMember1 Property " Url="html/P_IdeaRS_Connections_Data_Plate2PlateData_PositionOnMember1.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_Plate2PlateData_Weld.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Plate2PlateData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_Plate2PlateData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="PlateAdjustmentType Enumeration" Url="html/T_IdeaRS_Connections_Data_PlateAdjustmentType.htm" />
+    <HelpTOCNode Id="89d0a6a8-72f8-4525-9351-3bd97f61b731" Title="PlateDataBase Class" Url="html/T_IdeaRS_Connections_Data_PlateDataBase.htm">
+      <HelpTOCNode Title="PlateDataBase Constructor " Url="html/M_IdeaRS_Connections_Data_PlateDataBase__ctor.htm" />
+      <HelpTOCNode Id="ece237a4-638e-408c-9e43-b9d874e7cb94" Title="PlateDataBase Properties" Url="html/Properties_T_IdeaRS_Connections_Data_PlateDataBase.htm">
+        <HelpTOCNode Title="PlateMaterialName Property " Url="html/P_IdeaRS_Connections_Data_PlateDataBase_PlateMaterialName.htm" />
+        <HelpTOCNode Title="ShapeData Property " Url="html/P_IdeaRS_Connections_Data_PlateDataBase_ShapeData.htm" />
+        <HelpTOCNode Title="Thickness Property " Url="html/P_IdeaRS_Connections_Data_PlateDataBase_Thickness.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlateDataBase Methods" Url="html/Methods_T_IdeaRS_Connections_Data_PlateDataBase.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9f631353-8be1-4d16-ae81-3ac76431e263" Title="PlateOpeningData Class" Url="html/T_IdeaRS_Connections_Data_PlateOpeningData.htm">
+      <HelpTOCNode Title="PlateOpeningData Constructor " Url="html/M_IdeaRS_Connections_Data_PlateOpeningData__ctor.htm" />
+      <HelpTOCNode Id="73f16195-ff97-4e9c-b395-40f26283bca5" Title="PlateOpeningData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_PlateOpeningData.htm">
+        <HelpTOCNode Title="CountX Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_CountX.htm" />
+        <HelpTOCNode Title="DeltaX Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_DeltaX.htm" />
+        <HelpTOCNode Title="MemberPath Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_MemberPath.htm" />
+        <HelpTOCNode Title="OffsetX Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_OffsetX.htm" />
+        <HelpTOCNode Title="OffsetY Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_OffsetY.htm" />
+        <HelpTOCNode Title="OpeningStiffener Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_OpeningStiffener.htm" />
+        <HelpTOCNode Title="OpeningStiffenerEdgeIndexes Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_OpeningStiffenerEdgeIndexes.htm" />
+        <HelpTOCNode Title="OpeningStiffenerMaterialName Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_OpeningStiffenerMaterialName.htm" />
+        <HelpTOCNode Title="OpeningStiffenerThickness Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_OpeningStiffenerThickness.htm" />
+        <HelpTOCNode Title="OpeningStiffenerWeld Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_OpeningStiffenerWeld.htm" />
+        <HelpTOCNode Title="OpeningStiffenerWidth Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_OpeningStiffenerWidth.htm" />
+        <HelpTOCNode Title="Param1 Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_Param1.htm" />
+        <HelpTOCNode Title="Param11 Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_Param11.htm" />
+        <HelpTOCNode Title="Param12 Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_Param12.htm" />
+        <HelpTOCNode Title="Param2 Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_Param2.htm" />
+        <HelpTOCNode Title="Param21 Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_Param21.htm" />
+        <HelpTOCNode Title="Param3 Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_Param3.htm" />
+        <HelpTOCNode Title="PlatePath Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_PlatePath.htm" />
+        <HelpTOCNode Title="PositionCode Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_PositionCode.htm" />
+        <HelpTOCNode Title="RelativePointCode Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_RelativePointCode.htm" />
+        <HelpTOCNode Title="Rotation Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_Rotation.htm" />
+        <HelpTOCNode Title="ShapeCode Property " Url="html/P_IdeaRS_Connections_Data_PlateOpeningData_ShapeCode.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlateOpeningData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_PlateOpeningData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="PlateRelatedTo Enumeration" Url="html/T_IdeaRS_Connections_Data_PlateRelatedTo.htm" />
+    <HelpTOCNode Title="PlateShapeCode Enumeration" Url="html/T_IdeaRS_Connections_Data_PlateShapeCode.htm" />
+    <HelpTOCNode Title="PlateSideCode Enumeration" Url="html/T_IdeaRS_Connections_Data_PlateSideCode.htm" />
+    <HelpTOCNode Title="PlateSizeMethodTypes Enumeration" Url="html/T_IdeaRS_Connections_Data_PlateSizeMethodTypes.htm" />
+    <HelpTOCNode Id="5a28b5b0-2b8d-41f7-955f-96bc89a1171f" Title="PlateWidenerData Class" Url="html/T_IdeaRS_Connections_Data_PlateWidenerData.htm">
+      <HelpTOCNode Title="PlateWidenerData Constructor " Url="html/M_IdeaRS_Connections_Data_PlateWidenerData__ctor.htm" />
+      <HelpTOCNode Id="efee5993-bb74-40c8-aa3f-2e30f6cbca9e" Title="PlateWidenerData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_PlateWidenerData.htm">
+        <HelpTOCNode Title="ConnectedPlatePath Property " Url="html/P_IdeaRS_Connections_Data_PlateWidenerData_ConnectedPlatePath.htm" />
+        <HelpTOCNode Title="ExtendedPlatePath Property " Url="html/P_IdeaRS_Connections_Data_PlateWidenerData_ExtendedPlatePath.htm" />
+        <HelpTOCNode Title="Height Property " Url="html/P_IdeaRS_Connections_Data_PlateWidenerData_Height.htm" />
+        <HelpTOCNode Title="Offset Property " Url="html/P_IdeaRS_Connections_Data_PlateWidenerData_Offset.htm" />
+        <HelpTOCNode Title="PositionCode Property " Url="html/P_IdeaRS_Connections_Data_PlateWidenerData_PositionCode.htm" />
+        <HelpTOCNode Title="ShapeParam1 Property " Url="html/P_IdeaRS_Connections_Data_PlateWidenerData_ShapeParam1.htm" />
+        <HelpTOCNode Title="ShapeParam2 Property " Url="html/P_IdeaRS_Connections_Data_PlateWidenerData_ShapeParam2.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_PlateWidenerData_Weld.htm" />
+        <HelpTOCNode Title="WidenerShapeCode Property " Url="html/P_IdeaRS_Connections_Data_PlateWidenerData_WidenerShapeCode.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/P_IdeaRS_Connections_Data_PlateWidenerData_Width.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlateWidenerData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_PlateWidenerData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="PositionCode Enumeration" Url="html/T_IdeaRS_Connections_Data_PositionCode.htm" />
+    <HelpTOCNode Id="bf5c22f4-f798-487c-90fc-557d02b28752" Title="RibData Class" Url="html/T_IdeaRS_Connections_Data_RibData.htm">
+      <HelpTOCNode Title="RibData Constructor " Url="html/M_IdeaRS_Connections_Data_RibData__ctor.htm" />
+      <HelpTOCNode Id="300ce74c-42e7-434d-848b-0c36a2e38ec5" Title="RibData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_RibData.htm">
+        <HelpTOCNode Title="BottomPlatePath Property " Url="html/P_IdeaRS_Connections_Data_RibData_BottomPlatePath.htm" />
+        <HelpTOCNode Title="Delta Property " Url="html/P_IdeaRS_Connections_Data_RibData_Delta.htm" />
+        <HelpTOCNode Title="FirstRibAzimuth Property " Url="html/P_IdeaRS_Connections_Data_RibData_FirstRibAzimuth.htm" />
+        <HelpTOCNode Title="Height Property " Url="html/P_IdeaRS_Connections_Data_RibData_Height.htm" />
+        <HelpTOCNode Title="IncludeFirstCode Property " Url="html/P_IdeaRS_Connections_Data_RibData_IncludeFirstCode.htm" />
+        <HelpTOCNode Title="IsLastRib Property " Url="html/P_IdeaRS_Connections_Data_RibData_IsLastRib.htm" />
+        <HelpTOCNode Title="NumberOfRibs Property " Url="html/P_IdeaRS_Connections_Data_RibData_NumberOfRibs.htm" />
+        <HelpTOCNode Title="Offset Property " Url="html/P_IdeaRS_Connections_Data_RibData_Offset.htm" />
+        <HelpTOCNode Title="Placement Property " Url="html/P_IdeaRS_Connections_Data_RibData_Placement.htm" />
+        <HelpTOCNode Title="RadialRibCount Property " Url="html/P_IdeaRS_Connections_Data_RibData_RadialRibCount.htm" />
+        <HelpTOCNode Title="RibAngle Property " Url="html/P_IdeaRS_Connections_Data_RibData_RibAngle.htm" />
+        <HelpTOCNode Title="ShapeCode Property " Url="html/P_IdeaRS_Connections_Data_RibData_ShapeCode.htm" />
+        <HelpTOCNode Title="ShapeParam1 Property " Url="html/P_IdeaRS_Connections_Data_RibData_ShapeParam1.htm" />
+        <HelpTOCNode Title="ShapeParam2 Property " Url="html/P_IdeaRS_Connections_Data_RibData_ShapeParam2.htm" />
+        <HelpTOCNode Title="SideCode Property " Url="html/P_IdeaRS_Connections_Data_RibData_SideCode.htm" />
+        <HelpTOCNode Title="SideMemberPath Property " Url="html/P_IdeaRS_Connections_Data_RibData_SideMemberPath.htm" />
+        <HelpTOCNode Title="SidePlatePath Property " Url="html/P_IdeaRS_Connections_Data_RibData_SidePlatePath.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_RibData_Weld.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/P_IdeaRS_Connections_Data_RibData_Width.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RibData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_RibData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="62d43fc3-20b9-4d57-a534-d76e7f6ae653" Title="SolidData Class" Url="html/T_IdeaRS_Connections_Data_SolidData.htm">
+      <HelpTOCNode Title="SolidData Constructor " Url="html/M_IdeaRS_Connections_Data_SolidData__ctor.htm" />
+      <HelpTOCNode Title="SolidData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_SolidData.htm" />
+      <HelpTOCNode Title="SolidData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_SolidData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="388c4bcc-e36c-424b-b142-b837dd06bc0f" Title="SpliceData Class" Url="html/T_IdeaRS_Connections_Data_SpliceData.htm">
+      <HelpTOCNode Title="SpliceData Constructor " Url="html/M_IdeaRS_Connections_Data_SpliceData__ctor.htm" />
+      <HelpTOCNode Id="420bab6c-a87c-4427-9e50-bd20f8eb1c7b" Title="SpliceData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_SpliceData.htm">
+        <HelpTOCNode Title="Anchoring Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_Anchoring.htm" />
+        <HelpTOCNode Title="B1 Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_B1.htm" />
+        <HelpTOCNode Title="B2 Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_B2.htm" />
+        <HelpTOCNode Title="BackingPlateOffset Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_BackingPlateOffset.htm" />
+        <HelpTOCNode Title="BackingPlateThickness Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_BackingPlateThickness.htm" />
+        <HelpTOCNode Title="ConnectedPlatePath Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_ConnectedPlatePath.htm" />
+        <HelpTOCNode Title="ConnectedTo Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_ConnectedTo.htm" />
+        <HelpTOCNode Title="ConnectionType Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_ConnectionType.htm" />
+        <HelpTOCNode Title="ExistingSplicePath Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_ExistingSplicePath.htm" />
+        <HelpTOCNode Title="Fastening Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_Fastening.htm" />
+        <HelpTOCNode Title="IsBackingPlate Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_IsBackingPlate.htm" />
+        <HelpTOCNode Title="IsSymmetrical Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_IsSymmetrical.htm" />
+        <HelpTOCNode Title="Member2Path Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_Member2Path.htm" />
+        <HelpTOCNode Title="MemberPath Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_MemberPath.htm" />
+        <HelpTOCNode Title="NewSplicePosition Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_NewSplicePosition.htm" />
+        <HelpTOCNode Title="Offset1 Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_Offset1.htm" />
+        <HelpTOCNode Title="Offset2 Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_Offset2.htm" />
+        <HelpTOCNode Title="TransversalWeld Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_TransversalWeld.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_SpliceData_Weld.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SpliceData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_SpliceData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="460bf8be-cb16-4932-91f5-5bee6b8199b3" Title="StiffenerData Class" Url="html/T_IdeaRS_Connections_Data_StiffenerData.htm">
+      <HelpTOCNode Title="StiffenerData Constructor " Url="html/M_IdeaRS_Connections_Data_StiffenerData__ctor.htm" />
+      <HelpTOCNode Id="6b21f5e1-63a0-46ea-8fa9-cb4e92823392" Title="StiffenerData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_StiffenerData.htm">
+        <HelpTOCNode Title="CapPlateOffset Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_CapPlateOffset.htm" />
+        <HelpTOCNode Title="Delta Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_Delta.htm" />
+        <HelpTOCNode Title="Gap Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_Gap.htm" />
+        <HelpTOCNode Title="ChamferCorners Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_ChamferCorners.htm" />
+        <HelpTOCNode Title="ChamferSize Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_ChamferSize.htm" />
+        <HelpTOCNode Title="IsCapPlate Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_IsCapPlate.htm" />
+        <HelpTOCNode Title="Location Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_Location.htm" />
+        <HelpTOCNode Title="MemberPath Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_MemberPath.htm" />
+        <HelpTOCNode Title="NumberOfStiffeners Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_NumberOfStiffeners.htm" />
+        <HelpTOCNode Title="OffsetBottom Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_OffsetBottom.htm" />
+        <HelpTOCNode Title="OffsetTop Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_OffsetTop.htm" />
+        <HelpTOCNode Title="PosOnMember Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_PosOnMember.htm" />
+        <HelpTOCNode Title="ReferenceBoundingBoxSide Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_ReferenceBoundingBoxSide.htm" />
+        <HelpTOCNode Title="ReferenceMemberPath Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_ReferenceMemberPath.htm" />
+        <HelpTOCNode Title="RemainingPart Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_RemainingPart.htm" />
+        <HelpTOCNode Title="Rotation Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_Rotation.htm" />
+        <HelpTOCNode Title="StiffenerWidth Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_StiffenerWidth.htm" />
+        <HelpTOCNode Title="TubeCircStiffDiam Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_TubeCircStiffDiam.htm" />
+        <HelpTOCNode Title="TubeRectStiffHeight Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_TubeRectStiffHeight.htm" />
+        <HelpTOCNode Title="TubeRectStiffRotation Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_TubeRectStiffRotation.htm" />
+        <HelpTOCNode Title="TubeRectStiffWidth Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_TubeRectStiffWidth.htm" />
+        <HelpTOCNode Title="TubeStiffShape Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_TubeStiffShape.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_StiffenerData_Weld.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StiffenerData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_StiffenerData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="StubProfileType Enumeration" Url="html/T_IdeaRS_Connections_Data_StubProfileType.htm" />
+    <HelpTOCNode Title="TimberConnectedToType Enumeration" Url="html/T_IdeaRS_Connections_Data_TimberConnectedToType.htm" />
+    <HelpTOCNode Id="da2dc221-33a2-4c9c-b928-b0cbeb924f79" Title="TimberConnectingPlateData Class" Url="html/T_IdeaRS_Connections_Data_TimberConnectingPlateData.htm">
+      <HelpTOCNode Title="TimberConnectingPlateData Constructor " Url="html/M_IdeaRS_Connections_Data_TimberConnectingPlateData__ctor.htm" />
+      <HelpTOCNode Id="ef10c3b4-ffa1-4a12-99b7-306ffcf0dea2" Title="TimberConnectingPlateData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_TimberConnectingPlateData.htm">
+        <HelpTOCNode Title="Anchoring Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_Anchoring.htm" />
+        <HelpTOCNode Title="BottomObjectPath Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_BottomObjectPath.htm" />
+        <HelpTOCNode Title="ConnectedMemberPath Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_ConnectedMemberPath.htm" />
+        <HelpTOCNode Title="ConnectedTo Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_ConnectedTo.htm" />
+        <HelpTOCNode Title="ConnectedToPlatePath Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_ConnectedToPlatePath.htm" />
+        <HelpTOCNode Title="ConnectionAlignment Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_ConnectionAlignment.htm" />
+        <HelpTOCNode Title="ConnectionLidOffsets Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_ConnectionLidOffsets.htm" />
+        <HelpTOCNode Title="ConnectionLidShape Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_ConnectionLidShape.htm" />
+        <HelpTOCNode Title="ConnectionLidThickness Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_ConnectionLidThickness.htm" />
+        <HelpTOCNode Title="ConnectionOverlap Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_ConnectionOverlap.htm" />
+        <HelpTOCNode Title="ConnectionTongueExcentricity Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_ConnectionTongueExcentricity.htm" />
+        <HelpTOCNode Title="ConnectionTongueLength Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_ConnectionTongueLength.htm" />
+        <HelpTOCNode Title="ConnectionTongueType Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_ConnectionTongueType.htm" />
+        <HelpTOCNode Title="ConnectionTongueWidth Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_ConnectionTongueWidth.htm" />
+        <HelpTOCNode Title="ConnectionType Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_ConnectionType.htm" />
+        <HelpTOCNode Title="ConnectionXposition Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_ConnectionXposition.htm" />
+        <HelpTOCNode Title="ConPltMaterialName Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_ConPltMaterialName.htm" />
+        <HelpTOCNode Title="FasteningOnInsertedPlate Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_FasteningOnInsertedPlate.htm" />
+        <HelpTOCNode Title="FasteningOnTonguePlate Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_FasteningOnTonguePlate.htm" />
+        <HelpTOCNode Title="InsertedPlateBoltEndOffset Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_InsertedPlateBoltEndOffset.htm" />
+        <HelpTOCNode Title="InsertedPlateSurfaceOffset Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_InsertedPlateSurfaceOffset.htm" />
+        <HelpTOCNode Title="InsertedPlateThickness Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_InsertedPlateThickness.htm" />
+        <HelpTOCNode Title="InsertedPlateToLidWeld Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_InsertedPlateToLidWeld.htm" />
+        <HelpTOCNode Title="InsideWeldLength Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_InsideWeldLength.htm" />
+        <HelpTOCNode Title="LidWeld Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_LidWeld.htm" />
+        <HelpTOCNode Title="NewGussetPlateWeld Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_NewGussetPlateWeld.htm" />
+        <HelpTOCNode Title="PlateAngle Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_PlateAngle.htm" />
+        <HelpTOCNode Title="PlateHeight Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_PlateHeight.htm" />
+        <HelpTOCNode Title="PlatePositionX Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_PlatePositionX.htm" />
+        <HelpTOCNode Title="PlateShapeCode Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_PlateShapeCode.htm" />
+        <HelpTOCNode Title="PlateShapeParam1 Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_PlateShapeParam1.htm" />
+        <HelpTOCNode Title="PlateShapeParam2 Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_PlateShapeParam2.htm" />
+        <HelpTOCNode Title="PlateThickness Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_PlateThickness.htm" />
+        <HelpTOCNode Title="PlateWidth Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_PlateWidth.htm" />
+        <HelpTOCNode Title="RemainingPart Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_RemainingPart.htm" />
+        <HelpTOCNode Title="SideObjectPath Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_SideObjectPath.htm" />
+        <HelpTOCNode Title="TimberConnectedToType Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_TimberConnectedToType.htm" />
+        <HelpTOCNode Title="TimberInsertedPlateType Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_TimberInsertedPlateType.htm" />
+        <HelpTOCNode Title="TimberTonguePlateType Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_TimberTonguePlateType.htm" />
+        <HelpTOCNode Title="TonguePlateToLidWeld Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_TonguePlateToLidWeld.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_TimberConnectingPlateData_Weld.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TimberConnectingPlateData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_TimberConnectingPlateData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="539e3d2b-3549-44d5-abc4-1e3937d77a31" Title="TimberGussetMemberData Class" Url="html/T_IdeaRS_Connections_Data_TimberGussetMemberData.htm">
+      <HelpTOCNode Title="TimberGussetMemberData Constructor " Url="html/M_IdeaRS_Connections_Data_TimberGussetMemberData__ctor.htm" />
+      <HelpTOCNode Id="96cc12da-61c4-4b87-949c-11a34688b3e4" Title="TimberGussetMemberData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_TimberGussetMemberData.htm">
+        <HelpTOCNode Title="Fastening Property " Url="html/P_IdeaRS_Connections_Data_TimberGussetMemberData_Fastening.htm" />
+        <HelpTOCNode Title="MemberPath Property " Url="html/P_IdeaRS_Connections_Data_TimberGussetMemberData_MemberPath.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TimberGussetMemberData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_TimberGussetMemberData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="592be4ce-02ed-47ca-b220-d26e22e3d15a" Title="TimberGussetPlateData Class" Url="html/T_IdeaRS_Connections_Data_TimberGussetPlateData.htm">
+      <HelpTOCNode Title="TimberGussetPlateData Constructor " Url="html/M_IdeaRS_Connections_Data_TimberGussetPlateData__ctor.htm" />
+      <HelpTOCNode Id="89cfff9e-b11e-41c5-910f-42df939324b6" Title="TimberGussetPlateData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_TimberGussetPlateData.htm">
+        <HelpTOCNode Title="BoltShearType Property " Url="html/P_IdeaRS_Connections_Data_TimberGussetPlateData_BoltShearType.htm" />
+        <HelpTOCNode Title="CountOfGussetPlates Property " Url="html/P_IdeaRS_Connections_Data_TimberGussetPlateData_CountOfGussetPlates.htm" />
+        <HelpTOCNode Title="CountOfMembers Property " Url="html/P_IdeaRS_Connections_Data_TimberGussetPlateData_CountOfMembers.htm" />
+        <HelpTOCNode Title="GussetPlateSurfaceOffset Property " Url="html/P_IdeaRS_Connections_Data_TimberGussetPlateData_GussetPlateSurfaceOffset.htm" />
+        <HelpTOCNode Title="ShearPlaneThread Property " Url="html/P_IdeaRS_Connections_Data_TimberGussetPlateData_ShearPlaneThread.htm" />
+        <HelpTOCNode Title="SinglePlateExtension Property " Url="html/P_IdeaRS_Connections_Data_TimberGussetPlateData_SinglePlateExtension.htm" />
+        <HelpTOCNode Title="TimberGussetMembers Property " Url="html/P_IdeaRS_Connections_Data_TimberGussetPlateData_TimberGussetMembers.htm" />
+        <HelpTOCNode Title="TimberGussetPlateType Property " Url="html/P_IdeaRS_Connections_Data_TimberGussetPlateData_TimberGussetPlateType.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TimberGussetPlateData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_TimberGussetPlateData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="TimberGussetPlateType Enumeration" Url="html/T_IdeaRS_Connections_Data_TimberGussetPlateType.htm" />
+    <HelpTOCNode Title="TimberInsertedPlateType Enumeration" Url="html/T_IdeaRS_Connections_Data_TimberInsertedPlateType.htm" />
+    <HelpTOCNode Title="TimberTonguePlateType Enumeration" Url="html/T_IdeaRS_Connections_Data_TimberTonguePlateType.htm" />
+    <HelpTOCNode Id="499488bc-13e6-4725-86ff-cb11a576f923" Title="TonguePlateData Class" Url="html/T_IdeaRS_Connections_Data_TonguePlateData.htm">
+      <HelpTOCNode Title="TonguePlateData Constructor " Url="html/M_IdeaRS_Connections_Data_TonguePlateData__ctor.htm" />
+      <HelpTOCNode Id="25b89af7-d29a-4cb3-aca0-f83bea15ed5a" Title="TonguePlateData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_TonguePlateData.htm">
+        <HelpTOCNode Title="Anchoring Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_Anchoring.htm" />
+        <HelpTOCNode Title="BottomObjectPath Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_BottomObjectPath.htm" />
+        <HelpTOCNode Title="ConnectedMemberPath Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_ConnectedMemberPath.htm" />
+        <HelpTOCNode Title="ConnectedTo Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_ConnectedTo.htm" />
+        <HelpTOCNode Title="ConnectedToPlatePath Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_ConnectedToPlatePath.htm" />
+        <HelpTOCNode Title="ConnectionAlignment Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_ConnectionAlignment.htm" />
+        <HelpTOCNode Title="ConnectionLidOffsets Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_ConnectionLidOffsets.htm" />
+        <HelpTOCNode Title="ConnectionLidShape Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_ConnectionLidShape.htm" />
+        <HelpTOCNode Title="ConnectionLidThickness Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_ConnectionLidThickness.htm" />
+        <HelpTOCNode Title="ConnectionOverlap Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_ConnectionOverlap.htm" />
+        <HelpTOCNode Title="ConnectionTongueExcentricity Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_ConnectionTongueExcentricity.htm" />
+        <HelpTOCNode Title="ConnectionTongueLength Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_ConnectionTongueLength.htm" />
+        <HelpTOCNode Title="ConnectionTongueType Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_ConnectionTongueType.htm" />
+        <HelpTOCNode Title="ConnectionTongueWidth Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_ConnectionTongueWidth.htm" />
+        <HelpTOCNode Title="ConnectionType Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_ConnectionType.htm" />
+        <HelpTOCNode Title="ConnectionXposition Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_ConnectionXposition.htm" />
+        <HelpTOCNode Title="ConPltMaterialName Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_ConPltMaterialName.htm" />
+        <HelpTOCNode Title="Fastening Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_Fastening.htm" />
+        <HelpTOCNode Title="InsideWeldLength Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_InsideWeldLength.htm" />
+        <HelpTOCNode Title="LidWeld Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_LidWeld.htm" />
+        <HelpTOCNode Title="PlateAngle Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_PlateAngle.htm" />
+        <HelpTOCNode Title="PlateHeight Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_PlateHeight.htm" />
+        <HelpTOCNode Title="PlatePositionX Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_PlatePositionX.htm" />
+        <HelpTOCNode Title="PlateShapeCode Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_PlateShapeCode.htm" />
+        <HelpTOCNode Title="PlateShapeParam1 Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_PlateShapeParam1.htm" />
+        <HelpTOCNode Title="PlateShapeParam2 Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_PlateShapeParam2.htm" />
+        <HelpTOCNode Title="PlateThickness Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_PlateThickness.htm" />
+        <HelpTOCNode Title="PlateWeld Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_PlateWeld.htm" />
+        <HelpTOCNode Title="PlateWidth Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_PlateWidth.htm" />
+        <HelpTOCNode Title="RemainingPart Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_RemainingPart.htm" />
+        <HelpTOCNode Title="SideObjectPath Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_SideObjectPath.htm" />
+        <HelpTOCNode Title="TonguePlateWeld Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_TonguePlateWeld.htm" />
+        <HelpTOCNode Title="Weld Property " Url="html/P_IdeaRS_Connections_Data_TonguePlateData_Weld.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TonguePlateData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_TonguePlateData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="TongueType Enumeration" Url="html/T_IdeaRS_Connections_Data_TongueType.htm" />
+    <HelpTOCNode Id="aabf8bbc-0ee6-4f94-85b4-9c376906329a" Title="WeldData Class" Url="html/T_IdeaRS_Connections_Data_WeldData.htm">
+      <HelpTOCNode Title="WeldData Constructor " Url="html/M_IdeaRS_Connections_Data_WeldData__ctor.htm" />
+      <HelpTOCNode Id="d4b5a6b8-56f1-4261-ad62-eef8d0f3ca7f" Title="WeldData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_WeldData.htm">
+        <HelpTOCNode Title="BeginOffset Property " Url="html/P_IdeaRS_Connections_Data_WeldData_BeginOffset.htm" />
+        <HelpTOCNode Title="EndOffset Property " Url="html/P_IdeaRS_Connections_Data_WeldData_EndOffset.htm" />
+        <HelpTOCNode Title="IntermittentGap Property " Url="html/P_IdeaRS_Connections_Data_WeldData_IntermittentGap.htm" />
+        <HelpTOCNode Title="IntermittentLength Property " Url="html/P_IdeaRS_Connections_Data_WeldData_IntermittentLength.htm" />
+        <HelpTOCNode Title="Size Property " Url="html/P_IdeaRS_Connections_Data_WeldData_Size.htm" />
+        <HelpTOCNode Title="WeldMaterialName Property " Url="html/P_IdeaRS_Connections_Data_WeldData_WeldMaterialName.htm" />
+        <HelpTOCNode Title="WeldType Property " Url="html/P_IdeaRS_Connections_Data_WeldData_WeldType.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f7ff7b66-2a9e-4974-9d44-870d3bdccd3e" Title="WeldData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_WeldData.htm">
+        <HelpTOCNode Title="GetShallowCopy Method " Url="html/M_IdeaRS_Connections_Data_WeldData_GetShallowCopy.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3cf35580-abc8-4857-91a4-d76645fb3dcd" Title="WorkPlaneData Class" Url="html/T_IdeaRS_Connections_Data_WorkPlaneData.htm">
+      <HelpTOCNode Title="WorkPlaneData Constructor " Url="html/M_IdeaRS_Connections_Data_WorkPlaneData__ctor.htm" />
+      <HelpTOCNode Id="720398e4-cb58-4081-89c4-d34fed8f1fef" Title="WorkPlaneData Properties" Url="html/Properties_T_IdeaRS_Connections_Data_WorkPlaneData.htm">
+        <HelpTOCNode Title="Method Property " Url="html/P_IdeaRS_Connections_Data_WorkPlaneData_Method.htm" />
+        <HelpTOCNode Title="Param1 Property " Url="html/P_IdeaRS_Connections_Data_WorkPlaneData_Param1.htm" />
+        <HelpTOCNode Title="Param2 Property " Url="html/P_IdeaRS_Connections_Data_WorkPlaneData_Param2.htm" />
+        <HelpTOCNode Title="Param3 Property " Url="html/P_IdeaRS_Connections_Data_WorkPlaneData_Param3.htm" />
+        <HelpTOCNode Title="Plane Property " Url="html/P_IdeaRS_Connections_Data_WorkPlaneData_Plane.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="WorkPlaneData Methods" Url="html/Methods_T_IdeaRS_Connections_Data_WorkPlaneData.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="WorkPlaneInputMethod Enumeration" Url="html/T_IdeaRS_Connections_Data_WorkPlaneInputMethod.htm" />
+  </HelpTOCNode>
+</HelpTOC>
