@@ -30,14 +30,14 @@
       <DocumentationSource sourceFile="IdeaRS.OpenModel\IdeaRS.OpenModel.csproj" />
     </DocumentationSources>
     <HelpTitle>IDEA Open Model</HelpTitle>
-    <HelpFileVersion>20.0</HelpFileVersion>
+    <HelpFileVersion>20.1</HelpFileVersion>
     <NamingMethod>MemberName</NamingMethod>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <RootNamespaceContainer>True</RootNamespaceContainer>
     <NamespaceGrouping>True</NamespaceGrouping>
     <MaximumGroupParts>2</MaximumGroupParts>
     <Preliminary>False</Preliminary>
-    <HeaderText>Compatible with IDEA StatiCa Beta 20.0</HeaderText>
+    <HeaderText>Compatible with IDEA StatiCa 20.1</HeaderText>
     <SdkLinkTarget>Blank</SdkLinkTarget>
     <VisibleItems>InheritedMembers, Protected, ProtectedInternalAsProtected, NonBrowsable</VisibleItems>
   </PropertyGroup>
