@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IdeaRS.OpenModel.Concrete;
+using System;
 
 namespace IdeaRS.OpenModel
 {
@@ -137,6 +138,7 @@ namespace IdeaRS.OpenModel
 			//AddBoreHoles = true;
 			//SizeRefinement = 2.0;
 			GammaInst = 1.2;
+			GammaC = 1.5;
 			//PlateThicknessBoltCoeff = 0.5;
 			//PlateThicknessWeldCoeff = 0.5;
 			MemberLengthRatio = 2.0;
@@ -200,6 +202,12 @@ namespace IdeaRS.OpenModel
 		public SteelSetup SteelSetup { get; set; }
 
 		/// <summary>
+		/// Concrete setup
+		/// </summary>
+		[Obsolete]
+		public ConcreteSetup ConcreteSetup { get; set; }
+
+		/// <summary>
 		/// Stop analysis when the limit strain is reached.
 		/// </summary>
 		public bool StopAtLimitStrain { get; set; }
@@ -228,6 +236,11 @@ namespace IdeaRS.OpenModel
 		/// Partial safety factor of instalation safety
 		/// </summary>
 		public double GammaInst { get; set; }
+
+		/// <summary>
+		/// Partial safety factor of concrete
+		/// </summary>
+		public double GammaC { get; set; }
 
 		/// <summary>
 		/// Preloaded bolts safety factor

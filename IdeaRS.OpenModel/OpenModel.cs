@@ -82,6 +82,10 @@ namespace IdeaRS.OpenModel
 			DesignMember = new List<DesignMember>();
 			SubStructure = new List<SubStructure>();
 
+			RebarShape = new List<RebarShape>();
+			RebarGeneral = new List<RebarGeneral>();
+			RebarSingle = new List<RebarSingle>();
+			RebarStirrups = new List<RebarStirrups>();
 		}
 
 		/// <summary>
@@ -355,6 +359,26 @@ namespace IdeaRS.OpenModel
 		public ProjectDataConcrete ProjectDataConcrete { get; set; }
 
 		/// <summary>
+		/// Gets or sets the rebars shapes
+		/// </summary>
+		public List<RebarShape> RebarShape { get; set; }
+
+		/// <summary>
+		/// Gets or sets the rebar General collection
+		/// </summary>
+		public List<RebarGeneral> RebarGeneral { get; set; }
+
+		/// <summary>
+		/// Gets or sets the rebar single collection
+		/// </summary>
+		public List<RebarSingle> RebarSingle { get; set; }
+
+		/// <summary>
+		/// Gets or sets the rebar group (stirrups) collection
+		/// </summary>
+		public List<RebarStirrups> RebarStirrups { get; set; }
+
+		/// <summary>
 		/// Get max Id value for specified type
 		/// </summary>
 		/// <param name="typeName">Name of type</param>
@@ -600,6 +624,11 @@ namespace IdeaRS.OpenModel
 				data.Add(typeof(CheckSection).Name, ConcreteCheckSection);
 				data.Add(typeof(SubStructure).Name, SubStructure);
 				data.Add(typeof(DesignMember).Name, DesignMember);
+
+				data.Add(typeof(RebarShape).Name, RebarShape);
+				data.Add(typeof(RebarGeneral).Name, RebarGeneral);
+				data.Add(typeof(RebarSingle).Name, RebarSingle);
+				data.Add(typeof(RebarStirrups).Name, RebarStirrups);
 			}
 
 			data[typeof(ProjectData).Name] = new ProjectData[] { ProjectData };
