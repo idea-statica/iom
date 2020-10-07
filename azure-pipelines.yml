@@ -9,7 +9,6 @@ trigger:
 pool:
   vmImage: 'windows-latest'
 
-container:
 variables:
   majorVersion: 3
   minorVersion: 99
