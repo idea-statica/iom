@@ -9,7 +9,14 @@ trigger:
 pool:
   vmImage: 'windows-latest'
 
+container:
 variables:
+  majorVersion: 3
+  minorVersion: 99
+  myBuildId: $[counter('', 1)]
+  revision: 1
+  myBuildName: $(majorVersion).$(minorVersion).$(myBuildId).$(revision)
+  name: '$(majorVersion).$(minorVersion).$(myBuildId)'
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
@@ -27,7 +34,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: VSTest@2
-  inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+#- task: VSTest@2
+#  inputs:
+#    platform: '$(buildPlatform)'
+#    configuration: '$(buildConfiguration)'
