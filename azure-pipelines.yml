@@ -14,7 +14,7 @@ variables:
   minorVersion: 99
   myBuildId: $[counter('', 1)]
   revision: 1
-  outputDirectory: '$(Build.SourcesDirectory)\bin\$(buildConfiguration)'
+  outputDirectory: '$(Build.SourcesDirectory)\bin\$(buildConfiguration)\net45'
   myBuildName: $(majorVersion).$(minorVersion).$(myBuildId).$(revision)
   name: '$(majorVersion).$(minorVersion).$(myBuildId)'
   solution: '**/*.sln'
