@@ -53,17 +53,17 @@ steps:
 #    archiveFile: '$(Build.ArtifactStagingDirectory)/$(myBuildName).zip'
 #    replaceExistingArchive: true
 
-- task: CopyFiles@2
-  enabled: true
-  displayName: 'Copy built files from $(outputDirectory) to $(Build.ArtifactStagingDirectory)'
-  inputs:
-    SourceFolder: '$(outputDirectory)'
-    Contents: |
-      **\?(*.exe|*.dll|*.db|*.config|*.chm|*.pdf)
-      !**\?(UT_*|AT_*)
-    TargetFolder: '$(Build.ArtifactStagingDirectory)'
-    CleanTargetFolder: true
+#- task: CopyFiles@2
+#  enabled: true
+#  displayName: 'Copy built files from $(outputDirectory) to $(Build.ArtifactStagingDirectory)'
+#  inputs:
+#    SourceFolder: '$(outputDirectory)'
+#    Contents: |
+#      **\?(*.exe|*.dll|*.db|*.config|*.chm|*.pdf)
+#      !**\?(UT_*|AT_*)
+#    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+#    CleanTargetFolder: true
 
-- publish: $(Build.ArtifactStagingDirectory)
+- publish: $(outputDirectory)
   displayName: 'Publish IOM $(myBuildName)'
   artifact: Binaries
