@@ -41,14 +41,25 @@ steps:
 #    platform: '$(buildPlatform)'
 #    configuration: '$(buildConfiguration)'
 
-- task: ArchiveFiles@2
+#- task: ArchiveFiles@2
+#  displayName: 'Copy built files from $(outputDirectory) to $(Build.ArtifactStagingDirectory)'
+#  inputs:
+#    rootFolderOrFile: '$(Build.BinariesDirectory)'
+#    includeRootFolder: true
+#    archiveType: 'zip'
+#    archiveFile: '$(Build.ArtifactStagingDirectory)/$(myBuildName).zip'
+#    replaceExistingArchive: true
+
+- task: CopyFiles@2
+  enabled: true
   displayName: 'Copy built files from $(outputDirectory) to $(Build.ArtifactStagingDirectory)'
   inputs:
-    rootFolderOrFile: '$(Build.BinariesDirectory)'
-    includeRootFolder: true
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(myBuildName).zip'
-    replaceExistingArchive: true
+    SourceFolder: '$(outputDirectory)'
+    Contents: |
+      **\?(*.exe|*.dll|*.db|*.config|*.chm|*.pdf)
+      !**\?(UT_*|AT_*)
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+    CleanTargetFolder: true
 
 - publish: $(Build.ArtifactStagingDirectory)
   displayName: 'Publish IOM $(myBuildName)'
