@@ -49,3 +49,7 @@ steps:
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(myBuildName).zip'
     replaceExistingArchive: true
+
+- publish: $(Build.ArtifactStagingDirectory)
+  displayName: 'Publish IOM $(myBuildName)'
+  artifact: Binaries
