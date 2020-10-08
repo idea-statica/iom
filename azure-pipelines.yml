@@ -21,6 +21,8 @@ variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
+name: '$(majorVersion).$(minorVersion).$(myBuildId)'
+
 steps:
 - task: NuGetToolInstaller@1
 
@@ -40,9 +42,10 @@ steps:
 #    configuration: '$(buildConfiguration)'
 
 - task: ArchiveFiles@2
+  displayName: 'Copy built files from $(outputDirectory) to $(Build.ArtifactStagingDirectory)'
   inputs:
     rootFolderOrFile: '$(Build.BinariesDirectory)'
     includeRootFolder: true
     archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(myBuildName).zip'
     replaceExistingArchive: true
