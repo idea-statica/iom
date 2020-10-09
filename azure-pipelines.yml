@@ -55,7 +55,7 @@ stages:
 #    platform: '$(buildPlatform)'
 #    configuration: '$(buildConfiguration)'
 
-- stage: Deploy solution
+- stage: DeploySolution
   displayName: Deploying Solutions
 
   pool:
