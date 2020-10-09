@@ -60,7 +60,7 @@ stages:
 
   pool:
     vmImage: 'windows-latest'
-
+  dependsOn: BuildSolutions
   jobs:
     - job: DeployingSolution
       displayName: Deploying solution
