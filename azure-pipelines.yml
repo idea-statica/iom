@@ -56,25 +56,25 @@ stages:
 #    platform: '$(buildPlatform)'
 #    configuration: '$(buildConfiguration)'
 
-- stage: DeploySolution
-  displayName: Deploying Solutions
+#- stage: DeploySolution
+#  displayName: Deploying Solutions
 
-  pool:
-    vmImage: 'windows-latest'
-  dependsOn: BuildSolutions
-  jobs:
-    - job: DeployingSolution
-      displayName: Deploying solution
-      steps:
-       - checkout: none
-       - task: ArchiveFiles@2
-         displayName: 'Archiving files $(outputDirectory) to $((Build.ArtifactStagingDirectory)/$(myBuildName).7z)'
-         inputs:
-           rootFolderOrFile: '$(outputDirectory)'
-           includeRootFolder: false
-           archiveType: '7z'
-           archiveFile: '$(outputDirectory)/$(myBuildName).7z'
-           replaceExistingArchive: true
+#  pool:
+#    vmImage: 'windows-latest'
+#  dependsOn: BuildSolutions
+#  jobs:
+#    - job: DeployingSolution
+#      displayName: Deploying solution
+#      steps:
+#       - checkout: none
+        - task: ArchiveFiles@2
+          displayName: 'Archiving files $(outputDirectory) to $((Build.ArtifactStagingDirectory)/$(myBuildName).7z)'
+          inputs:
+            rootFolderOrFile: '$(outputDirectory)'
+            includeRootFolder: false
+            archiveType: '7z'
+            archiveFile: '$(outputDirectory)/$(myBuildName).7z'
+            replaceExistingArchive: true
 
 #- task: CopyFiles@2
 #  enabled: true
@@ -87,6 +87,6 @@ stages:
 #    TargetFolder: '$(Build.ArtifactStagingDirectory)'
 #    CleanTargetFolder: true
 
-       - publish: '$(outputDirectory)/$(myBuildName).7z'
-         displayName: 'Publish IOM $(myBuildName)'
-         artifact: Binaries
+        - publish: '$(outputDirectory)/$(myBuildName).7z'
+          displayName: 'Publish IOM $(myBuildName)'
+          artifact: Binaries
