@@ -48,10 +48,10 @@ steps:
 #    configuration: '$(buildConfiguration)'
 
 - task: ArchiveFiles@2
-  displayName: 'Copy built files from $(outputDirectory) to $(Build.ArtifactStagingDirectory)'
+  displayName: 'Archiving files $(outputDirectory) to $((Build.ArtifactStagingDirectory)/$(myBuildName).7z)'
   inputs:
-    rootFolderOrFile: '$(Build.BinariesDirectory)'
-    includeRootFolder: true
+    rootFolderOrFile: '$(outputDirectory)'
+    includeRootFolder: false
     archiveType: '7z'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(myBuildName).7z'
     replaceExistingArchive: true
