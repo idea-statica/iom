@@ -12,7 +12,7 @@ variables:
   myBuildId: $[counter('', 1)]
 
   outputDirectory: '$(Build.SourcesDirectory)\bin\$(buildConfiguration)\net45'
-  myBuildName: $(Build.SourceBranch)_$(majorVersion).$(minorVersion).$(myBuildId)
+  myBuildName: $(majorVersion).$(minorVersion).$(myBuildId)
   name: '$(majorVersion).$(minorVersion).$(myBuildId)'
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
