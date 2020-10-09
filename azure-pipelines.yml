@@ -12,12 +12,11 @@ variables:
   myBuildId: $[counter('', 1)]
 
   outputDirectory: '$(Build.SourcesDirectory)\bin\$(buildConfiguration)\net45'
-  myBuildName: $(majorVersion).$(minorVersion).$(myBuildId)
+  myBuildName: $(Build.SourceBranch)_$(majorVersion).$(minorVersion).$(myBuildId)
   name: '$(majorVersion).$(minorVersion).$(myBuildId)'
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  archiveFileName: '$(IOM_$(Build.SourceBranch)_$(myBuildName).7z)'
 
 name: '$(majorVersion).$(minorVersion).$(myBuildId)'
 
@@ -69,12 +68,12 @@ stages:
 #      steps:
 #       - checkout: none
         - task: ArchiveFiles@2
-          displayName: 'Archiving files $(outputDirectory) to $(Build.ArtifactStagingDirectory)/$(archiveFileName)'
+          displayName: 'Archiving files $(outputDirectory) to $((Build.ArtifactStagingDirectory)/$(myBuildName).7z)'
           inputs:
             rootFolderOrFile: '$(outputDirectory)'
             includeRootFolder: false
             archiveType: '7z'
-            archiveFile: '$(outputDirectory)/$(archiveFileName)'
+            archiveFile: '$(outputDirectory)/$(myBuildName).7z'
             replaceExistingArchive: true
 
 #- task: CopyFiles@2
@@ -88,6 +87,6 @@ stages:
 #    TargetFolder: '$(Build.ArtifactStagingDirectory)'
 #    CleanTargetFolder: true
 
-        - publish: '$(outputDirectory)/$(archiveFileName)'
-          displayName: 'Publish IOM $(archiveFileName)'
+        - publish: '$(outputDirectory)/$(myBuildName).7z'
+          displayName: 'Publishing IOM $(myBuildName)'
           artifact: Binaries
