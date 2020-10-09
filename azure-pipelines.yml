@@ -17,7 +17,7 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  archiveFileName: 'IOM_$(Build.SourceBranch)_$(myBuildName).7z'
+  archiveFileName: '$(IOM_$(Build.SourceBranch)_$(myBuildName).7z)'
 
 name: '$(majorVersion).$(minorVersion).$(myBuildId)'
 
