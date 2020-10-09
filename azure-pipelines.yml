@@ -30,6 +30,9 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
+- powershell: |
+    Write-Host "Using an input-macro works: $(outputDirectory)"
+
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
