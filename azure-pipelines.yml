@@ -3,11 +3,8 @@
 # Add steps that publish symbols, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/apps/windows/dot-net
 
-trigger:
-- master
-
-pool:
-  vmImage: 'windows-latest'
+#trigger:
+#- master
 
 variables:
   majorVersion: 3
@@ -23,23 +20,34 @@ variables:
 
 name: '$(majorVersion).$(minorVersion).$(myBuildId)'
 
-steps:
-- task: NuGetToolInstaller@1
+stages:
+- stage: BuildSolutions
+  displayName: Building Solutions
 
-- task: NuGetCommand@2
-  inputs:
-    restoreSolution: '$(solution)'
+  pool:
+    vmImage: 'windows-latest'
 
-- powershell: |
-    Write-Host "Using an input-macro works: $(outputDirectory)"
+  jobs:
+    - job: BuildSolution
+      displayName: Building solution
 
-- task: VSBuild@1
-  inputs:
-    solution: '$(solution)'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-    maximumCpuCount: true
-    logProjectEvents: false
+      steps:
+        - task: NuGetToolInstaller@1
+
+        - task: NuGetCommand@2
+          inputs:
+            restoreSolution: '$(solution)'
+
+        - powershell: |
+            Write-Host "Using an input-macro works: $(outputDirectory)"
+
+        - task: VSBuild@1
+          inputs:
+            solution: '$(solution)'
+            platform: '$(buildPlatform)'
+            configuration: '$(buildConfiguration)'
+            maximumCpuCount: true
+            logProjectEvents: false
 
 
 #- task: VSTest@2
@@ -47,14 +55,24 @@ steps:
 #    platform: '$(buildPlatform)'
 #    configuration: '$(buildConfiguration)'
 
-- task: ArchiveFiles@2
-  displayName: 'Archiving files $(outputDirectory) to $((Build.ArtifactStagingDirectory)/$(myBuildName).7z)'
-  inputs:
-    rootFolderOrFile: '$(outputDirectory)'
-    includeRootFolder: false
-    archiveType: '7z'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(myBuildName).7z'
-    replaceExistingArchive: true
+- stage: Deploy solution
+  displayName: Deploying Solutions
+
+  pool:
+    vmImage: 'windows-latest'
+
+  jobs:
+    - job: DeployingSolution
+      displayName: Deploying solution
+      steps:
+       - task: ArchiveFiles@2
+         displayName: 'Archiving files $(outputDirectory) to $((Build.ArtifactStagingDirectory)/$(myBuildName).7z)'
+         inputs:
+           rootFolderOrFile: '$(outputDirectory)'
+           includeRootFolder: false
+           archiveType: '7z'
+           archiveFile: '$(outputDirectory)/$(myBuildName).7z'
+           replaceExistingArchive: true
 
 #- task: CopyFiles@2
 #  enabled: true
@@ -67,6 +85,6 @@ steps:
 #    TargetFolder: '$(Build.ArtifactStagingDirectory)'
 #    CleanTargetFolder: true
 
-- publish: $(outputDirectory)
-  displayName: 'Publish IOM $(myBuildName)'
-  artifact: Binaries
+       - publish: '$(outputDirectory)/$(myBuildName).7z'
+         displayName: 'Publish IOM $(myBuildName)'
+         artifact: Binaries
