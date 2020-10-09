@@ -47,25 +47,25 @@ steps:
 #    platform: '$(buildPlatform)'
 #    configuration: '$(buildConfiguration)'
 
-#- task: ArchiveFiles@2
-#  displayName: 'Copy built files from $(outputDirectory) to $(Build.ArtifactStagingDirectory)'
-#  inputs:
-#    rootFolderOrFile: '$(Build.BinariesDirectory)'
-#    includeRootFolder: true
-#    archiveType: 'zip'
-#    archiveFile: '$(Build.ArtifactStagingDirectory)/$(myBuildName).zip'
-#    replaceExistingArchive: true
-
-- task: CopyFiles@2
-  enabled: true
+- task: ArchiveFiles@2
   displayName: 'Copy built files from $(outputDirectory) to $(Build.ArtifactStagingDirectory)'
   inputs:
-    SourceFolder: '$(outputDirectory)'
-    Contents: |
-      **\?(*.exe|*.dll|*.db|*.config|*.chm|*.pdf)
-      !**\?(UT_*|AT_*)
-    TargetFolder: '$(Build.ArtifactStagingDirectory)'
-    CleanTargetFolder: true
+    rootFolderOrFile: '$(Build.BinariesDirectory)'
+    includeRootFolder: true
+    archiveType: '7z'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(myBuildName).7z'
+    replaceExistingArchive: true
+
+#- task: CopyFiles@2
+#  enabled: true
+#  displayName: 'Copy built files from $(outputDirectory) to $(Build.ArtifactStagingDirectory)'
+#  inputs:
+#    SourceFolder: '$(outputDirectory)'
+#    Contents: |
+#      **\?(*.exe|*.dll|*.db|*.config|*.chm|*.pdf)
+#      !**\?(UT_*|AT_*)
+#    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+#    CleanTargetFolder: true
 
 - publish: $(outputDirectory)
   displayName: 'Publish IOM $(myBuildName)'
