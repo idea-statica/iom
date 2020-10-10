@@ -42,6 +42,26 @@ stages:
         - powershell: |
             Write-Host "Using an input-macro works: $(outputDirectory)"
 
+        - task: Assembly-Info-NetCore@2
+          inputs:
+            Path: '$(Build.SourcesDirectory)'
+            FileNames: '**/*.csproj'
+            InsertAttributes: false
+            FileEncoding: 'auto'
+            WriteBOM: false
+            GeneratePackageOnBuild: true
+            PackageId: 'IdeaStatiCa.OpenModel'
+            Authors: 'IDEA StatiCa'
+            Company: 'IDEA StatiCa'
+            Product: 'IdeaStatiCa.OpenModel'
+            PackageProjectUrl: 'https://github.com/idea-statica/iom'
+            RepositoryUrl: 'https://github.com/idea-statica/iom.git'
+            VersionNumber: $(myBuildName)
+            FileVersionNumber: $(myBuildName)
+            PackageVersion: $(myBuildName)
+            LogLevel: 'verbose'
+            FailOnWarning: false
+            DisableTelemetry: false
         - task: VSBuild@1
           inputs:
             solution: '$(solution)'
