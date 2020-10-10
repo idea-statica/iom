@@ -59,9 +59,11 @@ stages:
             VersionNumber: $(myBuildName)
             FileVersionNumber: $(myBuildName)
             PackageVersion: $(myBuildName)
+            InformationalVersion: $(myBuildName)
             LogLevel: 'verbose'
             FailOnWarning: false
             DisableTelemetry: false
+            
         - task: VSBuild@1
           inputs:
             solution: '$(solution)'
