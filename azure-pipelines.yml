@@ -124,6 +124,6 @@ stages:
             feedsToUse: 'select'
             packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
             nuGetFeedType: 'internal'
-            publishVstsFeed: 'TestFeed'
+            publishVstsFeed: 'martin-pospisil'
             versioningScheme: 'off'
             allowPackageConflicts: true
