@@ -46,9 +46,9 @@ stages:
           inputs:
             Path: '$(Build.SourcesDirectory)'
             FileNames: '**/*.csproj'
-            InsertAttributes: false
+            InsertAttributes: true
             FileEncoding: 'auto'
-            WriteBOM: false
+            WriteBOM: true
             GeneratePackageOnBuild: true
             PackageId: 'IdeaStatiCa.OpenModel'
             Authors: 'IDEA StatiCa'
