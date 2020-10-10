@@ -24,7 +24,7 @@
     <Authors>IDEA StatiCa</Authors>
     <Product>IdeaStatiCa.OpenModel</Product>
     <AssemblyVersion>20.1.0.0</AssemblyVersion>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
