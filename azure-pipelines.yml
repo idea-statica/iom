@@ -118,7 +118,7 @@ stages:
 #    TargetFolder: '$(Build.ArtifactStagingDirectory)'
 #    CleanTargetFolder: true
 
-        - publish: $(outputDirectory)
+        - publish: '$(outputDirectory)/IOM_$(myBuildName).7z'
           displayName: 'Publishing IOM IOM_$(myBuildName)'
           artifact: Binaries
 
