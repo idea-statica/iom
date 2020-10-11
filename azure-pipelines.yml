@@ -11,7 +11,7 @@ variables:
   minorVersion: 1
   myBuildId: $[counter('', 1)]
 
-  outputDirectory: '$(Build.SourcesDirectory)\bin\$(buildConfiguration)\net45'
+  outputDirectory: '$(Build.SourcesDirectory)\bin\$(buildConfiguration)'
   myBuildName: $(majorVersion).$(minorVersion).$(myBuildId)
   name: '$(majorVersion).$(minorVersion).$(myBuildId)'
   solution: '**/*.sln'
@@ -55,11 +55,12 @@ stages:
             Company: 'IDEA StatiCa'
             Product: 'IdeaStatiCa.OpenModel'
             PackageProjectUrl: 'https://github.com/idea-statica/iom'
-            RepositoryUrl: 'https://github.com/idea-statica/iom.git'
+            RepositoryUrl: 'https://github.com/idea-statica/iom'
             VersionNumber: $(myBuildName)
             FileVersionNumber: $(myBuildName)
             PackageVersion: $(myBuildName)
             InformationalVersion: $(myBuildName)
+            RepositoryType: git
             LogLevel: 'verbose'
             FailOnWarning: false
             DisableTelemetry: false
@@ -117,13 +118,13 @@ stages:
 # This will push any .nupkg files to the 'TestFeed' artifact feed
 # allowPackageConflicts allows us to build the same version and not throw an error when trying to push
 # instead it just ingores the latest package unless the version changes
-        - task: NuGetCommand@2
-          displayName: 'nuget push'
-          inputs:
-            command: 'push'
-            feedsToUse: 'select'
-            packagesToPush: $(outputDirectory)/**/*.nupkg'
-            nuGetFeedType: 'internal'
-            publishVstsFeed: 'mp-feed'
-            versioningScheme: 'off'
-            allowPackageConflicts: true
+#        - task: NuGetCommand@2
+#          displayName: 'nuget push'
+#          inputs:
+#            command: 'push'
+#            feedsToUse: 'select'
+#            packagesToPush: $(outputDirectory)/**/*.nupkg'
+#            nuGetFeedType: 'internal'
+#            publishVstsFeed: 'mp-feed'
+#            versioningScheme: 'off'
+#            allowPackageConflicts: true
