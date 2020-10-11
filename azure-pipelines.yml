@@ -80,6 +80,7 @@ stages:
             versioningScheme: 'byBuildNumber'
             includeSymbols: false
             verbosityPack: Detailed
+            packDestination: '$(Build.SourcesDirectory)\bin'
 
 #- task: VSTest@2
 #  inputs:
