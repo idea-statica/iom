@@ -80,11 +80,6 @@ stages:
 #            versioningScheme: 'byBuildNumber'
 #            includeSymbols: false
 
-        - task: DotNetCoreCLI@2
-          inputs: 
-            command: 'pack'
-            includesymbols: true
-
 #- task: VSTest@2
 #  inputs:
 #    platform: '$(buildPlatform)'
