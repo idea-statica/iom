@@ -78,7 +78,7 @@ stages:
             command: 'pack'
             packagesToPack: '**/*.csproj'
             versioningScheme: 'byBuildNumber'
-            includeSymbols: true
+            includeSymbols: false
 
 #- task: VSTest@2
 #  inputs:
