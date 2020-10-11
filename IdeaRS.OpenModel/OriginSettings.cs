@@ -157,5 +157,10 @@ namespace IdeaRS.OpenModel
 		///  CountryCode
 		/// </summary>
 		public CountryCode CountryCode { get; set; }
+
+		/// <summary>
+		///  Import also recommended welds
+		/// </summary>
+		public bool ImportRecommendedWelds { get; set; }
 	}
 }
