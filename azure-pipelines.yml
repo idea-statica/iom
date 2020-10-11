@@ -73,6 +73,12 @@ stages:
             maximumCpuCount: true
             logProjectEvents: false
 
+        - task: NuGetCommand@2
+          inputs:
+            command: 'pack'
+            packagesToPack: '**/*.csproj'
+            versioningScheme: 'byBuildNumber'
+            includeSymbols: true
 
 #- task: VSTest@2
 #  inputs:
