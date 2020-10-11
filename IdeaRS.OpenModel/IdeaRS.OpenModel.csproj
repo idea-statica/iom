@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net45;net46;net47;net48</TargetFrameworks>
+    <TargetFramework>net45</TargetFramework>
     <AssemblyTitle>IdeaStatiCa.OpenModel</AssemblyTitle>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
