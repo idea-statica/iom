@@ -9,7 +9,7 @@
 variables:
   majorVersion: 20
   minorVersion: 1
-  myBuildId: '$(rev:.rrrr).1'
+  myBuildId: $(rev:.rrrr).1
 
   outputDirectory: '$(Build.SourcesDirectory)\bin\$(buildConfiguration)'
   myBuildName: $(majorVersion).$(minorVersion).$(myBuildId)
