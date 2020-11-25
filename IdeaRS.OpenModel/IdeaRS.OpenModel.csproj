@@ -21,6 +21,7 @@
     <Product>IdeaStatiCa.OpenModel</Product>
     <AssemblyVersion>20.1.0.0</AssemblyVersion>
     <FileVersion>20.1.0.0</FileVersion>
+    <Description>IOM interface can be used for the implementation of the link of any application with IDEA StatiCa products.</Description>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile></DocumentationFile>
