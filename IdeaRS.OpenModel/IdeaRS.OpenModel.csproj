@@ -3,20 +3,24 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>20.0.4</Version>
+    <Version>20.1.0</Version>
     <PackageLicenseExpression></PackageLicenseExpression>
-    <Copyright>IdeaStatiCa 2019</Copyright>
+    <Copyright>IDEA StatiCa 2020</Copyright>
     <RepositoryUrl>https://github.com/idea-statica/iom</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <PackageProjectUrl>https://github.com/idea-statica/iom</PackageProjectUrl>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
-    <Authors>IdeaStatiCa</Authors>
-    <Company>IdeaStatiCa</Company>
+    <Authors>IDEA StatiCa</Authors>
+    <Company>IDEA StatiCa</Company>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageIcon>package-icon.png</PackageIcon>
     <PackageIconUrl />
     <RunAnalyzersDuringLiveAnalysis>false</RunAnalyzersDuringLiveAnalysis>
     <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+    <PackageId>IdeaStatiCa.OpenModel</PackageId>
+    <Product>IdeaStatiCa.OpenModel</Product>
+    <AssemblyVersion>20.1.0.0</AssemblyVersion>
+    <FileVersion>20.1.0.0</FileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile></DocumentationFile>
@@ -28,10 +32,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.6">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
     <PackageReference Include="System.ServiceModel.Security" Version="4.6.0" />
     <PackageReference Include="WinInsider.System.Windows.Primitives" Version="1.0.0" />
 	<Compile Update="Properties\Resources.Designer.cs">
