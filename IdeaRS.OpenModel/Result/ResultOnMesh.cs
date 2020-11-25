@@ -73,10 +73,12 @@ namespace IdeaRS.OpenModel.Result
 		/// <param name="node3"></param>
 		public FemElement(int node1, int node2, int node3)
 		{
-			Vertices = new List<int>(3);
-			Vertices.Add(node1);
-			Vertices.Add(node2);
-			Vertices.Add(node3);
+			Vertices = new List<int>(3)
+			{
+				node1,
+				node2,
+				node3
+			};
 			Type = 1;
 		}
 
@@ -89,11 +91,13 @@ namespace IdeaRS.OpenModel.Result
 		/// <param name="node4"></param>
 		public FemElement(int node1, int node2, int node3, int node4)
 		{
-			Vertices = new List<int>(4);
-			Vertices.Add(node1);
-			Vertices.Add(node2);
-			Vertices.Add(node3);
-			Vertices.Add(node4);
+			Vertices = new List<int>(4)
+			{
+				node1,
+				node2,
+				node3,
+				node4
+			};
 			Type = 2;
 		}
 
