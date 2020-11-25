@@ -23,19 +23,26 @@
     <FileVersion>20.1.0.0</FileVersion>
     <Description>IOM interface can be used for the implementation of the link of any application with IDEA StatiCa products.</Description>
   </PropertyGroup>
+ 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile></DocumentationFile>
-    <DefineConstants>..\bin\Debug\</DefineConstants>
+    <DefineConstants></DefineConstants>
     <OutputPath>..\bin\Debug\</OutputPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>..\bin\Release\</OutputPath>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="System.ServiceModel.Security" Version="4.6.0" />
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
     <PackageReference Include="WinInsider.System.Windows.Primitives" Version="1.0.0" />
-	<Compile Update="Properties\Resources.Designer.cs">
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
+    <Reference Include="WindowsBase" />
+  </ItemGroup>  
+  
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
