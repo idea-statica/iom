@@ -78,9 +78,9 @@ stages:
             command: 'pack'
             packagesToPack: '**/*.csproj'
             versioningScheme: 'byBuildNumber'
-            includeSymbols: false
+            includeSymbols: true
             verbosityPack: Detailed
-            packDestination: '$(Build.SourcesDirectory)\bin'
+            packDestination: '$(outputDirectory)'
 
 #- task: VSTest@2
 #  inputs:
