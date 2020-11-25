@@ -3,55 +3,35 @@
 namespace IdeaRS.OpenModel
 {
 
-  /// <summary>
-  /// CountryCode
-  /// </summary>
-  public enum CountryCode
-  {
-    /// <summary>
-    /// no code
-    /// </summary>
-    None = 0,
-
-    /// <summary>
-    /// Eurocode
-    /// </summary>
-    ECEN = 1,
-
-	///// <summary>
-	///// British code
-	///// </summary>
-	//BS = 2,
-
-	///// <summary>
-	///// Czech code
-	///// </summary>
-	//CSN = 3,
-
-	///// <summary>
-	///// French code
-	///// </summary>
-	//French = 4,
-
 	/// <summary>
-	/// India code
+	/// CountryCode
 	/// </summary>
-	India = 5,
+	public enum CountryCode
+	{
+		/// <summary>
+		/// no code
+		/// </summary>
+		None = 0,
 
-	/// <summary>
-	/// Swiss code
-	/// </summary>
-	SIA = 6,
+		/// <summary>
+		/// Eurocode
+		/// </summary>
+		ECEN = 1,
 
-    ///// <summary>
-    ///// glass fiber reinforced bar
-    ///// </summary>
-    //GFRP = 7,
+		/// <summary>
+		/// India code
+		/// </summary>
+		India = 5,
 
-    /// <summary>
-    /// American design code as ACI, AISC, ASTM standards etc.
-    /// </summary>
-    American = 8,
+		/// <summary>
+		/// Swiss code
+		/// </summary>
+		SIA = 6,
+
+		/// <summary>
+		/// American design code as ACI, AISC, ASTM standards etc.
+		/// </summary>
+		American = 8,
 
 		/// <summary>
 		/// Canadian design code
@@ -98,12 +78,12 @@ namespace IdeaRS.OpenModel
 		/// Conversion table of Autodesk CSS will be used, it is useable for Robot, Revit, ...
 		/// </summary>
 		Autodesk = 2,
-  
-    /// <summary>
-    /// Conversion table of SAP2000 will be used, it is useable for SAP2000 ...
-    /// </summary>
-    SAP2000 = 3,
-	
+
+		/// <summary>
+		/// Conversion table of SAP2000 will be used, it is useable for SAP2000 ...
+		/// </summary>
+		SAP2000 = 3,
+
 		/// <summary>
 		/// Conversion table of StaadPro CSS will be used, it is useable for StaadPro, ...
 		/// </summary>
