@@ -49,7 +49,7 @@ stages:
             InsertAttributes: true
             FileEncoding: 'auto'
             WriteBOM: true
-            GeneratePackageOnBuild: false
+            GeneratePackageOnBuild: true
             PackageId: 'IdeaStatiCa.OpenModel'
             Authors: 'IDEA StatiCa'
             Company: 'IDEA StatiCa'
@@ -60,7 +60,7 @@ stages:
             FileVersionNumber: $(myBuildName)
             PackageVersion: $(myBuildName)
             InformationalVersion: $(myBuildName)
-            RepositoryType: git
+            RepositoryType: GitHub
             LogLevel: 'verbose'
             FailOnWarning: false
             DisableTelemetry: false
@@ -73,14 +73,14 @@ stages:
             maximumCpuCount: true
             logProjectEvents: false
 
-        - task: NuGetCommand@2
-          inputs:
-            command: 'pack'
-            packagesToPack: '**/*.csproj'
-            versioningScheme: 'byBuildNumber'
-            includeSymbols: true
-            verbosityPack: Detailed
-            packDestination: '$(outputDirectory)'
+#        - task: NuGetCommand@2
+#          inputs:
+#            command: 'pack'
+#            packagesToPack: '**/*.csproj'
+#            versioningScheme: 'byBuildNumber'
+#            includeSymbols: true
+#            verbosityPack: Detailed
+#            packDestination: '$(outputDirectory)'
 
 #- task: VSTest@2
 #  inputs:
