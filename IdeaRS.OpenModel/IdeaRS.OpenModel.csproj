@@ -3,7 +3,7 @@
     <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>20.1.0</Version>
+    <Version>21.0.1</Version>
     <PackageLicenseExpression></PackageLicenseExpression>
     <Copyright>IDEA StatiCa 2020</Copyright>
     <RepositoryUrl>https://github.com/idea-statica/iom</RepositoryUrl>
@@ -19,8 +19,8 @@
     <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
     <PackageId>IdeaStatiCa.OpenModel</PackageId>
     <Product>IdeaStatiCa.OpenModel</Product>
-    <AssemblyVersion>20.1.0.0</AssemblyVersion>
-    <FileVersion>20.1.0.0</FileVersion>
+    <AssemblyVersion>21.0.0.1</AssemblyVersion>
+    <FileVersion>21.0.0.1</FileVersion>
     <Description>IOM interface can be used for the implementation of the link of any application with IDEA StatiCa products.</Description>
   </PropertyGroup>
  

@@ -7,8 +7,8 @@
 #- master
 
 variables:
-  majorVersion: 20
-  minorVersion: 1
+  majorVersion: 21
+  minorVersion: 0
   myBuildId: $[counter('', 1)]
 
   outputDirectory: '$(Build.SourcesDirectory)\bin\$(buildConfiguration)'
