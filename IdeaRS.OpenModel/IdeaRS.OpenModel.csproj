@@ -1,47 +1,46 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net45</TargetFramework>
-    <AssemblyTitle>IdeaStatiCa.OpenModel</AssemblyTitle>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugType>full</DebugType>
-    <OutputPath>..\bin\Debug\</OutputPath>
-    <DocumentationFile>..\bin\Debug\IdeaRS.OpenModel.xml</DocumentationFile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <OutputPath>..\bin\Release\</OutputPath>
-    <DocumentationFile>..\bin\Release\IdeaRS.OpenModel.XML</DocumentationFile>
-  </PropertyGroup>
-  <PropertyGroup>
-      <RepositoryUrl></RepositoryUrl>
+    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>20.1.0</Version>
-    <Description>IOM interface can be used for the implementation of the link of any application with IDEA StatiCa products.</Description>
-    <SignAssembly>false</SignAssembly>
-    <Company>IDEA StatiCa</Company>
-    <PackageId>IdeaStatiCa.OpenModel</PackageId>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <Copyright>IDEA StatiCa 2020</Copyright>
+    <RepositoryUrl>https://github.com/idea-statica/iom</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageProjectUrl>https://github.com/idea-statica/iom</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <Authors>IDEA StatiCa</Authors>
+    <Company>IDEA StatiCa</Company>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageIcon>package-icon.png</PackageIcon>
+    <PackageIconUrl />
+    <RunAnalyzersDuringLiveAnalysis>false</RunAnalyzersDuringLiveAnalysis>
+    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+    <PackageId>IdeaStatiCa.OpenModel</PackageId>
     <Product>IdeaStatiCa.OpenModel</Product>
     <AssemblyVersion>20.1.0.0</AssemblyVersion>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <FileVersion>20.1.0.0</FileVersion>
+    <Description>IOM interface can be used for the implementation of the link of any application with IDEA StatiCa products.</Description>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
-    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
-    <DocumentationFile>bin\$(Configuration)\IdeaRS.OpenModel.xml</DocumentationFile>
-    <DebugType>full</DebugType>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+ 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+    <DefineConstants></DefineConstants>
+    <OutputPath>..\bin\Debug\</OutputPath>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
-    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
-    <DocumentationFile>bin\$(Configuration)\IdeaRS.OpenModel.XML</DocumentationFile>
-    <DebugType>pdbonly</DebugType>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\bin\Release\</OutputPath>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System.ServiceModel" />
-    <Reference Include="WindowsBase" />
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
+    <PackageReference Include="WinInsider.System.Windows.Primitives" Version="1.0.0" />
   </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
+    <Reference Include="WindowsBase" />
+  </ItemGroup>  
+  
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -49,11 +48,22 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
   </ItemGroup>
+
   <ItemGroup>
-    <EmbeddedResource Update="Properties\Resources.resx">
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\package-icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\README.md" Link="README.md" />
+	<EmbeddedResource Update="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
+
 </Project>
