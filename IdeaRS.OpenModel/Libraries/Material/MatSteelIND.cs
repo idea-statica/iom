@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace IdeaRS.OpenModel.Material
+﻿namespace IdeaRS.OpenModel.Material
 {
 	/// <summary>
 	/// Material steel IND
@@ -31,5 +25,10 @@ namespace IdeaRS.OpenModel.Material
 		/// Overstrength coefficient for fy
 		/// </summary>
 		public double GammaOVfy { get; set; }
+
+		/// <summary>
+		/// Material strength for specific thickness of plate
+		/// </summary>
+		public MaterialStrengthProperty MaterialStrength { get; set; }
 	}
 }

@@ -10,11 +10,11 @@ namespace IdeaRS.OpenModel.Material
 	{
 		#region Properties
 
-
 		/// <summary>
 		/// Ultimate tensile strength
 		/// </summary>
 #pragma warning disable IDE1006 // Naming Styles
+
 		public double fub
 #pragma warning restore IDE1006 // Naming Styles
 		{
@@ -25,6 +25,7 @@ namespace IdeaRS.OpenModel.Material
 		/// Yield strength
 		/// </summary>
 #pragma warning disable IDE1006 // Naming Styles
+
 		public double fyb
 #pragma warning restore IDE1006 // Naming Styles
 		{
@@ -60,9 +61,9 @@ namespace IdeaRS.OpenModel.Material
 		/// </summary>
 		public Guid MprlTableID
 		{
-			get;set;
+			get; set;
 		}
 
-		#endregion
+		#endregion Properties
 	}
 }

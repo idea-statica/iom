@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace IdeaRS.OpenModel.Material
+﻿namespace IdeaRS.OpenModel.Material
 {
 	/// <summary>
 	/// Material bolt grade
@@ -24,6 +22,7 @@ namespace IdeaRS.OpenModel.Material
 		/// Design tension strength
 		/// </summary>
 		public double Pt { get; set; }
-		#endregion
+
+		#endregion Properties
 	}
 }

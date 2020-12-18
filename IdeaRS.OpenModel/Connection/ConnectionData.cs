@@ -310,10 +310,16 @@ namespace IdeaRS.OpenModel.Connection
 		public List<CutData> Cuts { get; set; }
 
 		/// <summary>
-		/// Is addes beam
+		/// Is added beam
 		/// </summary>
 		[DataMember]
 		public bool IsAdded { get; set; }
+
+		/// <summary>
+		/// Added beam lenght
+		/// </summary>
+		[DataMember]
+		public double AddedMemberLength { get; set; }
 
 		/// <summary>
 		/// Is negative object
@@ -625,5 +631,90 @@ namespace IdeaRS.OpenModel.Connection
 		/// is cut welded
 		/// </summary>
 		public bool IsWeld { get; set; }
+
+		/// <summary>
+		/// Thickness of the weld - value 0 = recommended size
+		/// </summary>
+		public double WeldThickness { get; set; }
+
+		/// <summary>
+		/// Type of the weld
+		/// </summary>
+		public WeldType WeldType { get; set; }
+
+
+		/// <summary>
+		/// Offset
+		/// </summary>
+		public double Offset { get; set; }
+
+		/// <summary>
+		/// Cut Method
+		/// </summary>
+		public CutMethod Method { get; set; }
+
+		/// <summary>
+		/// Cut Orientation
+		/// </summary>
+		public CutOrientation Orientation { get; set; }
+
+		/// <summary>
+		/// PlaneOnCuttingObject
+		/// </summary>
+		public DistanceComparison PlaneOnCuttingObject { get; set; }
+	}
+
+	/// <summary>
+	/// Represents the type of the cut
+	/// </summary>
+	public enum CutOrientation
+	{
+		/// <summary>
+		/// The cut is in parallel with cutting plane
+		/// </summary>
+		Parallel = 1,
+
+		/// <summary>
+		/// The cut is perpendicular to cutting plane
+		/// </summary>
+		Perpendicular = 2
+	}
+
+	/// <summary>
+	/// Represents the result of comparison of distances of two object from the same point
+	/// </summary>
+	public enum DistanceComparison
+	{
+		/// <summary>
+		/// Closer
+		/// </summary>
+		Closer,
+		/// <summary>
+		/// Farther
+		/// </summary>
+		Farther,
+		/// <summary>
+		/// Same
+		/// </summary>
+		Same
+	}
+
+	/// <summary>
+	/// Cut method
+	/// </summary>
+	public enum CutMethod
+	{
+		/// <summary>
+		/// BoundingBox
+		/// </summary>
+		BoundingBox,
+		/// <summary>
+		/// Surface
+		/// </summary>
+		Surface,
+		/// <summary>
+		/// Mitre
+		/// </summary>
+		Mitre
 	}
 }

@@ -457,6 +457,34 @@ namespace IdeaRS.OpenModel
 			lst1.Add(obj);
 			return 0;
 		}
+		/// <summary>
+		/// Add new object into collections
+		/// </summary>
+		/// <param name="obj">Added object</param>
+		/// <returns>Return value 0 - OK, -1 - duplicit Id, -10 - the type of object there is not in the data colections</returns>
+		/// <remarks>
+		/// If the obj.Id is set to zero or lesser, this method finds the first available free Id and sets it into the obj.Id.
+		/// </remarks>
+		public OpenElementId GetExistingObject(OpenElementId obj)
+		{
+			var typeName = GetObjectListName(obj);
+			IList lst1;
+			if (!GetData().TryGetValue(typeName, out lst1))
+			{
+				return null;
+			}
+
+			//var lst = lst1 as List<OpenElementId>;
+			var lst = ((IEnumerable)lst1).Cast<OpenElementId>();
+			var id = obj.Id;
+			if (id < 1)
+			{
+				id = obj.Id = GetMaxId(typeName) + 1;
+			}
+
+			var ret = lst.FirstOrDefault(o => (o as OpenElementId).Id == id);
+			return ret;
+		}
 
 		/// <summary>
 		/// Add new atribute object into collections

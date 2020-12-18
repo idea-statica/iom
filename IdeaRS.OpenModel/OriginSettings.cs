@@ -142,5 +142,10 @@ namespace IdeaRS.OpenModel
 		///  Import also recommended welds
 		/// </summary>
 		public bool ImportRecommendedWelds { get; set; }
+
+		/// <summary>
+		///  All loads have to be in equilibrium
+		/// </summary>
+		public bool CheckEquilibrium { get; set; }
 	}
 }

@@ -103,5 +103,15 @@ namespace IdeaRS.OpenModel.Connection
 		/// StartIdeaStaticaApp
 		/// </summary>
 		public bool StartIdeaStaticaApp { get; set; }
-	}
+
+
+        /// <summary>
+        /// Name
+        /// </summary>
+        public string ProjectName { get; set; }
+        /// <summary>
+        /// Description
+        /// </summary>
+        public string ProjectDescription { get; set; }
+    }
 }
