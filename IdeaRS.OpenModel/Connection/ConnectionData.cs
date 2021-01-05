@@ -670,6 +670,11 @@ namespace IdeaRS.OpenModel.Connection
 	public enum CutOrientation
 	{
 		/// <summary>
+		/// The cut is in default (parallel) with cutting plane
+		/// </summary>
+		Default = 0,
+
+		/// <summary>
 		/// The cut is in parallel with cutting plane
 		/// </summary>
 		Parallel = 1,
