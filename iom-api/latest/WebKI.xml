@@ -20,6 +20,7 @@
   <HelpKINode Title="AddBarOnBottom property" Url="html/P_IdeaRS_OpenModel_Detail_ReinfBarInclined_AddBarOnBottom.htm" />
   <HelpKINode Title="AddBarOnTop property" Url="html/P_IdeaRS_OpenModel_Detail_ReinfBarInclined_AddBarOnTop.htm" />
   <HelpKINode Title="AddedMember property" Url="html/P_IdeaRS_OpenModel_Connection_BeamData_AddedMember.htm" />
+  <HelpKINode Title="AddedMemberLength property" Url="html/P_IdeaRS_OpenModel_Connection_BeamData_AddedMemberLength.htm" />
   <HelpKINode Title="AddFirstStirrup property" Url="html/P_IdeaRS_OpenModel_Model_RebarStirrupPattern_AddFirstStirrup.htm" />
   <HelpKINode Title="AddObject method" Url="html/Overload_IdeaRS_OpenModel_OpenModel_AddObject.htm" />
   <HelpKINode Title="Advanced enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_DeflectionRequirementEc2.htm" />
@@ -204,6 +205,7 @@
   </HelpKINode>
   <HelpKINode Title="BeamData property" Url="html/P_IdeaRS_OpenModel_Concrete_ConcreteMemberDataEc2_BeamData.htm" />
   <HelpKINode Title="BeamData.AddedMember property" Url="html/P_IdeaRS_OpenModel_Connection_BeamData_AddedMember.htm" />
+  <HelpKINode Title="BeamData.AddedMemberLength property" Url="html/P_IdeaRS_OpenModel_Connection_BeamData_AddedMemberLength.htm" />
   <HelpKINode Title="BeamData.AutoAddCutByWorkplane property" Url="html/P_IdeaRS_OpenModel_Connection_BeamData_AutoAddCutByWorkplane.htm" />
   <HelpKINode Title="BeamData.BeamData constructor" Url="html/M_IdeaRS_OpenModel_Connection_BeamData__ctor.htm" />
   <HelpKINode Title="BeamData.CrossSectionType property" Url="html/P_IdeaRS_OpenModel_Connection_BeamData_CrossSectionType.htm" />
@@ -318,8 +320,8 @@
   <HelpKINode Title="BentUpBar.TopLength property" Url="html/P_IdeaRS_OpenModel_Detail_BentUpBar_TopLength.htm" />
   <HelpKINode Title="BentUpBarsReduction enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_SetupValueEc2.htm" />
   <HelpKINode Title="Bevel enumeration member">
-    <HelpKINode Title="WeldType Enumeration" Url="html/T_IdeaRS_OpenModel_Parameters_WeldType.htm" />
     <HelpKINode Title="WeldType Enumeration" Url="html/T_IdeaRS_OpenModel_Connection_WeldType.htm" />
+    <HelpKINode Title="WeldType Enumeration" Url="html/T_IdeaRS_OpenModel_Parameters_WeldType.htm" />
   </HelpKINode>
   <HelpKINode Title="BiggerSlenderner enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_ImperfectionDirection.htm" />
   <HelpKINode Title="Bilinear enumeration member">
@@ -434,8 +436,8 @@
   </HelpKINode>
   <HelpKINode Title="BondedTendon.BondedTendon constructor" Url="html/M_IdeaRS_OpenModel_Model_BondedTendon__ctor.htm" />
   <HelpKINode Title="BondedTendon.Geometry property" Url="html/P_IdeaRS_OpenModel_Model_BondedTendon_Geometry.htm" />
-  <HelpKINode Title="BoreHole property" Url="html/P_IdeaRS_OpenModel_Connection_BoltGrid_BoreHole.htm" />
   <HelpKINode Title="Borehole property" Url="html/P_IdeaRS_OpenModel_Material_BoltAssembly_Borehole.htm" />
+  <HelpKINode Title="BoreHole property" Url="html/P_IdeaRS_OpenModel_Connection_BoltGrid_BoreHole.htm" />
   <HelpKINode Title="Both enumeration member">
     <HelpKINode Title="ConeBreakoutCheckType Enumeration" Url="html/T_IdeaRS_OpenModel_ConeBreakoutCheckType.htm" />
     <HelpKINode Title="DappedEndHaunchType Enumeration" Url="html/T_IdeaRS_OpenModel_Detail_DappedEndHaunchType.htm" />
@@ -449,6 +451,7 @@
     <HelpKINode Title="ReinfBarInclined.BottomLength Property " Url="html/P_IdeaRS_OpenModel_Detail_ReinfBarInclined_BottomLength.htm" />
   </HelpKINode>
   <HelpKINode Title="BottomPartLength property" Url="html/P_IdeaRS_OpenModel_Detail_HangingAroundPatch_BottomPartLength.htm" />
+  <HelpKINode Title="BoundingBox enumeration member" Url="html/T_IdeaRS_OpenModel_Connection_CutMethod.htm" />
   <HelpKINode Title="Box2I enumeration member" Url="html/T_IdeaRS_OpenModel_CrossSection_CrossSectionType.htm" />
   <HelpKINode Title="Box2L enumeration member" Url="html/T_IdeaRS_OpenModel_CrossSection_CrossSectionType.htm" />
   <HelpKINode Title="Box2U enumeration member" Url="html/T_IdeaRS_OpenModel_CrossSection_CrossSectionType.htm" />
@@ -562,6 +565,7 @@
   <HelpKINode Title="CheckCrackedCss enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_SetupValueEc2.htm" />
   <HelpKINode Title="CheckCrossSectionCrackedIfOneCracked_7_2_Chapter enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_SetupValueEc2.htm" />
   <HelpKINode Title="CheckDetailing property" Url="html/P_IdeaRS_OpenModel_ConnectionSetup_CheckDetailing.htm" />
+  <HelpKINode Title="CheckEquilibrium property" Url="html/P_IdeaRS_OpenModel_OriginSettings_CheckEquilibrium.htm" />
   <HelpKINode Title="CheckIsNotNecesssary enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_CheckResult_CheckResult.htm" />
   <HelpKINode Title="CheckIsOff enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_CheckResult_CheckResult.htm" />
   <HelpKINode Title="CheckLimitDeflection property" Url="html/P_IdeaRS_OpenModel_Concrete_BeamDataEc2_CheckLimitDeflection.htm" />
@@ -718,6 +722,7 @@
   <HelpKINode Title="CHSg enumeration member" Url="html/T_IdeaRS_OpenModel_CrossSection_CrossSectionType.htm" />
   <HelpKINode Title="CHSPar enumeration member" Url="html/T_IdeaRS_OpenModel_CrossSection_CrossSectionType.htm" />
   <HelpKINode Title="Class property" Url="html/P_IdeaRS_OpenModel_Material_MatReinforcementEc2_Class.htm" />
+  <HelpKINode Title="Closer enumeration member" Url="html/T_IdeaRS_OpenModel_Connection_DistanceComparison.htm" />
   <HelpKINode Title="Code enumeration member">
     <HelpKINode Title="ThermalConductivityState Enumeration" Url="html/T_IdeaRS_OpenModel_Material_ThermalConductivityState.htm" />
     <HelpKINode Title="ThermalExpansionState Enumeration" Url="html/T_IdeaRS_OpenModel_Material_ThermalExpansionState.htm" />
@@ -1612,7 +1617,13 @@
   <HelpKINode Title="CutBeamByBeamData.CutBeamByBeamData constructor" Url="html/M_IdeaRS_OpenModel_Connection_CutBeamByBeamData__ctor.htm" />
   <HelpKINode Title="CutBeamByBeamData.CuttingObject property" Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_CuttingObject.htm" />
   <HelpKINode Title="CutBeamByBeamData.IsWeld property" Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_IsWeld.htm" />
+  <HelpKINode Title="CutBeamByBeamData.Method property" Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_Method.htm" />
   <HelpKINode Title="CutBeamByBeamData.ModifiedObject property" Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_ModifiedObject.htm" />
+  <HelpKINode Title="CutBeamByBeamData.Offset property" Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_Offset.htm" />
+  <HelpKINode Title="CutBeamByBeamData.Orientation property" Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_Orientation.htm" />
+  <HelpKINode Title="CutBeamByBeamData.PlaneOnCuttingObject property" Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_PlaneOnCuttingObject.htm" />
+  <HelpKINode Title="CutBeamByBeamData.WeldThickness property" Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_WeldThickness.htm" />
+  <HelpKINode Title="CutBeamByBeamData.WeldType property" Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_WeldType.htm" />
   <HelpKINode Title="CutBeamByBeams property" Url="html/P_IdeaRS_OpenModel_Connection_ConnectionData_CutBeamByBeams.htm" />
   <HelpKINode Title="CutData class">
     <HelpKINode Title="CutData Class" Url="html/T_IdeaRS_OpenModel_Connection_CutData.htm" />
@@ -1622,6 +1633,8 @@
   <HelpKINode Title="CutData.CutData constructor" Url="html/M_IdeaRS_OpenModel_Connection_CutData__ctor.htm" />
   <HelpKINode Title="CutData.NormalVector property" Url="html/P_IdeaRS_OpenModel_Connection_CutData_NormalVector.htm" />
   <HelpKINode Title="CutData.PlanePoint property" Url="html/P_IdeaRS_OpenModel_Connection_CutData_PlanePoint.htm" />
+  <HelpKINode Title="CutMethod enumeration" Url="html/T_IdeaRS_OpenModel_Connection_CutMethod.htm" />
+  <HelpKINode Title="CutOrientation enumeration" Url="html/T_IdeaRS_OpenModel_Connection_CutOrientation.htm" />
   <HelpKINode Title="Cuts property" Url="html/P_IdeaRS_OpenModel_Connection_BeamData_Cuts.htm" />
   <HelpKINode Title="CuttingObject property" Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_CuttingObject.htm" />
   <HelpKINode Title="Czech enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_NationalAnnexCode.htm" />
@@ -1656,6 +1669,7 @@
   <HelpKINode Title="DecompressionLimit_3 enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_SetupValueEc2.htm" />
   <HelpKINode Title="DecreasingFtrd property" Url="html/P_IdeaRS_OpenModel_ConnectionSetup_DecreasingFtrd.htm" />
   <HelpKINode Title="DeepBeam enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_TwoWaySlabType.htm" />
+  <HelpKINode Title="Default enumeration member" Url="html/T_IdeaRS_OpenModel_Connection_CutOrientation.htm" />
   <HelpKINode Title="DefaultBoltAssembly property" Url="html/P_IdeaRS_OpenModel_Connection_IdeaConImportSettings_DefaultBoltAssembly.htm" />
   <HelpKINode Title="DefaultBoltAssemblyID property" Url="html/P_IdeaRS_OpenModel_Connection_ApplyConnTemplateSetting_DefaultBoltAssemblyID.htm" />
   <HelpKINode Title="DefaultCleatCrossSectionID property" Url="html/P_IdeaRS_OpenModel_Connection_ApplyConnTemplateSetting_DefaultCleatCrossSectionID.htm" />
@@ -1805,6 +1819,7 @@
   </HelpKINode>
   <HelpKINode Title="DistanceBetweenBolts property" Url="html/P_IdeaRS_OpenModel_ConnectionSetup_DistanceBetweenBolts.htm" />
   <HelpKINode Title="DistanceBetweenBoltsEdge property" Url="html/P_IdeaRS_OpenModel_ConnectionSetup_DistanceBetweenBoltsEdge.htm" />
+  <HelpKINode Title="DistanceComparison enumeration" Url="html/T_IdeaRS_OpenModel_Connection_DistanceComparison.htm" />
   <HelpKINode Title="DistanceDiameterBetweenBP property" Url="html/P_IdeaRS_OpenModel_ConnectionSetup_DistanceDiameterBetweenBP.htm" />
   <HelpKINode Title="DistanceFromPatch property" Url="html/P_IdeaRS_OpenModel_Detail_HangingAroundPatch_DistanceFromPatch.htm" />
   <HelpKINode Title="DistanceX property" Url="html/P_IdeaRS_OpenModel_Detail_ReinfFabric_DistanceX.htm" />
@@ -1814,8 +1829,8 @@
   <HelpKINode Title="DivisionStrain enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_SetupValueEc2.htm" />
   <HelpKINode Title="DoNotUpdate enumeration member" Url="html/T_IdeaRS_OpenModel_Loading_TypeUpdateResultClass.htm" />
   <HelpKINode Title="DoubleFillet enumeration member">
-    <HelpKINode Title="WeldType Enumeration" Url="html/T_IdeaRS_OpenModel_Connection_WeldType.htm" />
     <HelpKINode Title="WeldType Enumeration" Url="html/T_IdeaRS_OpenModel_Parameters_WeldType.htm" />
+    <HelpKINode Title="WeldType Enumeration" Url="html/T_IdeaRS_OpenModel_Connection_WeldType.htm" />
   </HelpKINode>
   <HelpKINode Title="Dutch enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_NationalAnnexCode.htm" />
   <HelpKINode Title="Dynamic enumeration member" Url="html/T_IdeaRS_OpenModel_PreloadedBoltsLoadType.htm" />
@@ -2050,6 +2065,7 @@
   <HelpKINode Title="FactorPreloadBolt property" Url="html/P_IdeaRS_OpenModel_ConnectionSetup_FactorPreloadBolt.htm" />
   <HelpKINode Title="Failed enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_CheckResult_CheckResult.htm" />
   <HelpKINode Title="FailedWithError enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_CheckResult_CheckResult.htm" />
+  <HelpKINode Title="Farther enumeration member" Url="html/T_IdeaRS_OpenModel_Connection_DistanceComparison.htm" />
   <HelpKINode Title="Fatigue enumeration member">
     <HelpKINode Title="CalculationType Enumeration" Url="html/T_IdeaRS_OpenModel_Concrete_CheckResult_CalculationType.htm" />
     <HelpKINode Title="CheckResultType Enumeration" Url="html/T_IdeaRS_OpenModel_Concrete_CheckResult_CheckResultType.htm" />
@@ -2250,19 +2266,19 @@
   <HelpKINode Title="FromEnd enumeration member" Url="html/T_IdeaRS_OpenModel_Detail_EdgeOrientationType.htm" />
   <HelpKINode Title="FromSetup enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_ImperfectionDirection.htm" />
   <HelpKINode Title="Ftk property" Url="html/P_IdeaRS_OpenModel_Material_MatReinforcementEc2_Ftk.htm" />
+  <HelpKINode Title="Fu property">
+    <HelpKINode Title="ConcreteULSCheckResultDiagramCapacity.Fu Property " Url="html/P_IdeaRS_OpenModel_Concrete_CheckResult_ConcreteULSCheckResultDiagramCapacity_Fu.htm" />
+    <HelpKINode Title="MaterialStrength.Fu Property " Url="html/P_IdeaRS_OpenModel_Material_MaterialStrength_Fu.htm" />
+  </HelpKINode>
   <HelpKINode Title="fu property">
+    <HelpKINode Title="MatSteelCHN.fu Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelCHN_fu.htm" />
     <HelpKINode Title="MatSteelAISC.fu Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelAISC_fu.htm" />
     <HelpKINode Title="MatSteelAUS.fu Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelAUS_fu.htm" />
+    <HelpKINode Title="MatSteelCISC.fu Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelCISC_fu.htm" />
     <HelpKINode Title="MatSteelEc2.fu Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelEc2_fu.htm" />
     <HelpKINode Title="MatSteelHKG.fu Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelHKG_fu.htm" />
     <HelpKINode Title="MatSteelIND.fu Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelIND_fu.htm" />
-    <HelpKINode Title="MatSteelCHN.fu Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelCHN_fu.htm" />
-    <HelpKINode Title="MatSteelCISC.fu Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelCISC_fu.htm" />
     <HelpKINode Title="MatSteelRUS.fu Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelRUS_fu.htm" />
-  </HelpKINode>
-  <HelpKINode Title="Fu property">
-    <HelpKINode Title="MaterialStrength.Fu Property " Url="html/P_IdeaRS_OpenModel_Material_MaterialStrength_Fu.htm" />
-    <HelpKINode Title="ConcreteULSCheckResultDiagramCapacity.Fu Property " Url="html/P_IdeaRS_OpenModel_Concrete_CheckResult_ConcreteULSCheckResultDiagramCapacity_Fu.htm" />
   </HelpKINode>
   <HelpKINode Title="Fu1 property" Url="html/P_IdeaRS_OpenModel_Concrete_CheckResult_ConcreteULSCheckResultDiagramCapacity_Fu1.htm" />
   <HelpKINode Title="Fu2 property" Url="html/P_IdeaRS_OpenModel_Concrete_CheckResult_ConcreteULSCheckResultDiagramCapacity_Fu2.htm" />
@@ -2281,28 +2297,28 @@
     <HelpKINode Title="LoadOnSurface.Fx Property " Url="html/P_IdeaRS_OpenModel_Loading_LoadOnSurface_Fx.htm" />
     <HelpKINode Title="PointLoadOnLine.Fx Property " Url="html/P_IdeaRS_OpenModel_Loading_PointLoadOnLine_Fx.htm" />
   </HelpKINode>
+  <HelpKINode Title="fy property">
+    <HelpKINode Title="MatSteelCISC.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelCISC_fy.htm" />
+    <HelpKINode Title="MatSteelEc2.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelEc2_fy.htm" />
+    <HelpKINode Title="MatSteelIND.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelIND_fy.htm" />
+    <HelpKINode Title="MatSteelHKG.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelHKG_fy.htm" />
+    <HelpKINode Title="MatSteelAISC.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelAISC_fy.htm" />
+    <HelpKINode Title="MatSteelAUS.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelAUS_fy.htm" />
+    <HelpKINode Title="MatSteelCHN.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelCHN_fy.htm" />
+    <HelpKINode Title="MatSteelRUS.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelRUS_fy.htm" />
+  </HelpKINode>
   <HelpKINode Title="Fy property">
     <HelpKINode Title="LoadInPoint.Fy Property " Url="html/P_IdeaRS_OpenModel_Loading_LoadInPoint_Fy.htm" />
-    <HelpKINode Title="MatReinforcementACI.Fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatReinforcementACI_Fy.htm" />
+    <HelpKINode Title="MatReinforcementAUS.Fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatReinforcementAUS_Fy.htm" />
     <HelpKINode Title="LoadOnSurface.Fy Property " Url="html/P_IdeaRS_OpenModel_Loading_LoadOnSurface_Fy.htm" />
     <HelpKINode Title="MaterialStrength.Fy Property " Url="html/P_IdeaRS_OpenModel_Material_MaterialStrength_Fy.htm" />
-    <HelpKINode Title="MatReinforcementAUS.Fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatReinforcementAUS_Fy.htm" />
+    <HelpKINode Title="MatReinforcementACI.Fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatReinforcementACI_Fy.htm" />
     <HelpKINode Title="MatReinforcementCAN.Fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatReinforcementCAN_Fy.htm" />
     <HelpKINode Title="MatReinforcementCHN.Fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatReinforcementCHN_Fy.htm" />
     <HelpKINode Title="MatReinforcementHKG.Fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatReinforcementHKG_Fy.htm" />
-    <HelpKINode Title="MatReinforcementIND.Fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatReinforcementIND_Fy.htm" />
     <HelpKINode Title="MatReinforcementRUS.Fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatReinforcementRUS_Fy.htm" />
     <HelpKINode Title="PointLoadOnLine.Fy Property " Url="html/P_IdeaRS_OpenModel_Loading_PointLoadOnLine_Fy.htm" />
-  </HelpKINode>
-  <HelpKINode Title="fy property">
-    <HelpKINode Title="MatSteelAUS.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelAUS_fy.htm" />
-    <HelpKINode Title="MatSteelIND.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelIND_fy.htm" />
-    <HelpKINode Title="MatSteelCHN.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelCHN_fy.htm" />
-    <HelpKINode Title="MatSteelCISC.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelCISC_fy.htm" />
-    <HelpKINode Title="MatSteelEc2.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelEc2_fy.htm" />
-    <HelpKINode Title="MatSteelHKG.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelHKG_fy.htm" />
-    <HelpKINode Title="MatSteelAISC.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelAISC_fy.htm" />
-    <HelpKINode Title="MatSteelRUS.fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelRUS_fy.htm" />
+    <HelpKINode Title="MatReinforcementIND.Fy Property " Url="html/P_IdeaRS_OpenModel_Material_MatReinforcementIND_Fy.htm" />
   </HelpKINode>
   <HelpKINode Title="fy40 property">
     <HelpKINode Title="MatSteelAISC.fy40 Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelAISC_fy40.htm" />
@@ -2385,6 +2401,7 @@
     <HelpKINode Title="Wall.GeomId Property " Url="html/P_IdeaRS_OpenModel_Detail_Wall_GeomId.htm" />
   </HelpKINode>
   <HelpKINode Title="German enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_NationalAnnexCode.htm" />
+  <HelpKINode Title="GetExistingObject method" Url="html/M_IdeaRS_OpenModel_OpenModel_GetExistingObject.htm" />
   <HelpKINode Title="GetMaxId method" Url="html/Overload_IdeaRS_OpenModel_OpenModel_GetMaxId.htm" />
   <HelpKINode Title="GetObject method" Url="html/M_IdeaRS_OpenModel_OpenModel_GetObject.htm" />
   <HelpKINode Title="GIx property" Url="html/P_IdeaRS_OpenModel_Concrete_CheckResult_SectionStiffnesses_GIx.htm" />
@@ -2546,6 +2563,8 @@
   <HelpKINode Title="IdeaConImportSettings.IdeaConImportSettings constructor" Url="html/M_IdeaRS_OpenModel_Connection_IdeaConImportSettings__ctor.htm" />
   <HelpKINode Title="IdeaConImportSettings.OnePageWizard property" Url="html/P_IdeaRS_OpenModel_Connection_IdeaConImportSettings_OnePageWizard.htm" />
   <HelpKINode Title="IdeaConImportSettings.OrderMembersById property" Url="html/P_IdeaRS_OpenModel_Connection_IdeaConImportSettings_OrderMembersById.htm" />
+  <HelpKINode Title="IdeaConImportSettings.ProjectDescription property" Url="html/P_IdeaRS_OpenModel_Connection_IdeaConImportSettings_ProjectDescription.htm" />
+  <HelpKINode Title="IdeaConImportSettings.ProjectName property" Url="html/P_IdeaRS_OpenModel_Connection_IdeaConImportSettings_ProjectName.htm" />
   <HelpKINode Title="IdeaConImportSettings.RunningApplication property" Url="html/P_IdeaRS_OpenModel_Connection_IdeaConImportSettings_RunningApplication.htm" />
   <HelpKINode Title="IdeaConImportSettings.StartIdeaStaticaApp property" Url="html/P_IdeaRS_OpenModel_Connection_IdeaConImportSettings_StartIdeaStaticaApp.htm" />
   <HelpKINode Title="IdeaConImportSettings.UserWizardBrand property" Url="html/P_IdeaRS_OpenModel_Connection_IdeaConImportSettings_UserWizardBrand.htm" />
@@ -2699,6 +2718,9 @@
   <HelpKINode Title="IdeaRS.OpenModel.Connection.ConProjectInfo class" Url="html/T_IdeaRS_OpenModel_Connection_ConProjectInfo.htm" />
   <HelpKINode Title="IdeaRS.OpenModel.Connection.CutBeamByBeamData class" Url="html/T_IdeaRS_OpenModel_Connection_CutBeamByBeamData.htm" />
   <HelpKINode Title="IdeaRS.OpenModel.Connection.CutData class" Url="html/T_IdeaRS_OpenModel_Connection_CutData.htm" />
+  <HelpKINode Title="IdeaRS.OpenModel.Connection.CutMethod enumeration" Url="html/T_IdeaRS_OpenModel_Connection_CutMethod.htm" />
+  <HelpKINode Title="IdeaRS.OpenModel.Connection.CutOrientation enumeration" Url="html/T_IdeaRS_OpenModel_Connection_CutOrientation.htm" />
+  <HelpKINode Title="IdeaRS.OpenModel.Connection.DistanceComparison enumeration" Url="html/T_IdeaRS_OpenModel_Connection_DistanceComparison.htm" />
   <HelpKINode Title="IdeaRS.OpenModel.Connection.FoldedPlateData class" Url="html/T_IdeaRS_OpenModel_Connection_FoldedPlateData.htm" />
   <HelpKINode Title="IdeaRS.OpenModel.Connection.FormulasType enumeration" Url="html/T_IdeaRS_OpenModel_Connection_FormulasType.htm" />
   <HelpKINode Title="IdeaRS.OpenModel.Connection.IdeaConImportSettings class" Url="html/T_IdeaRS_OpenModel_Connection_IdeaConImportSettings.htm" />
@@ -3099,8 +3121,8 @@
   <HelpKINode Title="InformationMessage.Message property" Url="html/P_IdeaRS_OpenModel_Message_InformationMessage_Message.htm" />
   <HelpKINode Title="InformationMessages property" Url="html/P_IdeaRS_OpenModel_Message_OpenMessages_InformationMessages.htm" />
   <HelpKINode Title="InGcs enumeration member">
-    <HelpKINode Title="LoadDirection Enumeration" Url="html/T_IdeaRS_OpenModel_Detail_LoadDirection.htm" />
     <HelpKINode Title="LoadDirection Enumeration" Url="html/T_IdeaRS_OpenModel_Loading_LoadDirection.htm" />
+    <HelpKINode Title="LoadDirection Enumeration" Url="html/T_IdeaRS_OpenModel_Detail_LoadDirection.htm" />
   </HelpKINode>
   <HelpKINode Title="InitByCode method" Url="html/M_IdeaRS_OpenModel_ConnectionSetup_InitByCode.htm" />
   <HelpKINode Title="InitialImperfectionOfPoint class">
@@ -3120,8 +3142,8 @@
   <HelpKINode Title="InitialStiffnessZ property" Url="html/P_IdeaRS_OpenModel_Model_HingeElement1D_InitialStiffnessZ.htm" />
   <HelpKINode Title="InitilaStateofCrossSection enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_CheckResult_CalculationType.htm" />
   <HelpKINode Title="InLcs enumeration member">
-    <HelpKINode Title="LoadDirection Enumeration" Url="html/T_IdeaRS_OpenModel_Loading_LoadDirection.htm" />
     <HelpKINode Title="LoadDirection Enumeration" Url="html/T_IdeaRS_OpenModel_Detail_LoadDirection.htm" />
+    <HelpKINode Title="LoadDirection Enumeration" Url="html/T_IdeaRS_OpenModel_Loading_LoadDirection.htm" />
   </HelpKINode>
   <HelpKINode Title="InnerLines property" Url="html/P_IdeaRS_OpenModel_Model_Element2D_InnerLines.htm" />
   <HelpKINode Title="InnerMessage property" Url="html/P_IdeaRS_OpenModel_Message_OpenMessage_InnerMessage.htm" />
@@ -3410,10 +3432,10 @@
   <HelpKINode Title="LoadCase class">
     <HelpKINode Title="LoadCase Class" Url="html/T_IdeaRS_OpenModel_Detail_Loading_LoadCase.htm" />
     <HelpKINode Title="LoadCase Class" Url="html/T_IdeaRS_OpenModel_Loading_LoadCase.htm" />
-    <HelpKINode Title="constructor" Url="html/M_IdeaRS_OpenModel_Detail_Loading_LoadCase__ctor.htm" />
     <HelpKINode Title="constructor" Url="html/M_IdeaRS_OpenModel_Loading_LoadCase__ctor.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_IdeaRS_OpenModel_Detail_Loading_LoadCase.htm" />
+    <HelpKINode Title="constructor" Url="html/M_IdeaRS_OpenModel_Detail_Loading_LoadCase__ctor.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_IdeaRS_OpenModel_Loading_LoadCase.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_IdeaRS_OpenModel_Detail_Loading_LoadCase.htm" />
   </HelpKINode>
   <HelpKINode Title="LoadCase enumeration member" Url="html/T_IdeaRS_OpenModel_Result_LoadingType.htm" />
   <HelpKINode Title="LoadCase property">
@@ -3423,8 +3445,8 @@
   <HelpKINode Title="LoadCase.Description property" Url="html/P_IdeaRS_OpenModel_Loading_LoadCase_Description.htm" />
   <HelpKINode Title="LoadCase.Load property" Url="html/P_IdeaRS_OpenModel_Detail_Loading_LoadCase_Load.htm" />
   <HelpKINode Title="LoadCase.LoadCase constructor">
-    <HelpKINode Title="LoadCase Constructor " Url="html/M_IdeaRS_OpenModel_Loading_LoadCase__ctor.htm" />
     <HelpKINode Title="LoadCase Constructor " Url="html/M_IdeaRS_OpenModel_Detail_Loading_LoadCase__ctor.htm" />
+    <HelpKINode Title="LoadCase Constructor " Url="html/M_IdeaRS_OpenModel_Loading_LoadCase__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="LoadCase.LoadCaseType property" Url="html/P_IdeaRS_OpenModel_Detail_Loading_LoadCase_LoadCaseType.htm" />
   <HelpKINode Title="LoadCase.LoadGroup property" Url="html/P_IdeaRS_OpenModel_Loading_LoadCase_LoadGroup.htm" />
@@ -3450,14 +3472,14 @@
   <HelpKINode Title="LoadCases property" Url="html/P_IdeaRS_OpenModel_Model_SubStructureLoading_LoadCases.htm" />
   <HelpKINode Title="LoadCaseSubType enumeration" Url="html/T_IdeaRS_OpenModel_Loading_LoadCaseSubType.htm" />
   <HelpKINode Title="LoadCaseType enumeration">
-    <HelpKINode Title="LoadCaseType Enumeration" Url="html/T_IdeaRS_OpenModel_Loading_LoadCaseType.htm" />
     <HelpKINode Title="LoadCaseType Enumeration" Url="html/T_IdeaRS_OpenModel_Detail_Loading_LoadCaseType.htm" />
+    <HelpKINode Title="LoadCaseType Enumeration" Url="html/T_IdeaRS_OpenModel_Loading_LoadCaseType.htm" />
   </HelpKINode>
   <HelpKINode Title="LoadCaseType property" Url="html/P_IdeaRS_OpenModel_Detail_Loading_LoadCase_LoadCaseType.htm" />
   <HelpKINode Title="LoadChart property" Url="html/P_IdeaRS_OpenModel_Result_ResultOfInteractionDiagramPlane_LoadChart.htm" />
   <HelpKINode Title="LoadDirection enumeration">
-    <HelpKINode Title="LoadDirection Enumeration" Url="html/T_IdeaRS_OpenModel_Detail_LoadDirection.htm" />
     <HelpKINode Title="LoadDirection Enumeration" Url="html/T_IdeaRS_OpenModel_Loading_LoadDirection.htm" />
+    <HelpKINode Title="LoadDirection Enumeration" Url="html/T_IdeaRS_OpenModel_Detail_LoadDirection.htm" />
   </HelpKINode>
   <HelpKINode Title="LoadForce enumeration member" Url="html/T_IdeaRS_OpenModel_Loading_LoadType.htm" />
   <HelpKINode Title="LoadFromLibrary property" Url="html/P_IdeaRS_OpenModel_Material_Material_LoadFromLibrary.htm" />
@@ -3872,7 +3894,9 @@
   </HelpKINode>
   <HelpKINode Title="MaterialStrength property">
     <HelpKINode Title="MatSteelAUS.MaterialStrength Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelAUS_MaterialStrength.htm" />
+    <HelpKINode Title="MatSteelCHN.MaterialStrength Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelCHN_MaterialStrength.htm" />
     <HelpKINode Title="MatSteelHKG.MaterialStrength Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelHKG_MaterialStrength.htm" />
+    <HelpKINode Title="MatSteelIND.MaterialStrength Property " Url="html/P_IdeaRS_OpenModel_Material_MatSteelIND_MaterialStrength.htm" />
   </HelpKINode>
   <HelpKINode Title="MaterialStrength.Fu property" Url="html/P_IdeaRS_OpenModel_Material_MaterialStrength_Fu.htm" />
   <HelpKINode Title="MaterialStrength.Fy property" Url="html/P_IdeaRS_OpenModel_Material_MaterialStrength_Fy.htm" />
@@ -4039,6 +4063,7 @@
   </HelpKINode>
   <HelpKINode Title="MatSteelCHN.fu property" Url="html/P_IdeaRS_OpenModel_Material_MatSteelCHN_fu.htm" />
   <HelpKINode Title="MatSteelCHN.fy property" Url="html/P_IdeaRS_OpenModel_Material_MatSteelCHN_fy.htm" />
+  <HelpKINode Title="MatSteelCHN.MaterialStrength property" Url="html/P_IdeaRS_OpenModel_Material_MatSteelCHN_MaterialStrength.htm" />
   <HelpKINode Title="MatSteelCHN.MatSteelCHN constructor" Url="html/M_IdeaRS_OpenModel_Material_MatSteelCHN__ctor.htm" />
   <HelpKINode Title="MatSteelCHN.PhiOMFu property" Url="html/P_IdeaRS_OpenModel_Material_MatSteelCHN_PhiOMFu.htm" />
   <HelpKINode Title="MatSteelCHN.PhiOMFy property" Url="html/P_IdeaRS_OpenModel_Material_MatSteelCHN_PhiOMFy.htm" />
@@ -4082,6 +4107,7 @@
   <HelpKINode Title="MatSteelIND.fy property" Url="html/P_IdeaRS_OpenModel_Material_MatSteelIND_fy.htm" />
   <HelpKINode Title="MatSteelIND.GammaOVfu property" Url="html/P_IdeaRS_OpenModel_Material_MatSteelIND_GammaOVfu.htm" />
   <HelpKINode Title="MatSteelIND.GammaOVfy property" Url="html/P_IdeaRS_OpenModel_Material_MatSteelIND_GammaOVfy.htm" />
+  <HelpKINode Title="MatSteelIND.MaterialStrength property" Url="html/P_IdeaRS_OpenModel_Material_MatSteelIND_MaterialStrength.htm" />
   <HelpKINode Title="MatSteelIND.MatSteelIND constructor" Url="html/M_IdeaRS_OpenModel_Material_MatSteelIND__ctor.htm" />
   <HelpKINode Title="MatSteelRUS class">
     <HelpKINode Title="MatSteelRUS Class" Url="html/T_IdeaRS_OpenModel_Material_MatSteelRUS.htm" />
@@ -4195,6 +4221,7 @@
     <HelpKINode Title="OpenMessages.Messages Property " Url="html/P_IdeaRS_OpenModel_Message_OpenMessages_Messages.htm" />
   </HelpKINode>
   <HelpKINode Title="Metal enumeration member" Url="html/T_IdeaRS_OpenModel_CrossSection_MaterialDuct.htm" />
+  <HelpKINode Title="Method property" Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_Method.htm" />
   <HelpKINode Title="MethodJoints enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_CheckResult_ShearMethod.htm" />
   <HelpKINode Title="MethodVrdcCracked enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_CheckResult_ShearMethod.htm" />
   <HelpKINode Title="MethodVrdcGeneralHcs enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_CheckResult_ShearMethod.htm" />
@@ -4243,6 +4270,7 @@
   <HelpKINode Title="MinTransReinfPercSlab enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_SetupValueEc2.htm" />
   <HelpKINode Title="MinVertReinfPercWall enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_SetupValueEc2.htm" />
   <HelpKINode Title="MirrorY property" Url="html/P_IdeaRS_OpenModel_Connection_BeamData_MirrorY.htm" />
+  <HelpKINode Title="Mitre enumeration member" Url="html/T_IdeaRS_OpenModel_Connection_CutMethod.htm" />
   <HelpKINode Title="MNKappaDiagram property" Url="html/P_IdeaRS_OpenModel_Concrete_CalculationSetup_MNKappaDiagram.htm" />
   <HelpKINode Title="MNKappaDiagramSLSLong enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_CheckResult_CalculationType.htm" />
   <HelpKINode Title="MNKappaDiagramSLSShort enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_CheckResult_CalculationType.htm" />
@@ -4584,7 +4612,10 @@
   </HelpKINode>
   <HelpKINode Title="O enumeration member" Url="html/T_IdeaRS_OpenModel_CrossSection_CrossSectionType.htm" />
   <HelpKINode Title="Object property" Url="html/P_IdeaRS_OpenModel_Message_OpenMessage_Object.htm" />
-  <HelpKINode Title="Offset property" Url="html/P_IdeaRS_OpenModel_Detail_BentUpBar_Offset.htm" />
+  <HelpKINode Title="Offset property">
+    <HelpKINode Title="BentUpBar.Offset Property " Url="html/P_IdeaRS_OpenModel_Detail_BentUpBar_Offset.htm" />
+    <HelpKINode Title="CutBeamByBeamData.Offset Property " Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_Offset.htm" />
+  </HelpKINode>
   <HelpKINode Title="Offset1 property" Url="html/P_IdeaRS_OpenModel_Detail_WallRect_Offset1.htm" />
   <HelpKINode Title="Offset2 property" Url="html/P_IdeaRS_OpenModel_Detail_WallRect_Offset2.htm" />
   <HelpKINode Title="OffsetX1 property" Url="html/P_IdeaRS_OpenModel_Detail_OpeningRectOffsets_OffsetX1.htm" />
@@ -4707,6 +4738,7 @@
   <HelpKINode Title="OpenModel.DesignMember property" Url="html/P_IdeaRS_OpenModel_OpenModel_DesignMember.htm" />
   <HelpKINode Title="OpenModel.Element1D property" Url="html/P_IdeaRS_OpenModel_OpenModel_Element1D.htm" />
   <HelpKINode Title="OpenModel.Element2D property" Url="html/P_IdeaRS_OpenModel_OpenModel_Element2D.htm" />
+  <HelpKINode Title="OpenModel.GetExistingObject method" Url="html/M_IdeaRS_OpenModel_OpenModel_GetExistingObject.htm" />
   <HelpKINode Title="OpenModel.GetMaxId method" Url="html/Overload_IdeaRS_OpenModel_OpenModel_GetMaxId.htm" />
   <HelpKINode Title="OpenModel.GetObject method" Url="html/M_IdeaRS_OpenModel_OpenModel_GetObject.htm" />
   <HelpKINode Title="OpenModel.HingeElement1D property" Url="html/P_IdeaRS_OpenModel_OpenModel_HingeElement1D.htm" />
@@ -4802,6 +4834,7 @@
   <HelpKINode Title="OptimalCheckLevel property" Url="html/P_IdeaRS_OpenModel_ConnectionSetup_OptimalCheckLevel.htm" />
   <HelpKINode Title="OrderInCode property" Url="html/P_IdeaRS_OpenModel_Material_Material_OrderInCode.htm" />
   <HelpKINode Title="OrderMembersById property" Url="html/P_IdeaRS_OpenModel_Connection_IdeaConImportSettings_OrderMembersById.htm" />
+  <HelpKINode Title="Orientation property" Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_Orientation.htm" />
   <HelpKINode Title="Origin property">
     <HelpKINode Title="BoltGrid.Origin Property " Url="html/P_IdeaRS_OpenModel_Connection_BoltGrid_Origin.htm" />
     <HelpKINode Title="ConcreteBlockData.Origin Property " Url="html/P_IdeaRS_OpenModel_Connection_ConcreteBlockData_Origin.htm" />
@@ -4820,6 +4853,7 @@
   </HelpKINode>
   <HelpKINode Title="OriginSettings property" Url="html/P_IdeaRS_OpenModel_OpenModel_OriginSettings.htm" />
   <HelpKINode Title="OriginSettings.Author property" Url="html/P_IdeaRS_OpenModel_OriginSettings_Author.htm" />
+  <HelpKINode Title="OriginSettings.CheckEquilibrium property" Url="html/P_IdeaRS_OpenModel_OriginSettings_CheckEquilibrium.htm" />
   <HelpKINode Title="OriginSettings.CountryCode property" Url="html/P_IdeaRS_OpenModel_OriginSettings_CountryCode.htm" />
   <HelpKINode Title="OriginSettings.CrossSectionConversionTable property" Url="html/P_IdeaRS_OpenModel_OriginSettings_CrossSectionConversionTable.htm" />
   <HelpKINode Title="OriginSettings.DateOfCreate property" Url="html/P_IdeaRS_OpenModel_OriginSettings_DateOfCreate.htm" />
@@ -4843,6 +4877,7 @@
   <HelpKINode Title="OverallColumnRecalculation enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_CheckResult_CalculationType.htm" />
   <HelpKINode Title="Parabolic enumeration member" Url="html/T_IdeaRS_OpenModel_Material_ConcDiagramType.htm" />
   <HelpKINode Title="ParabolicDistributionMoment enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_ValueTypec0.htm" />
+  <HelpKINode Title="Parallel enumeration member" Url="html/T_IdeaRS_OpenModel_Connection_CutOrientation.htm" />
   <HelpKINode Title="Parameter class">
     <HelpKINode Title="Parameter Class" Url="html/T_IdeaRS_OpenModel_CrossSection_Parameter.htm" />
     <HelpKINode Title="constructor" Url="html/M_IdeaRS_OpenModel_CrossSection_Parameter__ctor.htm" />
@@ -4940,6 +4975,7 @@
   <HelpKINode Title="PermanentSelfweight enumeration member" Url="html/T_IdeaRS_OpenModel_Loading_LoadCaseSubType.htm" />
   <HelpKINode Title="PermanentSelfweightLocal enumeration member" Url="html/T_IdeaRS_OpenModel_Loading_LoadCaseSubType.htm" />
   <HelpKINode Title="PermanentStandard enumeration member" Url="html/T_IdeaRS_OpenModel_Loading_LoadCaseSubType.htm" />
+  <HelpKINode Title="Perpendicular enumeration member" Url="html/T_IdeaRS_OpenModel_Connection_CutOrientation.htm" />
   <HelpKINode Title="Phase property">
     <HelpKINode Title="CssComponent.Phase Property " Url="html/P_IdeaRS_OpenModel_CrossSection_CssComponent_Phase.htm" />
     <HelpKINode Title="TendonBar.Phase Property " Url="html/P_IdeaRS_OpenModel_CrossSection_TendonBar_Phase.htm" />
@@ -4969,6 +5005,7 @@
   <HelpKINode Title="Plane property" Url="html/P_IdeaRS_OpenModel_Result_ResultOfInteractionDiagramPlane_Plane.htm" />
   <HelpKINode Title="PlaneDiagramCount enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_SetupValueEc2.htm" />
   <HelpKINode Title="PlaneNormal property" Url="html/P_IdeaRS_OpenModel_Model_RebarGeneral_PlaneNormal.htm" />
+  <HelpKINode Title="PlaneOnCuttingObject property" Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_PlaneOnCuttingObject.htm" />
   <HelpKINode Title="PlanePoint property" Url="html/P_IdeaRS_OpenModel_Connection_CutData_PlanePoint.htm" />
   <HelpKINode Title="Plastic enumeration member" Url="html/T_IdeaRS_OpenModel_CrossSection_MaterialDuct.htm" />
   <HelpKINode Title="Plate enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_ConcreteMemberType.htm" />
@@ -5302,10 +5339,16 @@
   <HelpKINode Title="ProjectDataEc.FatigueAnnexNN property" Url="html/P_IdeaRS_OpenModel_ProjectDataEc_FatigueAnnexNN.htm" />
   <HelpKINode Title="ProjectDataEc.FatigueCheck property" Url="html/P_IdeaRS_OpenModel_ProjectDataEc_FatigueCheck.htm" />
   <HelpKINode Title="ProjectDataEc.ProjectDataEc constructor" Url="html/M_IdeaRS_OpenModel_ProjectDataEc__ctor.htm" />
-  <HelpKINode Title="ProjectDescription property" Url="html/P_IdeaRS_OpenModel_OriginSettings_ProjectDescription.htm" />
+  <HelpKINode Title="ProjectDescription property">
+    <HelpKINode Title="IdeaConImportSettings.ProjectDescription Property " Url="html/P_IdeaRS_OpenModel_Connection_IdeaConImportSettings_ProjectDescription.htm" />
+    <HelpKINode Title="OriginSettings.ProjectDescription Property " Url="html/P_IdeaRS_OpenModel_OriginSettings_ProjectDescription.htm" />
+  </HelpKINode>
   <HelpKINode Title="ProjectFileName property" Url="html/P_IdeaRS_OpenModel_Connection_ConnectionPoint_ProjectFileName.htm" />
   <HelpKINode Title="Projection enumeration member" Url="html/T_IdeaRS_OpenModel_Loading_LoadProjection.htm" />
-  <HelpKINode Title="ProjectName property" Url="html/P_IdeaRS_OpenModel_OriginSettings_ProjectName.htm" />
+  <HelpKINode Title="ProjectName property">
+    <HelpKINode Title="IdeaConImportSettings.ProjectName Property " Url="html/P_IdeaRS_OpenModel_Connection_IdeaConImportSettings_ProjectName.htm" />
+    <HelpKINode Title="OriginSettings.ProjectName Property " Url="html/P_IdeaRS_OpenModel_OriginSettings_ProjectName.htm" />
+  </HelpKINode>
   <HelpKINode Title="ProjectNumber property" Url="html/P_IdeaRS_OpenModel_Connection_ConProjectInfo_ProjectNumber.htm" />
   <HelpKINode Title="PropertyName property" Url="html/P_IdeaRS_OpenModel_Message_OpenMessage_PropertyName.htm" />
   <HelpKINode Title="PropertyValue property" Url="html/P_IdeaRS_OpenModel_Message_OpenMessage_PropertyValue.htm" />
@@ -5941,6 +5984,7 @@
     <HelpKINode Title="ConcCementClass Enumeration" Url="html/T_IdeaRS_OpenModel_Material_ConcCementClass.htm" />
     <HelpKINode Title="ConcCementClassSIA Enumeration" Url="html/T_IdeaRS_OpenModel_Material_ConcCementClassSIA.htm" />
   </HelpKINode>
+  <HelpKINode Title="Same enumeration member" Url="html/T_IdeaRS_OpenModel_Connection_DistanceComparison.htm" />
   <HelpKINode Title="Sandstone enumeration member" Url="html/T_IdeaRS_OpenModel_Material_ConcAggregateType.htm" />
   <HelpKINode Title="SAP2000 enumeration member" Url="html/T_IdeaRS_OpenModel_CrossSectionConversionTable.htm" />
   <HelpKINode Title="SaTMethodType enumeration member" Url="html/T_IdeaRS_OpenModel_Concrete_SetupValueEc2.htm" />
@@ -6521,6 +6565,7 @@
     <HelpKINode Title="LineSupportSegment.SupportTypeZ Property " Url="html/P_IdeaRS_OpenModel_Model_LineSupportSegment_SupportTypeZ.htm" />
     <HelpKINode Title="PointSupportNode.SupportTypeZ Property " Url="html/P_IdeaRS_OpenModel_Model_PointSupportNode_SupportTypeZ.htm" />
   </HelpKINode>
+  <HelpKINode Title="Surface enumeration member" Url="html/T_IdeaRS_OpenModel_Connection_CutMethod.htm" />
   <HelpKINode Title="SurfaceCharacteristic property">
     <HelpKINode Title="MatPrestressSteelEc2.SurfaceCharacteristic Property " Url="html/P_IdeaRS_OpenModel_Material_MatPrestressSteelEc2_SurfaceCharacteristic.htm" />
     <HelpKINode Title="MatPrestressSteelSIA.SurfaceCharacteristic Property " Url="html/P_IdeaRS_OpenModel_Material_MatPrestressSteelSIA_SurfaceCharacteristic.htm" />
@@ -7043,11 +7088,13 @@
   <HelpKINode Title="WeldParam.WeldParam constructor" Url="html/M_IdeaRS_OpenModel_Parameters_WeldParam__ctor.htm" />
   <HelpKINode Title="WeldParam.WeldType property" Url="html/P_IdeaRS_OpenModel_Parameters_WeldParam_WeldType.htm" />
   <HelpKINode Title="Welds property" Url="html/P_IdeaRS_OpenModel_Connection_ConnectionData_Welds.htm" />
+  <HelpKINode Title="WeldThickness property" Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_WeldThickness.htm" />
   <HelpKINode Title="WeldType enumeration">
-    <HelpKINode Title="WeldType Enumeration" Url="html/T_IdeaRS_OpenModel_Connection_WeldType.htm" />
     <HelpKINode Title="WeldType Enumeration" Url="html/T_IdeaRS_OpenModel_Parameters_WeldType.htm" />
+    <HelpKINode Title="WeldType Enumeration" Url="html/T_IdeaRS_OpenModel_Connection_WeldType.htm" />
   </HelpKINode>
   <HelpKINode Title="WeldType property">
+    <HelpKINode Title="CutBeamByBeamData.WeldType Property " Url="html/P_IdeaRS_OpenModel_Connection_CutBeamByBeamData_WeldType.htm" />
     <HelpKINode Title="WeldData.WeldType Property " Url="html/P_IdeaRS_OpenModel_Connection_WeldData_WeldType.htm" />
     <HelpKINode Title="WeldParam.WeldType Property " Url="html/P_IdeaRS_OpenModel_Parameters_WeldParam_WeldType.htm" />
   </HelpKINode>
