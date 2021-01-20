@@ -650,6 +650,7 @@ namespace IdeaRS.OpenModel.Connection
 
 		/// <summary>
 		/// Cut Method
+		/// For cut beam by neagtive object is reqied method Surface
 		/// </summary>
 		public CutMethod Method { get; set; }
 

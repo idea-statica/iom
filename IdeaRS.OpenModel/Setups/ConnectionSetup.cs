@@ -164,7 +164,7 @@ namespace IdeaRS.OpenModel
 			//Ksn = 1e-3;
 			BearingCheck = false;
 			BearingAngle = 26.57 * Math.PI / 180;
-			DecreasingFtrd = 0.15;
+			DecreasingFtrd = 0.85;
 			//WeldEccFactor = 0.0;
 			//WeldEpsFactor = 0.08;
 			GammaM3 = 1.25;
@@ -448,6 +448,10 @@ namespace IdeaRS.OpenModel
 		/// </summary>
 		public double BoltMaxGripLengthCoeff { get; set; }
 
+		/// <summary>
+		/// Fatigue section Offset = FatigueSectionOffset x Legsize
+		/// </summary>
+		public double FatigueSectionOffset { get; set; }
 		/*
 		/// <summary>
 		/// True if bore holes

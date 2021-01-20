@@ -50,6 +50,28 @@ namespace IdeaRS.OpenModel.Result
 	}
 
 	/// <summary>
+	/// Type of local system of result
+	/// </summary>
+	[Obfuscation(Feature = "renaming")]
+	public enum ResultLocalSystemType
+	{
+		/// <summary>
+		/// Local system x,y,z
+		/// </summary>
+		Local,
+
+		/// <summary>
+		/// Global system X, Y, Z
+		/// </summary>
+		Global,
+
+		/// <summary>
+		/// Principal system x, u, v
+		/// </summary>
+		Principle
+	}
+
+	/// <summary>
 	/// Result of the member
 	/// </summary>
 	[Obfuscation(Feature = "renaming")]
@@ -61,6 +83,7 @@ namespace IdeaRS.OpenModel.Result
 		public ResultOnMember()
 		{
 			Results = new List<ResultBase>();
+			LocalSystemType = ResultLocalSystemType.Principle;
 		}
 
 		/// <summary>
@@ -73,6 +96,7 @@ namespace IdeaRS.OpenModel.Result
 			Member = member;
 			ResultType = resultType;
 			Results = new List<ResultBase>();
+			LocalSystemType = ResultLocalSystemType.Principle;
 		}
 
 		/// <summary>
@@ -89,6 +113,11 @@ namespace IdeaRS.OpenModel.Result
 		/// Type of  result
 		/// </summary>
 		public ResultType ResultType { get; set; }
+
+		/// <summary>
+		/// Type of local system of result
+		/// </summary>
+		public ResultLocalSystemType LocalSystemType { get; set; }
 
 		/// <summary>
 		/// List of result
