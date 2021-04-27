@@ -1,9 +1,11 @@
-# Minimal requirements
+## Version 21 was moved to the new repository [ideastatica-public](https://github.com/idea-statica/ideastatica-public)
+
+## Minimal requirements
 * Microsoft Visual Studio 2015 or newer (Toolset SDK 140) [Download link](https://www.microsoft.com/en-us/download/details.aspx?id=48159)
 * Microsoft Windows 8.1 SDK or newer [Download link](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive)
 * Microsoft .NET SDK 4.5 or newer [Download link](https://dotnet.microsoft.com/download/visual-studio-sdks)
 
-# IDEA Open Model - IOM
+## IDEA Open Model - IOM
 IOM interface can be used for the implementation of the link of any application with IDEA StatiCa products.
 
 Examples how to import steel connections or concrete reinforced sections can be found on [iom-examples pages](https://github.com/idea-statica/iom-examples).
